@@ -6,14 +6,21 @@ import numpy as np
 import pandas as pd
 from joblib import Parallel, delayed
 from tqdm import tqdm
-
+import logging
+import warnings
 from benchmark_config import get_benchmark_configs
 from reporting import ConsoleLogger
 from safe_wrappers import safe_scalar_func
 
+logging.basicConfig(
+    filename='benchmark_errors.log',
+    level=logging.ERROR,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
 
 def run_single_trial(config):
-    """Runs a single optimization trial, with overflow safety tracking."""
+    """Runs a single optimization trial, with overflow safety tracking and error logging."""
     func_name_dim, dim, opt_name, trial_num = config['func_name_dim'], config['dim'], config['opt_name'], config['trial_num']
     obj_func, grad_func, true_min_val, start_range = config['obj_func'], config['grad_func'], config['true_min_val'], config['start_range']
     opt_class, opt_params, iterations = config['opt_class'], config['opt_params'], config['iterations']
@@ -21,37 +28,45 @@ def run_single_trial(config):
     start_pos = np.random.uniform(start_range[0], start_range[1], size=dim)
 
     try:
-        opt = opt_class(obj_func=obj_func, grad_func=grad_func, **opt_params)
-        start_time = time.time()
-        history, _ = opt.optimize(start_pos, iterations)
-        runtime = time.time() - start_time
+        with warnings.catch_warnings():
+            warnings.filterwarnings('error')  # Turn numerical warnings into exceptions
 
-        final_pos = history[-1][0] if isinstance(history[-1], tuple) else history[-1]
-        val_result = obj_func(final_pos)
+            opt = opt_class(obj_func=obj_func, grad_func=grad_func, **opt_params)
+            start_time = time.time()
+            history, _ = opt.optimize(start_pos, iterations)
+            runtime = time.time() - start_time
 
-        # Support legacy and new safe_scalar_func interfaces
-        if isinstance(val_result, tuple):
-            final_val, was_safe = val_result
-        else:
-            final_val = val_result
-            was_safe = np.isfinite(final_val) and abs(final_val) < 1e10
+            final_pos = history[-1][0] if isinstance(history[-1], tuple) else history[-1]
 
-        error = final_val - true_min_val if was_safe else "FAIL"
+            with np.errstate(all='raise'):
+                val_result = obj_func(final_pos)
 
-        return {
-            "function_name": func_name_dim,
-            "dim": dim,
-            "optimizer": opt_name,
-            "trial": trial_num,
-            "final_val": final_val,
-            "true_min_val": true_min_val,
-            "error": error,
-            "runtime_s": runtime,
-            "iterations": iterations,
-            "status": "PASS" if was_safe else "FAIL"
-        }
+            if isinstance(val_result, tuple):
+                final_val, was_safe = val_result
+            else:
+                final_val = val_result
+                was_safe = np.isfinite(final_val) and abs(final_val) < 1e10
+
+            if not was_safe or not np.isfinite(final_val):
+                raise ValueError("Non-finite or unsafe objective value encountered.")
+
+            error = final_val - true_min_val
+
+            return {
+                "function_name": func_name_dim,
+                "dim": dim,
+                "optimizer": opt_name,
+                "trial": trial_num,
+                "final_val": final_val,
+                "true_min_val": true_min_val,
+                "error": error,
+                "runtime_s": runtime,
+                "iterations": iterations,
+                "status": "PASS"
+            }
 
     except Exception as e:
+        logger.error(f"Trial failed: {func_name_dim}, {opt_name}, trial {trial_num}: {e}")
         return {
             "function_name": func_name_dim,
             "dim": dim,
