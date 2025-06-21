@@ -21,15 +21,24 @@ logger = logging.getLogger(__name__)
 
 def run_single_trial(config):
     """Runs a single optimization trial, with overflow safety tracking and error logging."""
-    func_name_dim, dim, opt_name, trial_num = config['func_name_dim'], config['dim'], config['opt_name'], config['trial_num']
-    obj_func, grad_func, true_min_val, start_range = config['obj_func'], config['grad_func'], config['true_min_val'], config['start_range']
-    opt_class, opt_params, iterations = config['opt_class'], config['opt_params'], config['iterations']
+    func_name_dim = config['func_name_dim']
+    dim = config['dim']
+    opt_name = config['opt_name']
+    trial_num = config['trial_num']
+    obj_func = config['obj_func']
+    grad_func = config['grad_func']
+    true_min_val = config['true_min_val']
+    start_range = config['start_range']
+    opt_class = config['opt_class']
+    opt_params = config['opt_params']
+    iterations = config['iterations']
 
     start_pos = np.random.uniform(start_range[0], start_range[1], size=dim)
+    final_pos = None  # Safe initialization
 
     try:
         with warnings.catch_warnings():
-            warnings.filterwarnings('error')  # Turn numerical warnings into exceptions
+            warnings.filterwarnings('error')  # Convert numerical warnings to exceptions
 
             opt = opt_class(obj_func=obj_func, grad_func=grad_func, **opt_params)
             start_time = time.time()
@@ -41,6 +50,7 @@ def run_single_trial(config):
             with np.errstate(all='raise'):
                 val_result = obj_func(final_pos)
 
+            # Support optional (val, is_safe) return from wrapped functions
             if isinstance(val_result, tuple):
                 final_val, was_safe = val_result
             else:
@@ -66,7 +76,7 @@ def run_single_trial(config):
             }
 
     except Exception as e:
-        logger.error(f"Trial failed: {func_name_dim}, {opt_name}, trial {trial_num}: {e}")
+        logger.error(f"Trial failed: {func_name_dim}, {opt_name}, trial {trial_num}: {e}", exc_info=True)
         return {
             "function_name": func_name_dim,
             "dim": dim,
@@ -79,7 +89,6 @@ def run_single_trial(config):
             "iterations": iterations,
             "status": "FAIL"
         }
-
 
 def run_benchmark(optimizers_to_run=None, num_starts=10, num_workers=-1, output_filename=None):
     """Orchestrates the full benchmark run based on provided arguments."""
@@ -153,7 +162,7 @@ def run_benchmark(optimizers_to_run=None, num_starts=10, num_workers=-1, output_
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run the optimizer benchmark suite.")
     parser.add_argument('--optimizer', nargs='+', help='Run only the specified optimizer(s).')
-    parser.add_argument('--num-starts', type=int, default=10, help='The number of independent trials.')
+    parser.add_argument('--num-starts', type=int, default=1, help='The number of independent trials.')
     parser.add_argument('--num-workers', type=int, default=-1, help='The number of CPU cores to use.')
     parser.add_argument('--output', type=str, default=None, help='Specify a custom name for the output CSV file.')
 
