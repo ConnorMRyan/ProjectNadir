@@ -126,16 +126,16 @@ def get_benchmark_configs():
     for func_name, props in function_properties.items():
         for dim in dimensions_to_test:
             key = f"{func_name}_{dim}D"
-            obj_func, grad_func = props["func"], props["grad"]
-            min_val = props.get("min_val_coeff", props.get("min_val", 0.0))
-            if min_val is None: min_val = 0.0
-            if "min_val_coeff" in props: min_val *= dim
+            obj_func_raw, grad_func = props["func"], props["grad"]
+            min_val = props.get("min_val_coeff", props.get("min_val", 0.0)) or 0.0
+            if "min_val_coeff" in props:
+                min_val *= dim
 
             min_pos = props.get("min_pos")
             true_min_pos = np.full(dim, min_pos) if min_pos is not None else None
 
             benchmark_configs[key] = {
-                "func": obj_func,
+                "func": obj_func_raw,
                 "grad": grad_func,
                 "dim": dim,
                 "true_min_pos": true_min_pos,
@@ -155,15 +155,17 @@ def get_benchmark_configs():
                         cfg["lower"], cfg["upper"] = props["start_range"]
 
                 if opt_conf["class"] == ScipyOptimizerWrapper:
-                    padding = 1e-6
                     lower, upper = props["start_range"]
+                    padding = 1e-6
                     cfg["bounds"] = [[float(lower + padding), float(upper - padding)] for _ in range(dim)]
 
+                # Enforce scalar output for certain optimizers
                 requires_scalar = opt_conf["class"] in [ScipyOptimizerWrapper, NevergradOptimizer, CMAESOptimizer]
                 if requires_scalar:
-                    obj_func_wrapped = safe_scalar_func(obj_func, label=f"{key}_{opt_name}")
+                    label = f"{key}_{opt_name}"
+                    obj_func_wrapped = safe_scalar_func(obj_func_raw, label=label)
                 else:
-                    obj_func_wrapped = obj_func
+                    obj_func_wrapped = obj_func_raw
 
                 benchmark_configs[key]["optimizers"][opt_name] = {
                     "class": opt_conf["class"],
