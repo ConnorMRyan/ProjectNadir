@@ -1,0 +1,1214 @@
+function_name,dim,optimizer,trial,final_val,true_min_val,error,runtime_s,iterations,status
+Sphere_2D,2,LineSearchGD,1,4.723635516742396e-09,0.0,4.723635516742396e-09,0.0063817501068115234,200,PASS
+Sphere_2D,2,Adaptive,1,0.0013076414208088166,0.0,0.0013076414208088166,0.023491382598876953,200,PASS
+Sphere_2D,2,SmarterAdaptive,1,4.274945100667069e-07,0.0,4.274945100667069e-07,0.03826189041137695,200,PASS
+Sphere_2D,2,EvenSmarterAdaptive,1,0.003414384110369309,0.0,0.003414384110369309,0.04616141319274902,200,PASS
+Sphere_2D,2,GD,1,6.304147638710404,0.0,6.304147638710404,0.0030698776245117188,200,PASS
+Sphere_2D,2,Adam,1,26.756016308803847,0.0,26.756016308803847,0.0049855709075927734,200,PASS
+Sphere_2D,2,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Sphere_2D,2,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Sphere_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Sphere_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Sphere_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Sphere_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Sphere_2D,2,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Sphere_2D,2,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Sphere_2D,2,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Sphere_2D,2,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Sphere_2D,2,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Sphere_5D,5,LineSearchGD,1,1.7412343480265347e-27,0.0,1.7412343480265347e-27,0.010741233825683594,500,PASS
+Sphere_5D,5,Adaptive,1,0.029731951069458886,0.0,0.029731951069458886,0.06366920471191406,500,PASS
+Sphere_5D,5,SmarterAdaptive,1,0.00011396340494521525,0.0,0.00011396340494521525,0.061356544494628906,500,PASS
+Sphere_5D,5,EvenSmarterAdaptive,1,0.0005359182701657022,0.0,0.0005359182701657022,0.08748054504394531,500,PASS
+Sphere_5D,5,GD,1,1.9423931202600564e-08,0.0,1.9423931202600564e-08,0.011376619338989258,500,PASS
+Sphere_5D,5,Adam,1,30.864332201523027,0.0,30.864332201523027,0.008958578109741211,500,PASS
+Sphere_5D,5,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Sphere_5D,5,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Sphere_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Sphere_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Sphere_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Sphere_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Sphere_5D,5,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Sphere_5D,5,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Sphere_5D,5,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Sphere_5D,5,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Sphere_5D,5,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Sphere_10D,10,LineSearchGD,1,1.4368520529779846e-44,0.0,1.4368520529779846e-44,0.034851789474487305,1000,PASS
+Sphere_10D,10,Adaptive,1,0.0460749554900588,0.0,0.0460749554900588,0.26192426681518555,1000,PASS
+Sphere_10D,10,SmarterAdaptive,1,554.6748551123925,0.0,554.6748551123925,0.18549370765686035,1000,PASS
+Sphere_10D,10,EvenSmarterAdaptive,1,174.81373057985368,0.0,174.81373057985368,0.15172195434570312,1000,PASS
+Sphere_10D,10,GD,1,1.1294493225565709e-06,0.0,1.1294493225565709e-06,0.024388790130615234,1000,PASS
+Sphere_10D,10,Adam,1,56.73927798026943,0.0,56.73927798026943,0.02786087989807129,1000,PASS
+Sphere_10D,10,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Sphere_10D,10,Nevergrad,1,7.724910029603464e-12,0.0,7.724910029603464e-12,4.04627799987793,1000,PASS
+Sphere_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Sphere_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Sphere_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Sphere_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Sphere_10D,10,PSO,1,1.5728755407337085e-11,0.0,1.5728755407337085e-11,4.071007490158081,1000,PASS
+Sphere_10D,10,DE,1,1.3676103917479189e-11,0.0,1.3676103917479189e-11,2.523838996887207,1000,PASS
+Sphere_10D,10,BOBYQA,1,3.303641722069977e-12,0.0,3.303641722069977e-12,3.9637625217437744,1000,PASS
+Sphere_10D,10,TwoPointsDE,1,3.2388853220287446e-11,0.0,3.2388853220287446e-11,4.182821989059448,1000,PASS
+Sphere_10D,10,NGOpt,1,5.972628903054906e-13,0.0,5.972628903054906e-13,2.408174753189087,1000,PASS
+Sphere_20D,20,LineSearchGD,1,6.941469226353856e-92,0.0,6.941469226353856e-92,0.06674456596374512,2000,PASS
+Sphere_20D,20,Adaptive,1,0.2242346933633812,0.0,0.2242346933633812,0.4747428894042969,2000,PASS
+Sphere_20D,20,SmarterAdaptive,1,601.9708555745315,0.0,601.9708555745315,0.26660656929016113,2000,PASS
+Sphere_20D,20,EvenSmarterAdaptive,1,0.0013136550912763137,0.0,0.0013136550912763137,0.42927980422973633,2000,PASS
+Sphere_20D,20,GD,1,6.869604704818809e-27,0.0,6.869604704818809e-27,0.04412221908569336,2000,PASS
+Sphere_20D,20,Adam,1,44.95375616652377,0.0,44.95375616652377,0.05357003211975098,2000,PASS
+Sphere_20D,20,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Sphere_20D,20,Nevergrad,1,6.749688947115775e-14,0.0,6.749688947115775e-14,5.344178199768066,2000,PASS
+Sphere_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Sphere_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Sphere_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Sphere_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Sphere_20D,20,PSO,1,1.0259098308854199e-12,0.0,1.0259098308854199e-12,5.087342262268066,2000,PASS
+Sphere_20D,20,DE,1,4.994273940871031e-13,0.0,4.994273940871031e-13,4.830814838409424,2000,PASS
+Sphere_20D,20,BOBYQA,1,1.990136880023219e-12,0.0,1.990136880023219e-12,5.471646308898926,2000,PASS
+Sphere_20D,20,TwoPointsDE,1,1.1236943560164504e-12,0.0,1.1236943560164504e-12,5.216823577880859,2000,PASS
+Sphere_20D,20,NGOpt,1,9.139131026094762e-14,0.0,9.139131026094762e-14,5.178351163864136,2000,PASS
+Rastrigin_2D,2,LineSearchGD,1,3322.631234192766,0.0,3322.631234192766,0.017390966415405273,200,PASS
+Rastrigin_2D,2,Adaptive,1,48.5325416368226,0.0,48.5325416368226,0.06591129302978516,200,PASS
+Rastrigin_2D,2,SmarterAdaptive,1,13.25839536783394,0.0,13.25839536783394,0.03065347671508789,200,PASS
+Rastrigin_2D,2,EvenSmarterAdaptive,1,42.74537116261429,0.0,42.74537116261429,0.02793097496032715,200,PASS
+Rastrigin_2D,2,GD,1,49.74745696252798,0.0,49.74745696252798,0.007317543029785156,200,PASS
+Rastrigin_2D,2,Adam,1,12.136588540506946,0.0,12.136588540506946,0.007300615310668945,200,PASS
+Rastrigin_2D,2,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Rastrigin_2D,2,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Rastrigin_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Rastrigin_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Rastrigin_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Rastrigin_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Rastrigin_2D,2,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Rastrigin_2D,2,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Rastrigin_2D,2,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Rastrigin_2D,2,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Rastrigin_2D,2,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Rastrigin_5D,5,LineSearchGD,1,21357.874859182495,0.0,21357.874859182495,0.032117605209350586,500,PASS
+Rastrigin_5D,5,Adaptive,1,233.62375047882284,0.0,233.62375047882284,0.1749553680419922,500,PASS
+Rastrigin_5D,5,SmarterAdaptive,1,54.001787035943366,0.0,54.001787035943366,0.0778660774230957,500,PASS
+Rastrigin_5D,5,EvenSmarterAdaptive,1,46.87953428902991,0.0,46.87953428902991,0.09281277656555176,500,PASS
+Rastrigin_5D,5,GD,1,33.828581399723205,0.0,33.828581399723205,0.020177364349365234,500,PASS
+Rastrigin_5D,5,Adam,1,50.78671742208816,0.0,50.78671742208816,0.019002437591552734,500,PASS
+Rastrigin_5D,5,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Rastrigin_5D,5,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Rastrigin_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Rastrigin_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Rastrigin_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Rastrigin_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Rastrigin_5D,5,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Rastrigin_5D,5,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Rastrigin_5D,5,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Rastrigin_5D,5,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Rastrigin_5D,5,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Rastrigin_10D,10,LineSearchGD,1,32320.1752505428,0.0,32320.1752505428,0.057495832443237305,1000,PASS
+Rastrigin_10D,10,Adaptive,1,441.5434928664289,0.0,441.5434928664289,0.3499176502227783,1000,PASS
+Rastrigin_10D,10,SmarterAdaptive,1,108.5734189778561,0.0,108.5734189778561,0.15538978576660156,1000,PASS
+Rastrigin_10D,10,EvenSmarterAdaptive,1,94.34071550085376,0.0,94.34071550085376,0.20193910598754883,1000,PASS
+Rastrigin_10D,10,GD,1,54.72244383894282,0.0,54.72244383894282,0.03358125686645508,1000,PASS
+Rastrigin_10D,10,Adam,1,65.66675552231669,0.0,65.66675552231669,0.040230512619018555,1000,PASS
+Rastrigin_10D,10,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Rastrigin_10D,10,Nevergrad,1,4.9747952862365,0.0,4.9747952862365,2.3505685329437256,1000,PASS
+Rastrigin_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Rastrigin_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Rastrigin_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Rastrigin_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Rastrigin_10D,10,PSO,1,2.984877207142219,0.0,2.984877207142219,2.4436392784118652,1000,PASS
+Rastrigin_10D,10,DE,1,2.9848771713211733,0.0,2.9848771713211733,2.293717384338379,1000,PASS
+Rastrigin_10D,10,BOBYQA,1,10.944519356516096,0.0,10.944519356516096,2.415241241455078,1000,PASS
+Rastrigin_10D,10,TwoPointsDE,1,4.974795292284284,0.0,4.974795292284284,2.5355334281921387,1000,PASS
+Rastrigin_10D,10,NGOpt,1,8.954626476428402,0.0,8.954626476428402,2.341488838195801,1000,PASS
+Rastrigin_20D,20,LineSearchGD,1,96045.88468342747,0.0,96045.88468342747,0.11805438995361328,2000,PASS
+Rastrigin_20D,20,Adaptive,1,688.302474544831,0.0,688.302474544831,0.7821969985961914,2000,PASS
+Rastrigin_20D,20,SmarterAdaptive,1,156.35542389904566,0.0,156.35542389904566,0.30780601501464844,2000,PASS
+Rastrigin_20D,20,EvenSmarterAdaptive,1,256.5177271578104,0.0,256.5177271578104,0.3339855670928955,2000,PASS
+Rastrigin_20D,20,GD,1,239.78326669190827,0.0,239.78326669190827,0.07586431503295898,2000,PASS
+Rastrigin_20D,20,Adam,1,204.96004641355725,0.0,204.96004641355725,0.0793924331665039,2000,PASS
+Rastrigin_20D,20,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Rastrigin_20D,20,Nevergrad,1,2.9848771714968336,0.0,2.9848771714968336,5.430081367492676,2000,PASS
+Rastrigin_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Rastrigin_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Rastrigin_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Rastrigin_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Rastrigin_20D,20,PSO,1,8.954631513877985,0.0,8.954631513877985,4.843804836273193,2000,PASS
+Rastrigin_20D,20,DE,1,9.949590571034804,0.0,9.949590571034804,5.325820207595825,2000,PASS
+Rastrigin_20D,20,BOBYQA,1,1.9899181142356213,0.0,1.9899181142356213,5.313033819198608,2000,PASS
+Rastrigin_20D,20,TwoPointsDE,1,4.974795285620559,0.0,4.974795285620559,5.77156662940979,2000,PASS
+Rastrigin_20D,20,NGOpt,1,6.964713400271734,0.0,6.964713400271734,5.985349416732788,2000,PASS
+Rosenbrock_2D,2,LineSearchGD,1,14.262418745495976,0.0,14.262418745495976,0.058329105377197266,200,PASS
+Rosenbrock_2D,2,Adaptive,1,273863.57698697044,0.0,273863.57698697044,0.09639763832092285,200,PASS
+Rosenbrock_2D,2,SmarterAdaptive,1,31.918601427496746,0.0,31.918601427496746,0.03609156608581543,200,PASS
+Rosenbrock_2D,2,EvenSmarterAdaptive,1,4.854281926369442,0.0,4.854281926369442,0.037097930908203125,200,PASS
+Rosenbrock_2D,2,GD,1,0.002922478417376427,0.0,0.002922478417376427,0.010295391082763672,200,PASS
+Rosenbrock_2D,2,Adam,1,70.42069818429479,0.0,70.42069818429479,0.010874271392822266,200,PASS
+Rosenbrock_2D,2,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Rosenbrock_2D,2,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Rosenbrock_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Rosenbrock_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Rosenbrock_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Rosenbrock_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Rosenbrock_2D,2,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Rosenbrock_2D,2,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Rosenbrock_2D,2,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Rosenbrock_2D,2,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Rosenbrock_2D,2,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Rosenbrock_5D,5,LineSearchGD,1,0.0029489933704818596,0.0,0.0029489933704818596,0.1616203784942627,500,PASS
+Rosenbrock_5D,5,Adaptive,1,849156.1097665341,0.0,849156.1097665341,0.26769304275512695,500,PASS
+Rosenbrock_5D,5,SmarterAdaptive,1,2.1971247807800554,0.0,2.1971247807800554,0.15475034713745117,500,PASS
+Rosenbrock_5D,5,EvenSmarterAdaptive,1,0.8799260830409179,0.0,0.8799260830409179,0.10346770286560059,500,PASS
+Rosenbrock_5D,5,GD,1,0.013402061949390424,0.0,0.013402061949390424,0.055149078369140625,500,PASS
+Rosenbrock_5D,5,Adam,1,890.196792336676,0.0,890.196792336676,0.03235435485839844,500,PASS
+Rosenbrock_5D,5,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Rosenbrock_5D,5,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Rosenbrock_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Rosenbrock_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Rosenbrock_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Rosenbrock_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Rosenbrock_5D,5,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Rosenbrock_5D,5,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Rosenbrock_5D,5,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Rosenbrock_5D,5,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Rosenbrock_5D,5,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Rosenbrock_10D,10,LineSearchGD,1,25407930.684479926,0.0,25407930.684479926,0.45772266387939453,1000,PASS
+Rosenbrock_10D,10,Adaptive,1,255032.81166581277,0.0,255032.81166581277,0.5231702327728271,1000,PASS
+Rosenbrock_10D,10,SmarterAdaptive,1,0.3008224527050928,0.0,0.3008224527050928,0.3250772953033447,1000,PASS
+Rosenbrock_10D,10,EvenSmarterAdaptive,1,4.629005474646274,0.0,4.629005474646274,0.40290117263793945,1000,PASS
+Rosenbrock_10D,10,GD,1,9.237311558356756e-05,0.0,9.237311558356756e-05,0.07857155799865723,1000,PASS
+Rosenbrock_10D,10,Adam,1,279.7991887403126,0.0,279.7991887403126,0.07689666748046875,1000,PASS
+Rosenbrock_10D,10,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Rosenbrock_10D,10,Nevergrad,1,6.81867257517629,0.0,6.81867257517629,2.4437007904052734,1000,PASS
+Rosenbrock_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Rosenbrock_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Rosenbrock_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Rosenbrock_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Rosenbrock_10D,10,PSO,1,5.841481365263672,0.0,5.841481365263672,2.6434645652770996,1000,PASS
+Rosenbrock_10D,10,DE,1,6.910264783117841,0.0,6.910264783117841,2.4019832611083984,1000,PASS
+Rosenbrock_10D,10,BOBYQA,1,6.811253239463051,0.0,6.811253239463051,2.432358741760254,1000,PASS
+Rosenbrock_10D,10,TwoPointsDE,1,6.959895515660928,0.0,6.959895515660928,2.509314775466919,1000,PASS
+Rosenbrock_10D,10,NGOpt,1,7.045649132984171,0.0,7.045649132984171,2.3269896507263184,1000,PASS
+Rosenbrock_20D,20,LineSearchGD,1,23.97812639716639,0.0,23.97812639716639,0.6015722751617432,2000,PASS
+Rosenbrock_20D,20,Adaptive,1,3730631.652465899,0.0,3730631.652465899,1.009145975112915,2000,PASS
+Rosenbrock_20D,20,SmarterAdaptive,1,0.4835070083624252,0.0,0.4835070083624252,0.5113160610198975,2000,PASS
+Rosenbrock_20D,20,EvenSmarterAdaptive,1,0.5274445227419936,0.0,0.5274445227419936,0.4214763641357422,2000,PASS
+Rosenbrock_20D,20,GD,1,0.00023656456425561758,0.0,0.00023656456425561758,0.13186240196228027,2000,PASS
+Rosenbrock_20D,20,Adam,1,622.4258838382655,0.0,622.4258838382655,0.11817550659179688,2000,PASS
+Rosenbrock_20D,20,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Rosenbrock_20D,20,Nevergrad,1,15.732449834034679,0.0,15.732449834034679,5.566266298294067,2000,PASS
+Rosenbrock_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Rosenbrock_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Rosenbrock_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Rosenbrock_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Rosenbrock_20D,20,PSO,1,16.065261492717955,0.0,16.065261492717955,5.174931526184082,2000,PASS
+Rosenbrock_20D,20,DE,1,16.307294697939447,0.0,16.307294697939447,5.139368772506714,2000,PASS
+Rosenbrock_20D,20,BOBYQA,1,15.76122089418119,0.0,15.76122089418119,5.20953106880188,2000,PASS
+Rosenbrock_20D,20,TwoPointsDE,1,16.62803587648124,0.0,16.62803587648124,5.166086196899414,2000,PASS
+Rosenbrock_20D,20,NGOpt,1,16.09554964814488,0.0,16.09554964814488,5.8136680126190186,2000,PASS
+Ackley_2D,2,LineSearchGD,1,19.728930447617817,0.0,19.728930447617817,0.04941272735595703,200,PASS
+Ackley_2D,2,Adaptive,1,19.834749243004353,0.0,19.834749243004353,0.13858389854431152,200,PASS
+Ackley_2D,2,SmarterAdaptive,1,19.57516461354111,0.0,19.57516461354111,0.08590340614318848,200,PASS
+Ackley_2D,2,EvenSmarterAdaptive,1,19.45271395923501,0.0,19.45271395923501,0.08788013458251953,200,PASS
+Ackley_2D,2,GD,1,19.715956952811112,0.0,19.715956952811112,0.015872955322265625,200,PASS
+Ackley_2D,2,Adam,1,19.7115253278229,0.0,19.7115253278229,0.01743626594543457,200,PASS
+Ackley_2D,2,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Ackley_2D,2,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Ackley_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Ackley_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Ackley_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Ackley_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Ackley_2D,2,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Ackley_2D,2,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Ackley_2D,2,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Ackley_2D,2,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Ackley_2D,2,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Ackley_5D,5,LineSearchGD,1,20.556093289453713,0.0,20.556093289453713,0.10967636108398438,500,PASS
+Ackley_5D,5,Adaptive,1,20.067917795913836,0.0,20.067917795913836,0.37310338020324707,500,PASS
+Ackley_5D,5,SmarterAdaptive,1,19.595083478792812,0.0,19.595083478792812,0.28015661239624023,500,PASS
+Ackley_5D,5,EvenSmarterAdaptive,1,18.666711369318072,0.0,18.666711369318072,0.3661012649536133,500,PASS
+Ackley_5D,5,GD,1,19.41938085534804,0.0,19.41938085534804,0.05501365661621094,500,PASS
+Ackley_5D,5,Adam,1,19.80226331643411,0.0,19.80226331643411,0.05801558494567871,500,PASS
+Ackley_5D,5,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Ackley_5D,5,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Ackley_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Ackley_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Ackley_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Ackley_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Ackley_5D,5,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Ackley_5D,5,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Ackley_5D,5,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Ackley_5D,5,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Ackley_5D,5,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Ackley_10D,10,LineSearchGD,1,19.26735464590664,0.0,19.26735464590664,0.19533967971801758,1000,PASS
+Ackley_10D,10,Adaptive,1,19.997137449968715,0.0,19.997137449968715,0.8174738883972168,1000,PASS
+Ackley_10D,10,SmarterAdaptive,1,19.547141066572376,0.0,19.547141066572376,0.6328127384185791,1000,PASS
+Ackley_10D,10,EvenSmarterAdaptive,1,18.810005805991466,0.0,18.810005805991466,0.6576950550079346,1000,PASS
+Ackley_10D,10,GD,1,19.604854160898793,0.0,19.604854160898793,0.10545921325683594,1000,PASS
+Ackley_10D,10,Adam,1,19.51538109042679,0.0,19.51538109042679,0.10364317893981934,1000,PASS
+Ackley_10D,10,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Ackley_10D,10,Nevergrad,1,2.0133152847811933,0.0,2.0133152847811933,2.8329272270202637,1000,PASS
+Ackley_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Ackley_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Ackley_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Ackley_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Ackley_10D,10,PSO,1,3.8857582713237204,0.0,3.8857582713237204,2.8592097759246826,1000,PASS
+Ackley_10D,10,DE,1,2.0133152371249676,0.0,2.0133152371249676,2.4312734603881836,1000,PASS
+Ackley_10D,10,BOBYQA,1,2.013315241384426,0.0,2.013315241384426,2.470153331756592,1000,PASS
+Ackley_10D,10,TwoPointsDE,1,2.0133152364642766,0.0,2.0133152364642766,2.7639923095703125,1000,PASS
+Ackley_10D,10,NGOpt,1,1.1551485042728626,0.0,1.1551485042728626,2.430176258087158,1000,PASS
+Ackley_20D,20,LineSearchGD,1,19.589370133881136,0.0,19.589370133881136,0.31510019302368164,2000,PASS
+Ackley_20D,20,Adaptive,1,20.12490037709787,0.0,20.12490037709787,1.527224063873291,2000,PASS
+Ackley_20D,20,SmarterAdaptive,1,19.275150066468502,0.0,19.275150066468502,1.3844623565673828,2000,PASS
+Ackley_20D,20,EvenSmarterAdaptive,1,19.586078926032442,0.0,19.586078926032442,1.4115142822265625,2000,PASS
+Ackley_20D,20,GD,1,19.663548031216777,0.0,19.663548031216777,0.20127081871032715,2000,PASS
+Ackley_20D,20,Adam,1,19.10436630377849,0.0,19.10436630377849,0.29699206352233887,2000,PASS
+Ackley_20D,20,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Ackley_20D,20,Nevergrad,1,2.1711858467662215,0.0,2.1711858467662215,5.1216514110565186,2000,PASS
+Ackley_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Ackley_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Ackley_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Ackley_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Ackley_20D,20,PSO,1,5.258071365421557e-06,0.0,5.258071365421557e-06,6.027496337890625,2000,PASS
+Ackley_20D,20,DE,1,1.6504538369321864e-05,0.0,1.6504538369321864e-05,5.538028717041016,2000,PASS
+Ackley_20D,20,BOBYQA,1,2.5799275570417035,0.0,2.5799275570417035,6.223407745361328,2000,PASS
+Ackley_20D,20,TwoPointsDE,1,1.4235364883505714,0.0,1.4235364883505714,6.083171367645264,2000,PASS
+Ackley_20D,20,NGOpt,1,1.8399934758157852,0.0,1.8399934758157852,5.522682428359985,2000,PASS
+Griewank_2D,2,LineSearchGD,1,12.921835766021458,0.0,12.921835766021458,0.2644774913787842,200,PASS
+Griewank_2D,2,Adaptive,1,33.706684990739745,0.0,33.706684990739745,0.1260080337524414,200,PASS
+Griewank_2D,2,SmarterAdaptive,1,75.99511297083242,0.0,75.99511297083242,0.15369057655334473,200,PASS
+Griewank_2D,2,EvenSmarterAdaptive,1,125.21279564772168,0.0,125.21279564772168,0.1009066104888916,200,PASS
+Griewank_2D,2,GD,1,62.914183710764114,0.0,62.914183710764114,0.01461482048034668,200,PASS
+Griewank_2D,2,Adam,1,47.19686523249656,0.0,47.19686523249656,0.01439523696899414,200,PASS
+Griewank_2D,2,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Griewank_2D,2,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Griewank_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Griewank_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Griewank_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Griewank_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Griewank_2D,2,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Griewank_2D,2,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Griewank_2D,2,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Griewank_2D,2,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Griewank_2D,2,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Griewank_5D,5,LineSearchGD,1,18.982864834988636,0.0,18.982864834988636,0.34398746490478516,500,PASS
+Griewank_5D,5,Adaptive,1,94.44463440573462,0.0,94.44463440573462,0.34890007972717285,500,PASS
+Griewank_5D,5,SmarterAdaptive,1,107.28810280701475,0.0,107.28810280701475,0.29709959030151367,500,PASS
+Griewank_5D,5,EvenSmarterAdaptive,1,75.41290787275861,0.0,75.41290787275861,0.27229762077331543,500,PASS
+Griewank_5D,5,GD,1,173.0034793045042,0.0,173.0034793045042,0.04580044746398926,500,PASS
+Griewank_5D,5,Adam,1,139.46252248337808,0.0,139.46252248337808,0.0463714599609375,500,PASS
+Griewank_5D,5,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Griewank_5D,5,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Griewank_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Griewank_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Griewank_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Griewank_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Griewank_5D,5,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Griewank_5D,5,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Griewank_5D,5,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Griewank_5D,5,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Griewank_5D,5,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Griewank_10D,10,LineSearchGD,1,2.247467246352863,0.0,2.247467246352863,0.567863941192627,1000,PASS
+Griewank_10D,10,Adaptive,1,109.81765312560324,0.0,109.81765312560324,0.8340976238250732,1000,PASS
+Griewank_10D,10,SmarterAdaptive,1,105.16725953643618,0.0,105.16725953643618,0.71543288230896,1000,PASS
+Griewank_10D,10,EvenSmarterAdaptive,1,134.74013360617622,0.0,134.74013360617622,0.759382963180542,1000,PASS
+Griewank_10D,10,GD,1,282.22929464588304,0.0,282.22929464588304,0.1069650650024414,1000,PASS
+Griewank_10D,10,Adam,1,296.10148215667823,0.0,296.10148215667823,0.10430240631103516,1000,PASS
+Griewank_10D,10,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Griewank_10D,10,Nevergrad,1,0.07867178168033417,0.0,0.07867178168033417,2.5631721019744873,1000,PASS
+Griewank_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Griewank_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Griewank_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Griewank_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Griewank_10D,10,PSO,1,0.06394842953322732,0.0,0.06394842953322732,3.0528204441070557,1000,PASS
+Griewank_10D,10,DE,1,0.16252600379308235,0.0,0.16252600379308235,2.43633770942688,1000,PASS
+Griewank_10D,10,BOBYQA,1,0.27036451592539035,0.0,0.27036451592539035,2.966027021408081,1000,PASS
+Griewank_10D,10,TwoPointsDE,1,0.05905043482745265,0.0,0.05905043482745265,2.4095053672790527,1000,PASS
+Griewank_10D,10,NGOpt,1,0.1254158755613458,0.0,0.1254158755613458,2.624098539352417,1000,PASS
+Griewank_20D,20,LineSearchGD,1,1.0205467216313617,0.0,1.0205467216313617,1.5098538398742676,2000,PASS
+Griewank_20D,20,Adaptive,1,404.5178679669507,0.0,404.5178679669507,1.9104597568511963,2000,PASS
+Griewank_20D,20,SmarterAdaptive,1,159.79721782284517,0.0,159.79721782284517,1.8418080806732178,2000,PASS
+Griewank_20D,20,EvenSmarterAdaptive,1,88.65865854159132,0.0,88.65865854159132,1.6954865455627441,2000,PASS
+Griewank_20D,20,GD,1,387.79984346969906,0.0,387.79984346969906,0.2657938003540039,2000,PASS
+Griewank_20D,20,Adam,1,823.1981905136034,0.0,823.1981905136034,0.31914663314819336,2000,PASS
+Griewank_20D,20,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Griewank_20D,20,Nevergrad,1,0.03936773050437237,0.0,0.03936773050437237,5.222747325897217,2000,PASS
+Griewank_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Griewank_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Griewank_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Griewank_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Griewank_20D,20,PSO,1,2.052972458699287e-08,0.0,2.052972458699287e-08,6.410243988037109,2000,PASS
+Griewank_20D,20,DE,1,0.007396042178950735,0.0,0.007396042178950735,6.313171625137329,2000,PASS
+Griewank_20D,20,BOBYQA,1,0.00739605240994512,0.0,0.00739605240994512,6.232666015625,2000,PASS
+Griewank_20D,20,TwoPointsDE,1,1.5871692848890007e-10,0.0,1.5871692848890007e-10,5.933014869689941,2000,PASS
+Griewank_20D,20,NGOpt,1,0.014779785948674129,0.0,0.014779785948674129,5.610509157180786,2000,PASS
+Schwefel_2D,2,LineSearchGD,1,217.1715210568882,0.0,217.1715210568882,0.013637065887451172,200,PASS
+Schwefel_2D,2,Adaptive,1,292.1240207677681,0.0,292.1240207677681,0.11161470413208008,200,PASS
+Schwefel_2D,2,SmarterAdaptive,1,577.3648639008283,0.0,577.3648639008283,0.07055354118347168,200,PASS
+Schwefel_2D,2,EvenSmarterAdaptive,1,305.5863054364861,0.0,305.5863054364861,0.055481672286987305,200,PASS
+Schwefel_2D,2,GD,1,731.4557471051428,0.0,731.4557471051428,0.012618303298950195,200,PASS
+Schwefel_2D,2,Adam,1,449.3619924099045,0.0,449.3619924099045,0.011999845504760742,200,PASS
+Schwefel_2D,2,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Schwefel_2D,2,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Schwefel_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Schwefel_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Schwefel_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Schwefel_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Schwefel_2D,2,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Schwefel_2D,2,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Schwefel_2D,2,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Schwefel_2D,2,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Schwefel_2D,2,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Schwefel_5D,5,LineSearchGD,1,848.9163293066456,0.0,848.9163293066456,0.0346074104309082,500,PASS
+Schwefel_5D,5,Adaptive,1,840.4455700671679,0.0,840.4455700671679,0.27179431915283203,500,PASS
+Schwefel_5D,5,SmarterAdaptive,1,992.2278571498791,0.0,992.2278571498791,0.1509263515472412,500,PASS
+Schwefel_5D,5,EvenSmarterAdaptive,1,681.6330956374909,0.0,681.6330956374909,0.31698131561279297,500,PASS
+Schwefel_5D,5,GD,1,2457.0021396126945,0.0,2457.0021396126945,0.04374885559082031,500,PASS
+Schwefel_5D,5,Adam,1,1444.2376279703067,0.0,1444.2376279703067,0.05589151382446289,500,PASS
+Schwefel_5D,5,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Schwefel_5D,5,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Schwefel_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Schwefel_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Schwefel_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Schwefel_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Schwefel_5D,5,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Schwefel_5D,5,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Schwefel_5D,5,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Schwefel_5D,5,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Schwefel_5D,5,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Schwefel_10D,10,LineSearchGD,1,769.8882205716882,0.0,769.8882205716882,0.07810497283935547,1000,PASS
+Schwefel_10D,10,Adaptive,1,2620.5549502174954,0.0,2620.5549502174954,0.5275688171386719,1000,PASS
+Schwefel_10D,10,SmarterAdaptive,1,1753.6402077677035,0.0,1753.6402077677035,0.2844095230102539,1000,PASS
+Schwefel_10D,10,EvenSmarterAdaptive,1,1506.167816800939,0.0,1506.167816800939,0.3738739490509033,1000,PASS
+Schwefel_10D,10,GD,1,4347.493557339965,0.0,4347.493557339965,0.05919837951660156,1000,PASS
+Schwefel_10D,10,Adam,1,4357.460559461631,0.0,4357.460559461631,0.08671140670776367,1000,PASS
+Schwefel_10D,10,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Schwefel_10D,10,Nevergrad,1,1954.8687426149068,0.0,1954.8687426149068,2.74474835395813,1000,PASS
+Schwefel_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Schwefel_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Schwefel_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Schwefel_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Schwefel_10D,10,PSO,1,1916.5306144622741,0.0,1916.5306144622741,2.800827741622925,1000,PASS
+Schwefel_10D,10,DE,1,3099.787622701512,0.0,3099.787622701512,2.5119717121124268,1000,PASS
+Schwefel_10D,10,BOBYQA,1,750.123180020254,0.0,750.123180020254,2.8508336544036865,1000,PASS
+Schwefel_10D,10,TwoPointsDE,1,3059.960794295434,0.0,3059.960794295434,2.673607587814331,1000,PASS
+Schwefel_10D,10,NGOpt,1,2526.771899864897,0.0,2526.771899864897,2.532789707183838,1000,PASS
+Schwefel_20D,20,LineSearchGD,1,3612.7104209339695,0.0,3612.7104209339695,0.14950203895568848,2000,PASS
+Schwefel_20D,20,Adaptive,1,4380.503229873539,0.0,4380.503229873539,1.2255940437316895,2000,PASS
+Schwefel_20D,20,SmarterAdaptive,1,2777.736150986916,0.0,2777.736150986916,0.531883955001831,2000,PASS
+Schwefel_20D,20,EvenSmarterAdaptive,1,2371.204111342033,0.0,2371.204111342033,0.7793056964874268,2000,PASS
+Schwefel_20D,20,GD,1,8308.958182572056,0.0,8308.958182572056,0.1663203239440918,2000,PASS
+Schwefel_20D,20,Adam,1,7855.5258511090315,0.0,7855.5258511090315,0.1220855712890625,2000,PASS
+Schwefel_20D,20,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Schwefel_20D,20,Nevergrad,1,7187.581552778977,0.0,7187.581552778977,5.493266344070435,2000,PASS
+Schwefel_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Schwefel_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Schwefel_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Schwefel_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Schwefel_20D,20,PSO,1,7443.960682211968,0.0,7443.960682211968,5.707979202270508,2000,PASS
+Schwefel_20D,20,DE,1,7325.4782990362555,0.0,7325.4782990362555,5.407188415527344,2000,PASS
+Schwefel_20D,20,BOBYQA,1,7424.994807791951,0.0,7424.994807791951,5.519918918609619,2000,PASS
+Schwefel_20D,20,TwoPointsDE,1,ERROR,ERROR,"elements of z2[k] are larger than 55: [(k, idx, values)]=[(np.int64(1), [np.int64(4), np.int64(15), np.int64(17)], array([ 61.26245006,  64.77426176, 111.10638078]))]",0.0,2000,FAIL
+Schwefel_20D,20,NGOpt,1,7207.270722617022,0.0,7207.270722617022,5.397673606872559,2000,PASS
+Michalewicz_2D,2,LineSearchGD,1,-0.8013034099365212,-1.801,0.9996965900634788,0.056710004806518555,200,PASS
+Michalewicz_2D,2,Adaptive,1,-0.9809331879025833,-1.801,0.8200668120974166,0.11654329299926758,200,PASS
+Michalewicz_2D,2,SmarterAdaptive,1,-0.8967311892850311,-1.801,0.9042688107149688,0.1143941879272461,200,PASS
+Michalewicz_2D,2,EvenSmarterAdaptive,1,-0.5128345386095972,-1.801,1.2881654613904028,0.12947869300842285,200,PASS
+Michalewicz_2D,2,GD,1,-0.8013006016982223,-1.801,0.9996993983017777,0.0313725471496582,200,PASS
+Michalewicz_2D,2,Adam,1,-0.4127555171301607,-1.801,1.3882444828698393,0.023255586624145508,200,PASS
+Michalewicz_2D,2,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Michalewicz_2D,2,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Michalewicz_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Michalewicz_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Michalewicz_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Michalewicz_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Michalewicz_2D,2,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Michalewicz_2D,2,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Michalewicz_2D,2,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Michalewicz_2D,2,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Michalewicz_2D,2,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Michalewicz_5D,5,LineSearchGD,1,0.4162260479865935,-1.801,2.2172260479865935,0.12254929542541504,500,PASS
+Michalewicz_5D,5,Adaptive,1,-0.7121464290566779,-1.801,1.088853570943322,0.2713313102722168,500,PASS
+Michalewicz_5D,5,SmarterAdaptive,1,-4.290856164452679,-1.801,-2.4898561644526787,0.11255979537963867,500,PASS
+Michalewicz_5D,5,EvenSmarterAdaptive,1,-3.314800028959697,-1.801,-1.513800028959697,0.12765049934387207,500,PASS
+Michalewicz_5D,5,GD,1,-1.790021970546653,-1.801,0.010978029453347027,0.03900909423828125,500,PASS
+Michalewicz_5D,5,Adam,1,-2.4142524734598814,-1.801,-0.6132524734598814,0.03705453872680664,500,PASS
+Michalewicz_5D,5,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Michalewicz_5D,5,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Michalewicz_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Michalewicz_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Michalewicz_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Michalewicz_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Michalewicz_5D,5,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Michalewicz_5D,5,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Michalewicz_5D,5,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Michalewicz_5D,5,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Michalewicz_5D,5,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Michalewicz_10D,10,LineSearchGD,1,-5.499462239105655,-1.801,-3.6984622391056545,0.3491339683532715,1000,PASS
+Michalewicz_10D,10,Adaptive,1,0.38712704005626586,-1.801,2.1881270400562656,0.4845283031463623,1000,PASS
+Michalewicz_10D,10,SmarterAdaptive,1,-0.7435700405464096,-1.801,1.0574299594535903,0.2293992042541504,1000,PASS
+Michalewicz_10D,10,EvenSmarterAdaptive,1,-5.798569830088955,-1.801,-3.9975698300889553,0.2614099979400635,1000,PASS
+Michalewicz_10D,10,GD,1,-2.479742001099231,-1.801,-0.6787420010992309,0.0733940601348877,1000,PASS
+Michalewicz_10D,10,Adam,1,-5.468657929099693,-1.801,-3.6676579290996925,0.07125544548034668,1000,PASS
+Michalewicz_10D,10,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Michalewicz_10D,10,Nevergrad,1,-7.526093404895396,-1.801,-5.725093404895396,2.883989095687866,1000,PASS
+Michalewicz_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Michalewicz_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Michalewicz_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Michalewicz_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Michalewicz_10D,10,PSO,1,-8.31007475212609,-1.801,-6.509074752126089,2.777888059616089,1000,PASS
+Michalewicz_10D,10,DE,1,-9.550775439253462,-1.801,-7.749775439253462,2.3649260997772217,1000,PASS
+Michalewicz_10D,10,BOBYQA,1,-7.724620077877355,-1.801,-5.923620077877355,2.971414089202881,1000,PASS
+Michalewicz_10D,10,TwoPointsDE,1,-6.343499630860283,-1.801,-4.5424996308602825,2.640625238418579,1000,PASS
+Michalewicz_10D,10,NGOpt,1,-8.296692344911996,-1.801,-6.495692344911996,2.9814577102661133,1000,PASS
+Michalewicz_20D,20,LineSearchGD,1,-4.140090913684943,-1.801,-2.3390909136849425,0.8602902889251709,2000,PASS
+Michalewicz_20D,20,Adaptive,1,-0.7070444760038728,-1.801,1.0939555239961272,1.2684426307678223,2000,PASS
+Michalewicz_20D,20,SmarterAdaptive,1,-6.36988017722495,-1.801,-4.568880177224949,0.5973827838897705,2000,PASS
+Michalewicz_20D,20,EvenSmarterAdaptive,1,-0.31135214114027904,-1.801,1.4896478588597208,0.5684418678283691,2000,PASS
+Michalewicz_20D,20,GD,1,-6.740728172806528,-1.801,-4.939728172806528,0.22393798828125,2000,PASS
+Michalewicz_20D,20,Adam,1,-9.806746198086726,-1.801,-8.005746198086726,0.17971205711364746,2000,PASS
+Michalewicz_20D,20,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Michalewicz_20D,20,Nevergrad,1,-18.547954813383676,-1.801,-16.746954813383677,5.835979700088501,2000,PASS
+Michalewicz_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Michalewicz_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Michalewicz_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Michalewicz_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Michalewicz_20D,20,PSO,1,-17.317207426790336,-1.801,-15.516207426790336,6.0645716190338135,2000,PASS
+Michalewicz_20D,20,DE,1,-15.707062642676911,-1.801,-13.906062642676911,6.129842519760132,2000,PASS
+Michalewicz_20D,20,BOBYQA,1,-14.670211326664543,-1.801,-12.869211326664542,5.445009231567383,2000,PASS
+Michalewicz_20D,20,TwoPointsDE,1,-15.58459371619395,-1.801,-13.78359371619395,5.951727628707886,2000,PASS
+Michalewicz_20D,20,NGOpt,1,-18.25718640816736,-1.801,-16.456186408167362,5.9067299365997314,2000,PASS
+DropWave_2D,2,LineSearchGD,1,-0.023073114853727164,-1.0,0.9769268851462728,0.12113547325134277,200,PASS
+DropWave_2D,2,Adaptive,1,-0.10766620968257731,-1.0,0.8923337903174227,0.09144115447998047,200,PASS
+DropWave_2D,2,SmarterAdaptive,1,-0.6294856807531843,-1.0,0.37051431924681566,0.07082366943359375,200,PASS
+DropWave_2D,2,EvenSmarterAdaptive,1,-0.3663041255022007,-1.0,0.6336958744977993,0.0817561149597168,200,PASS
+DropWave_2D,2,GD,1,-0.00012208506316572506,-1.0,0.9998779149368343,0.011266708374023438,200,PASS
+DropWave_2D,2,Adam,1,-0.000316241430918343,-1.0,0.9996837585690816,0.013184070587158203,200,PASS
+DropWave_2D,2,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+DropWave_2D,2,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+DropWave_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+DropWave_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+DropWave_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+DropWave_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+DropWave_2D,2,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+DropWave_2D,2,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+DropWave_2D,2,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+DropWave_2D,2,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+DropWave_2D,2,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+DropWave_5D,5,LineSearchGD,1,-0.017250106118149523,-1.0,0.9827498938818505,0.04770088195800781,500,PASS
+DropWave_5D,5,Adaptive,1,-0.12742360588489623,-1.0,0.8725763941151038,0.24561119079589844,500,PASS
+DropWave_5D,5,SmarterAdaptive,1,-0.06928446127953262,-1.0,0.9307155387204674,0.23541617393493652,500,PASS
+DropWave_5D,5,EvenSmarterAdaptive,1,-0.06930836182175136,-1.0,0.9306916381782486,0.35329532623291016,500,PASS
+DropWave_5D,5,GD,1,-0.0,-1.0,1.0,0.044251441955566406,500,PASS
+DropWave_5D,5,Adam,1,-0.0,-1.0,1.0,0.04471921920776367,500,PASS
+DropWave_5D,5,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+DropWave_5D,5,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+DropWave_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+DropWave_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+DropWave_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+DropWave_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+DropWave_5D,5,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+DropWave_5D,5,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+DropWave_5D,5,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+DropWave_5D,5,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+DropWave_5D,5,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+DropWave_10D,10,LineSearchGD,1,-0.04278957713814727,-1.0,0.9572104228618528,0.8521766662597656,1000,PASS
+DropWave_10D,10,Adaptive,1,-0.03885626245508818,-1.0,0.9611437375449118,0.4900815486907959,1000,PASS
+DropWave_10D,10,SmarterAdaptive,1,-0.038856265403929315,-1.0,0.9611437345960707,0.5947189331054688,1000,PASS
+DropWave_10D,10,EvenSmarterAdaptive,1,-0.053938502332020785,-1.0,0.9460614976679792,0.5600299835205078,1000,PASS
+DropWave_10D,10,GD,1,-0.0,-1.0,1.0,0.07120943069458008,1000,PASS
+DropWave_10D,10,Adam,1,-0.0,-1.0,1.0,0.10169100761413574,1000,PASS
+DropWave_10D,10,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+DropWave_10D,10,Nevergrad,1,-0.6194994367738175,-1.0,0.38050056322618253,2.6494665145874023,1000,PASS
+DropWave_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+DropWave_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+DropWave_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+DropWave_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+DropWave_10D,10,PSO,1,-0.6194994367738175,-1.0,0.38050056322618253,2.807009220123291,1000,PASS
+DropWave_10D,10,DE,1,-0.4777844282296601,-1.0,0.5222155717703398,2.957674980163574,1000,PASS
+DropWave_10D,10,BOBYQA,1,-0.6194893986747249,-1.0,0.38051060132527514,2.591954469680786,1000,PASS
+DropWave_10D,10,TwoPointsDE,1,-0.3691276994421391,-1.0,0.6308723005578609,2.3889143466949463,1000,PASS
+DropWave_10D,10,NGOpt,1,-0.6194994367738176,-1.0,0.3805005632261824,2.6420531272888184,1000,PASS
+DropWave_20D,20,LineSearchGD,1,-0.0182723603389076,-1.0,0.9817276396610924,1.6198699474334717,2000,PASS
+DropWave_20D,20,Adaptive,1,-0.02470865751976793,-1.0,0.9752913424802321,1.1288294792175293,2000,PASS
+DropWave_20D,20,SmarterAdaptive,1,-0.019623979508301734,-1.0,0.9803760204916983,1.1397197246551514,2000,PASS
+DropWave_20D,20,EvenSmarterAdaptive,1,-0.022815403287667735,-1.0,0.9771845967123323,1.0731208324432373,2000,PASS
+DropWave_20D,20,GD,1,-0.0,-1.0,1.0,0.13553524017333984,2000,PASS
+DropWave_20D,20,Adam,1,-0.0,-1.0,1.0,0.13897395133972168,2000,PASS
+DropWave_20D,20,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+DropWave_20D,20,Nevergrad,1,-0.7857513346523582,-1.0,0.21424866534764175,5.999279260635376,2000,PASS
+DropWave_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+DropWave_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+DropWave_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+DropWave_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+DropWave_20D,20,PSO,1,-0.6194994367738177,-1.0,0.3805005632261823,5.646151065826416,2000,PASS
+DropWave_20D,20,DE,1,-0.6194994367738175,-1.0,0.38050056322618253,5.6012282371521,2000,PASS
+DropWave_20D,20,BOBYQA,1,-0.47778442822966016,-1.0,0.5222155717703398,5.725590467453003,2000,PASS
+DropWave_20D,20,TwoPointsDE,1,-0.6194994367738177,-1.0,0.3805005632261823,5.729734897613525,2000,PASS
+DropWave_20D,20,NGOpt,1,-0.6194994367738175,-1.0,0.38050056322618253,6.3504979610443115,2000,PASS
+LunacekBiRastrigin_2D,2,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+LunacekBiRastrigin_2D,2,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+LunacekBiRastrigin_2D,2,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+LunacekBiRastrigin_2D,2,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+LunacekBiRastrigin_2D,2,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+LunacekBiRastrigin_2D,2,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+LunacekBiRastrigin_2D,2,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+LunacekBiRastrigin_5D,5,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+LunacekBiRastrigin_5D,5,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+LunacekBiRastrigin_5D,5,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+LunacekBiRastrigin_5D,5,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+LunacekBiRastrigin_5D,5,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+LunacekBiRastrigin_5D,5,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+LunacekBiRastrigin_5D,5,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+LunacekBiRastrigin_10D,10,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+LunacekBiRastrigin_10D,10,Nevergrad,1,ERROR,ERROR,unsupported operand type(s) for -: 'float' and 'NoneType',0.0,1000,FAIL
+LunacekBiRastrigin_10D,10,PSO,1,ERROR,ERROR,unsupported operand type(s) for -: 'float' and 'NoneType',0.0,1000,FAIL
+LunacekBiRastrigin_10D,10,DE,1,ERROR,ERROR,unsupported operand type(s) for -: 'float' and 'NoneType',0.0,1000,FAIL
+LunacekBiRastrigin_10D,10,BOBYQA,1,ERROR,ERROR,unsupported operand type(s) for -: 'float' and 'NoneType',0.0,1000,FAIL
+LunacekBiRastrigin_10D,10,TwoPointsDE,1,ERROR,ERROR,unsupported operand type(s) for -: 'float' and 'NoneType',0.0,1000,FAIL
+LunacekBiRastrigin_10D,10,NGOpt,1,ERROR,ERROR,unsupported operand type(s) for -: 'float' and 'NoneType',0.0,1000,FAIL
+LunacekBiRastrigin_20D,20,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+LunacekBiRastrigin_20D,20,Nevergrad,1,ERROR,ERROR,unsupported operand type(s) for -: 'float' and 'NoneType',0.0,2000,FAIL
+LunacekBiRastrigin_20D,20,PSO,1,ERROR,ERROR,unsupported operand type(s) for -: 'float' and 'NoneType',0.0,2000,FAIL
+LunacekBiRastrigin_20D,20,DE,1,ERROR,ERROR,unsupported operand type(s) for -: 'float' and 'NoneType',0.0,2000,FAIL
+LunacekBiRastrigin_20D,20,BOBYQA,1,ERROR,ERROR,unsupported operand type(s) for -: 'float' and 'NoneType',0.0,2000,FAIL
+LunacekBiRastrigin_20D,20,TwoPointsDE,1,ERROR,ERROR,unsupported operand type(s) for -: 'float' and 'NoneType',0.0,2000,FAIL
+LunacekBiRastrigin_20D,20,NGOpt,1,ERROR,ERROR,unsupported operand type(s) for -: 'float' and 'NoneType',0.0,2000,FAIL
+ShiftedSphere_2D,2,LineSearchGD,1,1.1017691398085097e-09,0.0,1.1017691398085097e-09,0.020853042602539062,200,PASS
+ShiftedSphere_2D,2,Adaptive,1,0.0030032361468284824,0.0,0.0030032361468284824,0.19138312339782715,200,PASS
+ShiftedSphere_2D,2,SmarterAdaptive,1,0.005894138934505112,0.0,0.005894138934505112,0.10784125328063965,200,PASS
+ShiftedSphere_2D,2,EvenSmarterAdaptive,1,0.00017948749692893082,0.0,0.00017948749692893082,0.10930156707763672,200,PASS
+ShiftedSphere_2D,2,GD,1,8.326545848249619e-08,0.0,8.326545848249619e-08,0.01569843292236328,200,PASS
+ShiftedSphere_2D,2,Adam,1,5.070742527549624,0.0,5.070742527549624,0.01161050796508789,200,PASS
+ShiftedSphere_2D,2,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+ShiftedSphere_2D,2,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+ShiftedSphere_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+ShiftedSphere_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+ShiftedSphere_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+ShiftedSphere_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+ShiftedSphere_2D,2,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+ShiftedSphere_2D,2,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+ShiftedSphere_2D,2,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+ShiftedSphere_2D,2,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+ShiftedSphere_2D,2,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+ShiftedSphere_5D,5,LineSearchGD,1,2.053010505837683e-28,0.0,2.053010505837683e-28,0.06678199768066406,500,PASS
+ShiftedSphere_5D,5,Adaptive,1,0.06728468545841719,0.0,0.06728468545841719,0.30028653144836426,500,PASS
+ShiftedSphere_5D,5,SmarterAdaptive,1,4.370846395844264e-05,0.0,4.370846395844264e-05,0.3108348846435547,500,PASS
+ShiftedSphere_5D,5,EvenSmarterAdaptive,1,0.0002289476035720792,0.0,0.0002289476035720792,0.35660839080810547,500,PASS
+ShiftedSphere_5D,5,GD,1,1.6198514696997144e-06,0.0,1.6198514696997144e-06,0.04075360298156738,500,PASS
+ShiftedSphere_5D,5,Adam,1,4.665317723895396,0.0,4.665317723895396,0.038477182388305664,500,PASS
+ShiftedSphere_5D,5,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+ShiftedSphere_5D,5,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+ShiftedSphere_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+ShiftedSphere_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+ShiftedSphere_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+ShiftedSphere_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+ShiftedSphere_5D,5,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+ShiftedSphere_5D,5,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+ShiftedSphere_5D,5,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+ShiftedSphere_5D,5,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+ShiftedSphere_5D,5,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+ShiftedSphere_10D,10,LineSearchGD,1,5.127595883936577e-30,0.0,5.127595883936577e-30,0.1419529914855957,1000,PASS
+ShiftedSphere_10D,10,Adaptive,1,0.0810931271001449,0.0,0.0810931271001449,0.8542025089263916,1000,PASS
+ShiftedSphere_10D,10,SmarterAdaptive,1,0.00048723564219186385,0.0,0.00048723564219186385,0.623786449432373,1000,PASS
+ShiftedSphere_10D,10,EvenSmarterAdaptive,1,0.011247662722594302,0.0,0.011247662722594302,0.5314733982086182,1000,PASS
+ShiftedSphere_10D,10,GD,1,5.944090749370042e-21,0.0,5.944090749370042e-21,0.054181575775146484,1000,PASS
+ShiftedSphere_10D,10,Adam,1,9.9850037154449,0.0,9.9850037154449,0.05796504020690918,1000,PASS
+ShiftedSphere_10D,10,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+ShiftedSphere_10D,10,Nevergrad,1,1.0591416652313001e-12,0.0,1.0591416652313001e-12,2.8595967292785645,1000,PASS
+ShiftedSphere_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+ShiftedSphere_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+ShiftedSphere_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+ShiftedSphere_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+ShiftedSphere_10D,10,PSO,1,1.3295904163568062e-12,0.0,1.3295904163568062e-12,4.028610944747925,1000,PASS
+ShiftedSphere_10D,10,DE,1,3.541082459808439e-13,0.0,3.541082459808439e-13,4.223320722579956,1000,PASS
+ShiftedSphere_10D,10,BOBYQA,1,1.9904862305422104e-12,0.0,1.9904862305422104e-12,3.21705961227417,1000,PASS
+ShiftedSphere_10D,10,TwoPointsDE,1,1.1851309455174215e-11,0.0,1.1851309455174215e-11,3.0643742084503174,1000,PASS
+ShiftedSphere_10D,10,NGOpt,1,7.149524198038842e-13,0.0,7.149524198038842e-13,3.7329978942871094,1000,PASS
+ShiftedSphere_20D,20,LineSearchGD,1,2.0904813988356813e-29,0.0,2.0904813988356813e-29,0.2068643569946289,2000,PASS
+ShiftedSphere_20D,20,Adaptive,1,0.34593590100679283,0.0,0.34593590100679283,1.7231967449188232,2000,PASS
+ShiftedSphere_20D,20,SmarterAdaptive,1,0.00019244458448375282,0.0,0.00019244458448375282,1.8205480575561523,2000,PASS
+ShiftedSphere_20D,20,EvenSmarterAdaptive,1,0.002345852121623006,0.0,0.002345852121623006,1.3093736171722412,2000,PASS
+ShiftedSphere_20D,20,GD,1,2.1390757039138387e-23,0.0,2.1390757039138387e-23,0.1365952491760254,2000,PASS
+ShiftedSphere_20D,20,Adam,1,5.708640764525214,0.0,5.708640764525214,0.14279508590698242,2000,PASS
+ShiftedSphere_20D,20,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+ShiftedSphere_20D,20,Nevergrad,1,7.719202880823622e-14,0.0,7.719202880823622e-14,6.985056161880493,2000,PASS
+ShiftedSphere_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+ShiftedSphere_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+ShiftedSphere_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+ShiftedSphere_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+ShiftedSphere_20D,20,PSO,1,2.793557817043549e-13,0.0,2.793557817043549e-13,6.481210231781006,2000,PASS
+ShiftedSphere_20D,20,DE,1,7.394138615060282e-13,0.0,7.394138615060282e-13,6.553350925445557,2000,PASS
+ShiftedSphere_20D,20,BOBYQA,1,1.0039537258644429e-13,0.0,1.0039537258644429e-13,6.690768241882324,2000,PASS
+ShiftedSphere_20D,20,TwoPointsDE,1,1.3764831579111756e-12,0.0,1.3764831579111756e-12,7.596766710281372,2000,PASS
+ShiftedSphere_20D,20,NGOpt,1,2.026368513915496e-12,0.0,2.026368513915496e-12,6.778811693191528,2000,PASS
+ShiftedRastrigin_2D,2,LineSearchGD,1,4.974790252096719,0.0,4.974790252096719,0.08236551284790039,200,PASS
+ShiftedRastrigin_2D,2,Adaptive,1,42.63674825138719,0.0,42.63674825138719,0.14510416984558105,200,PASS
+ShiftedRastrigin_2D,2,SmarterAdaptive,1,9.169908681187964,0.0,9.169908681187964,0.05969882011413574,200,PASS
+ShiftedRastrigin_2D,2,EvenSmarterAdaptive,1,15.01454099617871,0.0,15.01454099617871,0.05932259559631348,200,PASS
+ShiftedRastrigin_2D,2,GD,1,3.9805804340244606,0.0,3.9805804340244606,0.013708114624023438,200,PASS
+ShiftedRastrigin_2D,2,Adam,1,14.440851753111012,0.0,14.440851753111012,0.013324737548828125,200,PASS
+ShiftedRastrigin_2D,2,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+ShiftedRastrigin_2D,2,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+ShiftedRastrigin_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+ShiftedRastrigin_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+ShiftedRastrigin_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+ShiftedRastrigin_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+ShiftedRastrigin_2D,2,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+ShiftedRastrigin_2D,2,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+ShiftedRastrigin_2D,2,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+ShiftedRastrigin_2D,2,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+ShiftedRastrigin_2D,2,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+ShiftedRastrigin_5D,5,LineSearchGD,1,14678.804459372484,0.0,14678.804459372484,0.11937999725341797,500,PASS
+ShiftedRastrigin_5D,5,Adaptive,1,262.24740365431467,0.0,262.24740365431467,0.5433733463287354,500,PASS
+ShiftedRastrigin_5D,5,SmarterAdaptive,1,6.1338505029435595,0.0,6.1338505029435595,0.2695887088775635,500,PASS
+ShiftedRastrigin_5D,5,EvenSmarterAdaptive,1,19.03198763656221,0.0,19.03198763656221,0.21340203285217285,500,PASS
+ShiftedRastrigin_5D,5,GD,1,18.904237023061825,0.0,18.904237023061825,0.05234575271606445,500,PASS
+ShiftedRastrigin_5D,5,Adam,1,13.003747716338133,0.0,13.003747716338133,0.05513596534729004,500,PASS
+ShiftedRastrigin_5D,5,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+ShiftedRastrigin_5D,5,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+ShiftedRastrigin_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+ShiftedRastrigin_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+ShiftedRastrigin_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+ShiftedRastrigin_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+ShiftedRastrigin_5D,5,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+ShiftedRastrigin_5D,5,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+ShiftedRastrigin_5D,5,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+ShiftedRastrigin_5D,5,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+ShiftedRastrigin_5D,5,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+ShiftedRastrigin_10D,10,LineSearchGD,1,29284.316376424886,0.0,29284.316376424886,0.16248011589050293,1000,PASS
+ShiftedRastrigin_10D,10,Adaptive,1,452.48327807094637,0.0,452.48327807094637,0.7936232089996338,1000,PASS
+ShiftedRastrigin_10D,10,SmarterAdaptive,1,37.96224509479755,0.0,37.96224509479755,0.41094017028808594,1000,PASS
+ShiftedRastrigin_10D,10,EvenSmarterAdaptive,1,28.01230239004576,0.0,28.01230239004576,0.36687731742858887,1000,PASS
+ShiftedRastrigin_10D,10,GD,1,36.813402265635425,0.0,36.813402265635425,0.08142304420471191,1000,PASS
+ShiftedRastrigin_10D,10,Adam,1,41.78817447203081,0.0,41.78817447203081,0.11189508438110352,1000,PASS
+ShiftedRastrigin_10D,10,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+ShiftedRastrigin_10D,10,Nevergrad,1,1.989918114351994,0.0,1.989918114351994,4.01421594619751,1000,PASS
+ShiftedRastrigin_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+ShiftedRastrigin_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+ShiftedRastrigin_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+ShiftedRastrigin_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+ShiftedRastrigin_10D,10,PSO,1,0.9949590623107554,0.0,0.9949590623107554,3.3112144470214844,1000,PASS
+ShiftedRastrigin_10D,10,DE,1,1.989918120704118,0.0,1.989918120704118,2.87272572517395,1000,PASS
+ShiftedRastrigin_10D,10,BOBYQA,1,2.9848771735189246,0.0,2.9848771735189246,3.1355466842651367,1000,PASS
+ShiftedRastrigin_10D,10,TwoPointsDE,1,2.9848771718916822,0.0,2.9848771718916822,4.725854873657227,1000,PASS
+ShiftedRastrigin_10D,10,NGOpt,1,0.9949590571488045,0.0,0.9949590571488045,2.8337717056274414,1000,PASS
+ShiftedRastrigin_20D,20,LineSearchGD,1,91.53594550505508,0.0,91.53594550505508,1.2713096141815186,2000,PASS
+ShiftedRastrigin_20D,20,Adaptive,1,877.0413732330512,0.0,877.0413732330512,1.5099215507507324,2000,PASS
+ShiftedRastrigin_20D,20,SmarterAdaptive,1,36.935712706661235,0.0,36.935712706661235,0.5407629013061523,2000,PASS
+ShiftedRastrigin_20D,20,EvenSmarterAdaptive,1,78.75309203815203,0.0,78.75309203815203,0.6644978523254395,2000,PASS
+ShiftedRastrigin_20D,20,GD,1,58.704646594944165,0.0,58.704646594944165,0.17549490928649902,2000,PASS
+ShiftedRastrigin_20D,20,Adam,1,75.61668655369817,0.0,75.61668655369817,0.15236949920654297,2000,PASS
+ShiftedRastrigin_20D,20,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+ShiftedRastrigin_20D,20,Nevergrad,1,2.984877171304504,0.0,2.984877171304504,6.106484413146973,2000,PASS
+ShiftedRastrigin_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+ShiftedRastrigin_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+ShiftedRastrigin_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+ShiftedRastrigin_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+ShiftedRastrigin_20D,20,PSO,1,0.9949590571432623,0.0,0.9949590571432623,6.3301050662994385,2000,PASS
+ShiftedRastrigin_20D,20,DE,1,5.789502210973296e-11,0.0,5.789502210973296e-11,5.9478919506073,2000,PASS
+ShiftedRastrigin_20D,20,BOBYQA,1,1.0194867172685917e-10,0.0,1.0194867172685917e-10,5.544969081878662,2000,PASS
+ShiftedRastrigin_20D,20,TwoPointsDE,1,0.9949590571733609,0.0,0.9949590571733609,5.915459156036377,2000,PASS
+ShiftedRastrigin_20D,20,NGOpt,1,8.853362487570848e-11,0.0,8.853362487570848e-11,6.2703564167022705,2000,PASS
+HybridSphereRastrigin_2D,2,LineSearchGD,1,3793.8296451842134,0.0,3793.8296451842134,0.023051023483276367,200,PASS
+HybridSphereRastrigin_2D,2,Adaptive,1,316.1869279538416,0.0,316.1869279538416,0.09432458877563477,200,PASS
+HybridSphereRastrigin_2D,2,SmarterAdaptive,1,1.0258930254038674,0.0,1.0258930254038674,0.04370880126953125,200,PASS
+HybridSphereRastrigin_2D,2,EvenSmarterAdaptive,1,4.760767030186115,0.0,4.760767030186115,0.04901838302612305,200,PASS
+HybridSphereRastrigin_2D,2,GD,1,0.17511732446117811,0.0,0.17511732446117811,0.009144783020019531,200,PASS
+HybridSphereRastrigin_2D,2,Adam,1,25.32711738150462,0.0,25.32711738150462,0.010654211044311523,200,PASS
+HybridSphereRastrigin_2D,2,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+HybridSphereRastrigin_2D,2,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+HybridSphereRastrigin_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+HybridSphereRastrigin_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+HybridSphereRastrigin_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+HybridSphereRastrigin_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+HybridSphereRastrigin_2D,2,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+HybridSphereRastrigin_2D,2,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+HybridSphereRastrigin_2D,2,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+HybridSphereRastrigin_2D,2,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+HybridSphereRastrigin_2D,2,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+HybridSphereRastrigin_5D,5,LineSearchGD,1,7.959662381108181,0.0,7.959662381108181,0.14330196380615234,500,PASS
+HybridSphereRastrigin_5D,5,Adaptive,1,105.17288362538176,0.0,105.17288362538176,0.2703728675842285,500,PASS
+HybridSphereRastrigin_5D,5,SmarterAdaptive,1,34.53825675885434,0.0,34.53825675885434,0.1296248435974121,500,PASS
+HybridSphereRastrigin_5D,5,EvenSmarterAdaptive,1,29.18873194688405,0.0,29.18873194688405,0.10807657241821289,500,PASS
+HybridSphereRastrigin_5D,5,GD,1,28.853603008187704,0.0,28.853603008187704,0.038764238357543945,500,PASS
+HybridSphereRastrigin_5D,5,Adam,1,74.76603072451515,0.0,74.76603072451515,0.02768397331237793,500,PASS
+HybridSphereRastrigin_5D,5,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+HybridSphereRastrigin_5D,5,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+HybridSphereRastrigin_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+HybridSphereRastrigin_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+HybridSphereRastrigin_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+HybridSphereRastrigin_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+HybridSphereRastrigin_5D,5,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+HybridSphereRastrigin_5D,5,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+HybridSphereRastrigin_5D,5,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+HybridSphereRastrigin_5D,5,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+HybridSphereRastrigin_5D,5,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+HybridSphereRastrigin_10D,10,LineSearchGD,1,20822.952625003498,0.0,20822.952625003498,0.09671139717102051,1000,PASS
+HybridSphereRastrigin_10D,10,Adaptive,1,379.4410828201254,0.0,379.4410828201254,0.642296314239502,1000,PASS
+HybridSphereRastrigin_10D,10,SmarterAdaptive,1,39.51927088962914,0.0,39.51927088962914,0.21556830406188965,1000,PASS
+HybridSphereRastrigin_10D,10,EvenSmarterAdaptive,1,31.524096211735085,0.0,31.524096211735085,0.2374095916748047,1000,PASS
+HybridSphereRastrigin_10D,10,GD,1,50.743088812313246,0.0,50.743088812313246,0.04462003707885742,1000,PASS
+HybridSphereRastrigin_10D,10,Adam,1,57.42539598377388,0.0,57.42539598377388,0.07607364654541016,1000,PASS
+HybridSphereRastrigin_10D,10,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+HybridSphereRastrigin_10D,10,Nevergrad,1,5.969764185727371,0.0,5.969764185727371,2.5625739097595215,1000,PASS
+HybridSphereRastrigin_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+HybridSphereRastrigin_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+HybridSphereRastrigin_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+HybridSphereRastrigin_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+HybridSphereRastrigin_10D,10,PSO,1,1.9899186784143978,0.0,1.9899186784143978,2.652294158935547,1000,PASS
+HybridSphereRastrigin_10D,10,DE,1,3.97983889003617,0.0,3.97983889003617,2.29217267036438,1000,PASS
+HybridSphereRastrigin_10D,10,BOBYQA,1,1.9899388226604557,0.0,1.9899388226604557,2.602673292160034,1000,PASS
+HybridSphereRastrigin_10D,10,TwoPointsDE,1,2.986095789020993,0.0,2.986095789020993,3.0536797046661377,1000,PASS
+HybridSphereRastrigin_10D,10,NGOpt,1,1.9918278973006593,0.0,1.9918278973006593,2.598407506942749,1000,PASS
+HybridSphereRastrigin_20D,20,LineSearchGD,1,27971.61778080871,0.0,27971.61778080871,0.1805107593536377,2000,PASS
+HybridSphereRastrigin_20D,20,Adaptive,1,1087.2293972392026,0.0,1087.2293972392026,1.0144603252410889,2000,PASS
+HybridSphereRastrigin_20D,20,SmarterAdaptive,1,67.25036332736495,0.0,67.25036332736495,0.7448475360870361,2000,PASS
+HybridSphereRastrigin_20D,20,EvenSmarterAdaptive,1,74.08631267126924,0.0,74.08631267126924,0.39133667945861816,2000,PASS
+HybridSphereRastrigin_20D,20,GD,1,80.5911746873337,0.0,80.5911746873337,0.10575270652770996,2000,PASS
+HybridSphereRastrigin_20D,20,Adam,1,107.7795781356236,0.0,107.7795781356236,0.16439104080200195,2000,PASS
+HybridSphereRastrigin_20D,20,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+HybridSphereRastrigin_20D,20,Nevergrad,1,0.00011066055323283308,0.0,0.00011066055323283308,6.228280544281006,2000,PASS
+HybridSphereRastrigin_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+HybridSphereRastrigin_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+HybridSphereRastrigin_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+HybridSphereRastrigin_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+HybridSphereRastrigin_20D,20,PSO,1,1.8416937308529668e-06,0.0,1.8416937308529668e-06,5.548904180526733,2000,PASS
+HybridSphereRastrigin_20D,20,DE,1,1.990103612700878,0.0,1.990103612700878,5.815366268157959,2000,PASS
+HybridSphereRastrigin_20D,20,BOBYQA,1,3.9798323634977493,0.0,3.9798323634977493,5.126923322677612,2000,PASS
+HybridSphereRastrigin_20D,20,TwoPointsDE,1,2.985345129967385,0.0,2.985345129967385,5.122433185577393,2000,PASS
+HybridSphereRastrigin_20D,20,NGOpt,1,2.9849532305605067,0.0,2.9849532305605067,5.637042045593262,2000,PASS
+Ellipsoid_2D,2,LineSearchGD,1,17.42203884521652,0.0,17.42203884521652,0.08111882209777832,200,PASS
+Ellipsoid_2D,2,Adaptive,1,308510.6774017467,0.0,308510.6774017467,0.07512974739074707,200,PASS
+Ellipsoid_2D,2,SmarterAdaptive,1,1502.7268575265384,0.0,1502.7268575265384,0.04480624198913574,200,PASS
+Ellipsoid_2D,2,EvenSmarterAdaptive,1,1009.7236351681668,0.0,1009.7236351681668,0.0330510139465332,200,PASS
+Ellipsoid_2D,2,GD,1,7311742.097245338,0.0,7311742.097245338,0.007617473602294922,200,PASS
+Ellipsoid_2D,2,Adam,1,18398673.672909517,0.0,18398673.672909517,0.008615732192993164,200,PASS
+Ellipsoid_2D,2,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Ellipsoid_2D,2,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Ellipsoid_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Ellipsoid_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Ellipsoid_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Ellipsoid_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Ellipsoid_2D,2,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Ellipsoid_2D,2,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Ellipsoid_2D,2,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Ellipsoid_2D,2,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Ellipsoid_2D,2,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Ellipsoid_5D,5,LineSearchGD,1,0.62877353023058,0.0,0.62877353023058,0.2339174747467041,500,PASS
+Ellipsoid_5D,5,Adaptive,1,2910630.0118100047,0.0,2910630.0118100047,0.26128292083740234,500,PASS
+Ellipsoid_5D,5,SmarterAdaptive,1,515.5742148068538,0.0,515.5742148068538,0.07870197296142578,500,PASS
+Ellipsoid_5D,5,EvenSmarterAdaptive,1,1217.6463663906381,0.0,1217.6463663906381,0.09593796730041504,500,PASS
+Ellipsoid_5D,5,GD,1,399.35003344513296,0.0,399.35003344513296,0.018912792205810547,500,PASS
+Ellipsoid_5D,5,Adam,1,633993.8225562954,0.0,633993.8225562954,0.020702362060546875,500,PASS
+Ellipsoid_5D,5,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Ellipsoid_5D,5,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Ellipsoid_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Ellipsoid_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Ellipsoid_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Ellipsoid_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Ellipsoid_5D,5,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Ellipsoid_5D,5,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Ellipsoid_5D,5,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Ellipsoid_5D,5,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Ellipsoid_5D,5,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Ellipsoid_10D,10,LineSearchGD,1,99.46152863276423,0.0,99.46152863276423,0.5058856010437012,1000,PASS
+Ellipsoid_10D,10,Adaptive,1,8616641.630389292,0.0,8616641.630389292,0.46558046340942383,1000,PASS
+Ellipsoid_10D,10,SmarterAdaptive,1,1596.8504677176113,0.0,1596.8504677176113,0.18937921524047852,1000,PASS
+Ellipsoid_10D,10,EvenSmarterAdaptive,1,6820.436617375568,0.0,6820.436617375568,0.1820230484008789,1000,PASS
+Ellipsoid_10D,10,GD,1,15120.555098750136,0.0,15120.555098750136,0.040801286697387695,1000,PASS
+Ellipsoid_10D,10,Adam,1,3692332.3932351875,0.0,3692332.3932351875,0.045537710189819336,1000,PASS
+Ellipsoid_10D,10,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Ellipsoid_10D,10,Nevergrad,1,4.31507277234647,0.0,4.31507277234647,3.413666009902954,1000,PASS
+Ellipsoid_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Ellipsoid_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Ellipsoid_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Ellipsoid_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Ellipsoid_10D,10,PSO,1,2.869748691634612,0.0,2.869748691634612,3.071476459503174,1000,PASS
+Ellipsoid_10D,10,DE,1,0.14101184227050953,0.0,0.14101184227050953,2.7613277435302734,1000,PASS
+Ellipsoid_10D,10,BOBYQA,1,7.303352058294681,0.0,7.303352058294681,3.0519814491271973,1000,PASS
+Ellipsoid_10D,10,TwoPointsDE,1,6.684852272217719,0.0,6.684852272217719,2.48361873626709,1000,PASS
+Ellipsoid_10D,10,NGOpt,1,3.832142753541335,0.0,3.832142753541335,2.80195951461792,1000,PASS
+Ellipsoid_20D,20,LineSearchGD,1,61.967909698035626,0.0,61.967909698035626,1.0479295253753662,2000,PASS
+Ellipsoid_20D,20,Adaptive,1,125161948.49972321,0.0,125161948.49972321,1.2379870414733887,2000,PASS
+Ellipsoid_20D,20,SmarterAdaptive,1,3361.7620782519593,0.0,3361.7620782519593,0.38338708877563477,2000,PASS
+Ellipsoid_20D,20,EvenSmarterAdaptive,1,4318.69635418575,0.0,4318.69635418575,0.48021459579467773,2000,PASS
+Ellipsoid_20D,20,GD,1,2277.941163762871,0.0,2277.941163762871,0.1251518726348877,2000,PASS
+Ellipsoid_20D,20,Adam,1,8838353.425571607,0.0,8838353.425571607,0.1412811279296875,2000,PASS
+Ellipsoid_20D,20,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Ellipsoid_20D,20,Nevergrad,1,11.55610253144901,0.0,11.55610253144901,5.724620580673218,2000,PASS
+Ellipsoid_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Ellipsoid_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Ellipsoid_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Ellipsoid_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Ellipsoid_20D,20,PSO,1,0.8046379383150418,0.0,0.8046379383150418,5.077074289321899,2000,PASS
+Ellipsoid_20D,20,DE,1,3.73176725392893,0.0,3.73176725392893,5.7169859409332275,2000,PASS
+Ellipsoid_20D,20,BOBYQA,1,6.459890058573294,0.0,6.459890058573294,5.988921165466309,2000,PASS
+Ellipsoid_20D,20,TwoPointsDE,1,1.556687502138148,0.0,1.556687502138148,5.265831232070923,2000,PASS
+Ellipsoid_20D,20,NGOpt,1,2.4668969940492964,0.0,2.4668969940492964,6.063707590103149,2000,PASS
+Discus_2D,2,LineSearchGD,1,14.20946108865055,0.0,14.20946108865055,0.053656578063964844,200,PASS
+Discus_2D,2,Adaptive,1,13363217.264757695,0.0,13363217.264757695,0.04335761070251465,200,PASS
+Discus_2D,2,SmarterAdaptive,1,405.5402937833857,0.0,405.5402937833857,0.023316383361816406,200,PASS
+Discus_2D,2,EvenSmarterAdaptive,1,774.1871381553469,0.0,774.1871381553469,0.024235010147094727,200,PASS
+Discus_2D,2,GD,1,3.1576922563793657,0.0,3.1576922563793657,0.00519251823425293,200,PASS
+Discus_2D,2,Adam,1,5752017.378367694,0.0,5752017.378367694,0.0056383609771728516,200,PASS
+Discus_2D,2,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Discus_2D,2,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Discus_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Discus_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Discus_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Discus_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Discus_2D,2,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Discus_2D,2,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Discus_2D,2,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Discus_2D,2,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Discus_2D,2,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Discus_5D,5,LineSearchGD,1,24.757944536056634,0.0,24.757944536056634,0.16798734664916992,500,PASS
+Discus_5D,5,Adaptive,1,2407848.582608706,0.0,2407848.582608706,0.12374472618103027,500,PASS
+Discus_5D,5,SmarterAdaptive,1,482.56419293027113,0.0,482.56419293027113,0.05693984031677246,500,PASS
+Discus_5D,5,EvenSmarterAdaptive,1,110.4028652519538,0.0,110.4028652519538,0.05872082710266113,500,PASS
+Discus_5D,5,GD,1,38.888747008168565,0.0,38.888747008168565,0.014269590377807617,500,PASS
+Discus_5D,5,Adam,1,132772.28110419834,0.0,132772.28110419834,0.015559911727905273,500,PASS
+Discus_5D,5,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Discus_5D,5,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Discus_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Discus_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Discus_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Discus_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Discus_5D,5,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Discus_5D,5,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Discus_5D,5,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Discus_5D,5,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Discus_5D,5,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Discus_10D,10,LineSearchGD,1,1.4843671263048586,0.0,1.4843671263048586,0.24942374229431152,1000,PASS
+Discus_10D,10,Adaptive,1,1297082.578166234,0.0,1297082.578166234,0.24924206733703613,1000,PASS
+Discus_10D,10,SmarterAdaptive,1,648.7898745886031,0.0,648.7898745886031,0.1489553451538086,1000,PASS
+Discus_10D,10,EvenSmarterAdaptive,1,1298.1272521897918,0.0,1298.1272521897918,0.21450233459472656,1000,PASS
+Discus_10D,10,GD,1,76.64833056541644,0.0,76.64833056541644,0.022618532180786133,1000,PASS
+Discus_10D,10,Adam,1,97.67777900608887,0.0,97.67777900608887,0.028014659881591797,1000,PASS
+Discus_10D,10,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Discus_10D,10,Nevergrad,1,0.023089032229166435,0.0,0.023089032229166435,2.802475929260254,1000,PASS
+Discus_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Discus_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Discus_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Discus_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Discus_10D,10,PSO,1,0.06399226887238399,0.0,0.06399226887238399,2.2581164836883545,1000,PASS
+Discus_10D,10,DE,1,0.018987250566646817,0.0,0.018987250566646817,2.4695229530334473,1000,PASS
+Discus_10D,10,BOBYQA,1,0.1636385978250393,0.0,0.1636385978250393,2.3963463306427,1000,PASS
+Discus_10D,10,TwoPointsDE,1,0.03678291680152498,0.0,0.03678291680152498,2.246363639831543,1000,PASS
+Discus_10D,10,NGOpt,1,0.017089092707209607,0.0,0.017089092707209607,2.64278244972229,1000,PASS
+Discus_20D,20,LineSearchGD,1,7.119512220059024,0.0,7.119512220059024,0.46718358993530273,2000,PASS
+Discus_20D,20,Adaptive,1,83132782.2129094,0.0,83132782.2129094,0.5090572834014893,2000,PASS
+Discus_20D,20,SmarterAdaptive,1,4270.203297993097,0.0,4270.203297993097,0.22875261306762695,2000,PASS
+Discus_20D,20,EvenSmarterAdaptive,1,2057.56368272006,0.0,2057.56368272006,0.24539542198181152,2000,PASS
+Discus_20D,20,GD,1,188.02335247778473,0.0,188.02335247778473,0.04834318161010742,2000,PASS
+Discus_20D,20,Adam,1,7497470.169702689,0.0,7497470.169702689,0.05370903015136719,2000,PASS
+Discus_20D,20,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Discus_20D,20,Nevergrad,1,0.30331615429300646,0.0,0.30331615429300646,5.252863645553589,2000,PASS
+Discus_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Discus_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Discus_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Discus_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Discus_20D,20,PSO,1,0.07222167568556201,0.0,0.07222167568556201,5.354496002197266,2000,PASS
+Discus_20D,20,DE,1,0.45086583297739824,0.0,0.45086583297739824,5.548399209976196,2000,PASS
+Discus_20D,20,BOBYQA,1,0.051934975148225114,0.0,0.051934975148225114,5.416243314743042,2000,PASS
+Discus_20D,20,TwoPointsDE,1,0.23992112287428846,0.0,0.23992112287428846,5.403217315673828,2000,PASS
+Discus_20D,20,NGOpt,1,0.10292300412246025,0.0,0.10292300412246025,5.737260103225708,2000,PASS
+Zakharov_2D,2,LineSearchGD,1,4.955254153225446e-09,0.0,4.955254153225446e-09,0.025258302688598633,200,PASS
+Zakharov_2D,2,Adaptive,1,0.014602419933293786,0.0,0.014602419933293786,0.09975218772888184,200,PASS
+Zakharov_2D,2,SmarterAdaptive,1,0.003446862109444631,0.0,0.003446862109444631,0.09140872955322266,200,PASS
+Zakharov_2D,2,EvenSmarterAdaptive,1,0.0010987880592174771,0.0,0.0010987880592174771,0.0903170108795166,200,PASS
+Zakharov_2D,2,GD,1,336.39814650235866,0.0,336.39814650235866,0.010626554489135742,200,PASS
+Zakharov_2D,2,Adam,1,1985.8109852118016,0.0,1985.8109852118016,0.012990951538085938,200,PASS
+Zakharov_2D,2,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Zakharov_2D,2,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Zakharov_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Zakharov_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Zakharov_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Zakharov_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Zakharov_2D,2,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Zakharov_2D,2,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Zakharov_2D,2,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Zakharov_2D,2,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Zakharov_2D,2,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Zakharov_5D,5,LineSearchGD,1,ERROR,ERROR,Non-finite or unsafe objective value encountered.,0.0,500,FAIL
+Zakharov_5D,5,Adaptive,1,2175387.216781453,0.0,2175387.216781453,0.3045463562011719,500,PASS
+Zakharov_5D,5,SmarterAdaptive,1,0.04941573546514008,0.0,0.04941573546514008,0.30473971366882324,500,PASS
+Zakharov_5D,5,EvenSmarterAdaptive,1,0.023320394226903574,0.0,0.023320394226903574,0.31380724906921387,500,PASS
+Zakharov_5D,5,GD,1,14282.1871145303,0.0,14282.1871145303,0.025730133056640625,500,PASS
+Zakharov_5D,5,Adam,1,107.53298657219163,0.0,107.53298657219163,0.0339512825012207,500,PASS
+Zakharov_5D,5,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Zakharov_5D,5,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Zakharov_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Zakharov_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Zakharov_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Zakharov_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Zakharov_5D,5,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Zakharov_5D,5,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Zakharov_5D,5,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Zakharov_5D,5,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Zakharov_5D,5,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Zakharov_10D,10,LineSearchGD,1,0.10844171370682237,0.0,0.10844171370682237,0.3421151638031006,1000,PASS
+Zakharov_10D,10,Adaptive,1,593.1263107444682,0.0,593.1263107444682,0.5525608062744141,1000,PASS
+Zakharov_10D,10,SmarterAdaptive,1,0.2272730923317807,0.0,0.2272730923317807,0.37868618965148926,1000,PASS
+Zakharov_10D,10,EvenSmarterAdaptive,1,0.2443140291132708,0.0,0.2443140291132708,0.36379051208496094,1000,PASS
+Zakharov_10D,10,GD,1,37.964042702232305,0.0,37.964042702232305,0.07977437973022461,1000,PASS
+Zakharov_10D,10,Adam,1,107960883.29770401,0.0,107960883.29770401,0.08648324012756348,1000,PASS
+Zakharov_10D,10,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Zakharov_10D,10,Nevergrad,1,0.059541679181363806,0.0,0.059541679181363806,2.9480295181274414,1000,PASS
+Zakharov_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Zakharov_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Zakharov_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Zakharov_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Zakharov_10D,10,PSO,1,0.01206308674027917,0.0,0.01206308674027917,2.7649762630462646,1000,PASS
+Zakharov_10D,10,DE,1,0.008855135019191124,0.0,0.008855135019191124,2.9341371059417725,1000,PASS
+Zakharov_10D,10,BOBYQA,1,0.010448128334186978,0.0,0.010448128334186978,3.008316993713379,1000,PASS
+Zakharov_10D,10,TwoPointsDE,1,0.020786896626977792,0.0,0.020786896626977792,2.4060218334198,1000,PASS
+Zakharov_10D,10,NGOpt,1,0.023422030109718717,0.0,0.023422030109718717,3.292005777359009,1000,PASS
+Zakharov_20D,20,LineSearchGD,1,1.3878345134297202e-43,0.0,1.3878345134297202e-43,0.6648728847503662,2000,PASS
+Zakharov_20D,20,Adaptive,1,5804.826666805381,0.0,5804.826666805381,1.4157369136810303,2000,PASS
+Zakharov_20D,20,SmarterAdaptive,1,5.346893003546222,0.0,5.346893003546222,0.5092394351959229,2000,PASS
+Zakharov_20D,20,EvenSmarterAdaptive,1,4.8750174249757885,0.0,4.8750174249757885,0.41662120819091797,2000,PASS
+Zakharov_20D,20,GD,1,96.62147370148709,0.0,96.62147370148709,0.10271406173706055,2000,PASS
+Zakharov_20D,20,Adam,1,3691012211.136416,0.0,3691012211.136416,0.12950801849365234,2000,PASS
+Zakharov_20D,20,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Zakharov_20D,20,Nevergrad,1,ERROR,ERROR,"elements of z2[k] are larger than 55: [(k, idx, values)]=[(np.int64(1), [np.int64(10), np.int64(14), np.int64(16), np.int64(19)], array([88.89704874, 78.97304182, 64.14276208, 57.87339101]))]",0.0,2000,FAIL
+Zakharov_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Zakharov_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Zakharov_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Zakharov_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Zakharov_20D,20,PSO,1,14.70699263608627,0.0,14.70699263608627,5.208055734634399,2000,PASS
+Zakharov_20D,20,DE,1,4.1697801707321265,0.0,4.1697801707321265,5.64009690284729,2000,PASS
+Zakharov_20D,20,BOBYQA,1,17.408274628188863,0.0,17.408274628188863,5.41197395324707,2000,PASS
+Zakharov_20D,20,TwoPointsDE,1,9.684809182292494,0.0,9.684809182292494,5.52173376083374,2000,PASS
+Zakharov_20D,20,NGOpt,1,ERROR,ERROR,"elements of z2[k] are larger than 55: [(k, idx, values)]=[(np.int64(1), [np.int64(4), np.int64(8), np.int64(12), np.int64(15), np.int64(18), np.int64(19)], array([88.97215312, 85.23312113, 60.52336178, 92.74650124, 69.11719852,
+       74.63602705]))]",0.0,2000,FAIL
+StyblinskiTang_2D,2,LineSearchGD,1,-77.90020938384329,-78.332332,0.432122616156704,0.024675369262695312,200,PASS
+StyblinskiTang_2D,2,Adaptive,1,-64.12732893818428,-78.332332,14.205003061815717,0.07931828498840332,200,PASS
+StyblinskiTang_2D,2,SmarterAdaptive,1,-64.17696382309745,-78.332332,14.155368176902542,0.06062793731689453,200,PASS
+StyblinskiTang_2D,2,EvenSmarterAdaptive,1,-64.13588828304137,-78.332332,14.196443716958626,0.07059836387634277,200,PASS
+StyblinskiTang_2D,2,GD,1,-64.1956037132223,-78.332332,14.136728286777696,0.00843667984008789,200,PASS
+StyblinskiTang_2D,2,Adam,1,40.62745831754998,-78.332332,118.95979031754997,0.010276079177856445,200,PASS
+StyblinskiTang_2D,2,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+StyblinskiTang_2D,2,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+StyblinskiTang_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+StyblinskiTang_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+StyblinskiTang_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+StyblinskiTang_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+StyblinskiTang_2D,2,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+StyblinskiTang_2D,2,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+StyblinskiTang_2D,2,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+StyblinskiTang_2D,2,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+StyblinskiTang_2D,2,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+StyblinskiTang_5D,5,LineSearchGD,1,-119.99213887169793,-195.83083,75.83869112830206,0.09393572807312012,500,PASS
+StyblinskiTang_5D,5,Adaptive,1,1145.2162296577992,-195.83083,1341.0470596577993,0.29410481452941895,500,PASS
+StyblinskiTang_5D,5,SmarterAdaptive,1,-153.36883071512273,-195.83083,42.461999284877265,0.17390131950378418,500,PASS
+StyblinskiTang_5D,5,EvenSmarterAdaptive,1,-181.65094312570773,-195.83083,14.179886874292265,0.20524334907531738,500,PASS
+StyblinskiTang_5D,5,GD,1,-167.55738108707783,-195.83083,28.273448912922163,0.01881241798400879,500,PASS
+StyblinskiTang_5D,5,Adam,1,-181.2776531140222,-195.83083,14.553176885977791,0.031152963638305664,500,PASS
+StyblinskiTang_5D,5,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+StyblinskiTang_5D,5,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+StyblinskiTang_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+StyblinskiTang_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+StyblinskiTang_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+StyblinskiTang_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+StyblinskiTang_5D,5,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+StyblinskiTang_5D,5,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+StyblinskiTang_5D,5,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+StyblinskiTang_5D,5,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+StyblinskiTang_5D,5,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+StyblinskiTang_10D,10,LineSearchGD,1,-320.9780617952764,-391.66166,70.68359820472358,0.2324528694152832,1000,PASS
+StyblinskiTang_10D,10,Adaptive,1,9901.501394298955,-391.66166,10293.163054298955,0.5700769424438477,1000,PASS
+StyblinskiTang_10D,10,SmarterAdaptive,1,-349.1642373054101,-391.66166,42.497422694589886,0.3344912528991699,1000,PASS
+StyblinskiTang_10D,10,EvenSmarterAdaptive,1,-335.10296209519976,-391.66166,56.558697904800226,0.4517645835876465,1000,PASS
+StyblinskiTang_10D,10,GD,1,-335.11476913122647,-391.66166,56.54689086877352,0.044416189193725586,1000,PASS
+StyblinskiTang_10D,10,Adam,1,-285.8437376112839,-391.66166,105.81792238871606,0.09990859031677246,1000,PASS
+StyblinskiTang_10D,10,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+StyblinskiTang_10D,10,Nevergrad,1,-335.1147808436646,-391.66166,56.546879156335365,2.5092146396636963,1000,PASS
+StyblinskiTang_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+StyblinskiTang_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+StyblinskiTang_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+StyblinskiTang_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+StyblinskiTang_10D,10,PSO,1,-320.9780617945742,-391.66166,70.68359820542577,2.542670488357544,1000,PASS
+StyblinskiTang_10D,10,DE,1,-349.25149989141386,-391.66166,42.410160108586126,2.6849193572998047,1000,PASS
+StyblinskiTang_10D,10,BOBYQA,1,-363.3882189077125,-391.66166,28.2734410922875,2.8177294731140137,1000,PASS
+StyblinskiTang_10D,10,TwoPointsDE,1,-335.11478083863193,-391.66166,56.546879161368054,3.072514533996582,1000,PASS
+StyblinskiTang_10D,10,NGOpt,1,-320.9780617926517,-391.66166,70.68359820734827,2.5327394008636475,1000,PASS
+StyblinskiTang_20D,20,LineSearchGD,1,-656.092842639041,-783.32332,127.23047736095896,0.2743990421295166,2000,PASS
+StyblinskiTang_20D,20,Adaptive,1,16041.351430479355,-783.32332,16824.674750479357,0.8867537975311279,2000,PASS
+StyblinskiTang_20D,20,SmarterAdaptive,1,-641.9436053193228,-783.32332,141.37971468067713,0.8209304809570312,2000,PASS
+StyblinskiTang_20D,20,EvenSmarterAdaptive,1,-599.5346779180574,-783.32332,183.7886420819426,0.7431273460388184,2000,PASS
+StyblinskiTang_20D,20,GD,1,-641.9561190526141,-783.32332,141.36720094738587,0.08338069915771484,2000,PASS
+StyblinskiTang_20D,20,Adam,1,-637.0135008992927,-783.32332,146.30981910070727,0.08896851539611816,2000,PASS
+StyblinskiTang_20D,20,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+StyblinskiTang_20D,20,Nevergrad,1,-684.3662807335174,-783.32332,98.95703926648252,5.29162073135376,2000,PASS
+StyblinskiTang_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+StyblinskiTang_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+StyblinskiTang_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+StyblinskiTang_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+StyblinskiTang_20D,20,PSO,1,ERROR,ERROR,"elements of z2[k] are larger than 55: [(k, idx, values)]=[(np.int64(1), [np.int64(0), np.int64(1), np.int64(18)], array([73.12803285, 70.78071392, 71.21730093]))]",0.0,2000,FAIL
+StyblinskiTang_20D,20,DE,1,-726.7764376309544,-783.32332,56.546882369045534,4.928695201873779,2000,PASS
+StyblinskiTang_20D,20,BOBYQA,1,-684.3662807313748,-783.32332,98.95703926862518,5.171766519546509,2000,PASS
+StyblinskiTang_20D,20,TwoPointsDE,1,-670.2295616838182,-783.32332,113.09375831618172,5.500473976135254,2000,PASS
+StyblinskiTang_20D,20,NGOpt,1,ERROR,ERROR,"elements of z2[k] are larger than 55: [(k, idx, values)]=[(np.int64(1), [np.int64(1), np.int64(3), np.int64(4), np.int64(9)], array([62.10621836, 59.87030939, 74.59411081, 74.88829288]))]",0.0,2000,FAIL
+Step_2D,2,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Step_2D,2,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Step_2D,2,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Step_2D,2,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Step_2D,2,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Step_2D,2,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Step_2D,2,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Step_5D,5,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Step_5D,5,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Step_5D,5,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Step_5D,5,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Step_5D,5,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Step_5D,5,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Step_5D,5,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Step_10D,10,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Step_10D,10,Nevergrad,1,0.0,0.0,0.0,3.140644073486328,1000,PASS
+Step_10D,10,PSO,1,0.0,0.0,0.0,2.85929012298584,1000,PASS
+Step_10D,10,DE,1,0.0,0.0,0.0,2.493279457092285,1000,PASS
+Step_10D,10,BOBYQA,1,0.0,0.0,0.0,2.8007543087005615,1000,PASS
+Step_10D,10,TwoPointsDE,1,0.0,0.0,0.0,2.8707644939422607,1000,PASS
+Step_10D,10,NGOpt,1,0.0,0.0,0.0,2.7362358570098877,1000,PASS
+Step_20D,20,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Step_20D,20,Nevergrad,1,0.0,0.0,0.0,5.297867059707642,2000,PASS
+Step_20D,20,PSO,1,0.0,0.0,0.0,6.039727210998535,2000,PASS
+Step_20D,20,DE,1,0.0,0.0,0.0,5.313209056854248,2000,PASS
+Step_20D,20,BOBYQA,1,0.0,0.0,0.0,5.802064418792725,2000,PASS
+Step_20D,20,TwoPointsDE,1,0.0,0.0,0.0,5.631752014160156,2000,PASS
+Step_20D,20,NGOpt,1,0.0,0.0,0.0,5.6309802532196045,2000,PASS
+QuarticNoise_2D,2,LineSearchGD,1,0.5964072091251762,0.0,0.5964072091251762,0.09963130950927734,200,PASS
+QuarticNoise_2D,2,Adaptive,1,0.6586379817818333,0.0,0.6586379817818333,0.0959017276763916,200,PASS
+QuarticNoise_2D,2,SmarterAdaptive,1,0.5317489946688922,0.0,0.5317489946688922,0.11609816551208496,200,PASS
+QuarticNoise_2D,2,EvenSmarterAdaptive,1,0.7761352004644753,0.0,0.7761352004644753,0.06676864624023438,200,PASS
+QuarticNoise_2D,2,GD,1,0.789309029622189,0.0,0.789309029622189,0.008808612823486328,200,PASS
+QuarticNoise_2D,2,Adam,1,1.0719093756672815,0.0,1.0719093756672815,0.007985591888427734,200,PASS
+QuarticNoise_2D,2,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+QuarticNoise_2D,2,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+QuarticNoise_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+QuarticNoise_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+QuarticNoise_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+QuarticNoise_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+QuarticNoise_2D,2,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+QuarticNoise_2D,2,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+QuarticNoise_2D,2,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+QuarticNoise_2D,2,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+QuarticNoise_2D,2,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+QuarticNoise_5D,5,LineSearchGD,1,0.5095383578262483,0.0,0.5095383578262483,0.04919266700744629,500,PASS
+QuarticNoise_5D,5,Adaptive,1,1.7477937883630408,0.0,1.7477937883630408,0.22922277450561523,500,PASS
+QuarticNoise_5D,5,SmarterAdaptive,1,1.2650830341966135,0.0,1.2650830341966135,0.16970396041870117,500,PASS
+QuarticNoise_5D,5,EvenSmarterAdaptive,1,1.416780611982781,0.0,1.416780611982781,0.14125990867614746,500,PASS
+QuarticNoise_5D,5,GD,1,0.11637303967601162,0.0,0.11637303967601162,0.021204471588134766,500,PASS
+QuarticNoise_5D,5,Adam,1,0.3750960225780825,0.0,0.3750960225780825,0.01961994171142578,500,PASS
+QuarticNoise_5D,5,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+QuarticNoise_5D,5,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+QuarticNoise_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+QuarticNoise_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+QuarticNoise_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+QuarticNoise_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+QuarticNoise_5D,5,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+QuarticNoise_5D,5,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+QuarticNoise_5D,5,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+QuarticNoise_5D,5,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+QuarticNoise_5D,5,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+QuarticNoise_10D,10,LineSearchGD,1,0.9364973726682191,0.0,0.9364973726682191,0.19566106796264648,1000,PASS
+QuarticNoise_10D,10,Adaptive,1,186333.01518516877,0.0,186333.01518516877,0.43466901779174805,1000,PASS
+QuarticNoise_10D,10,SmarterAdaptive,1,0.2957618695670122,0.0,0.2957618695670122,0.34709668159484863,1000,PASS
+QuarticNoise_10D,10,EvenSmarterAdaptive,1,0.8945569008750441,0.0,0.8945569008750441,0.4016258716583252,1000,PASS
+QuarticNoise_10D,10,GD,1,0.9370152471584756,0.0,0.9370152471584756,0.03991413116455078,1000,PASS
+QuarticNoise_10D,10,Adam,1,2.083910270310124,0.0,2.083910270310124,0.0715324878692627,1000,PASS
+QuarticNoise_10D,10,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+QuarticNoise_10D,10,Nevergrad,1,0.8313430150963265,0.0,0.8313430150963265,2.8092355728149414,1000,PASS
+QuarticNoise_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+QuarticNoise_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+QuarticNoise_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+QuarticNoise_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+QuarticNoise_10D,10,PSO,1,0.19919768687330894,0.0,0.19919768687330894,2.8134520053863525,1000,PASS
+QuarticNoise_10D,10,DE,1,0.05384343289910828,0.0,0.05384343289910828,2.988913059234619,1000,PASS
+QuarticNoise_10D,10,BOBYQA,1,0.2588377122065646,0.0,0.2588377122065646,2.46964430809021,1000,PASS
+QuarticNoise_10D,10,TwoPointsDE,1,0.2742728144005045,0.0,0.2742728144005045,2.4220447540283203,1000,PASS
+QuarticNoise_10D,10,NGOpt,1,0.8368303422551662,0.0,0.8368303422551662,2.654998779296875,1000,PASS
+QuarticNoise_20D,20,LineSearchGD,1,0.7204706078784378,0.0,0.7204706078784378,0.23540520668029785,2000,PASS
+QuarticNoise_20D,20,Adaptive,1,375955.71124791,0.0,375955.71124791,0.8846454620361328,2000,PASS
+QuarticNoise_20D,20,SmarterAdaptive,1,1.6849301506526815,0.0,1.6849301506526815,0.5083489418029785,2000,PASS
+QuarticNoise_20D,20,EvenSmarterAdaptive,1,0.43448329963210863,0.0,0.43448329963210863,0.4883279800415039,2000,PASS
+QuarticNoise_20D,20,GD,1,0.7847699895495763,0.0,0.7847699895495763,0.10841679573059082,2000,PASS
+QuarticNoise_20D,20,Adam,1,0.9641562991100731,0.0,0.9641562991100731,0.08302617073059082,2000,PASS
+QuarticNoise_20D,20,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+QuarticNoise_20D,20,Nevergrad,1,1.0482954176795483,0.0,1.0482954176795483,5.090873718261719,2000,PASS
+QuarticNoise_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+QuarticNoise_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+QuarticNoise_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+QuarticNoise_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+QuarticNoise_20D,20,PSO,1,0.8831344564918331,0.0,0.8831344564918331,5.24710750579834,2000,PASS
+QuarticNoise_20D,20,DE,1,0.18354667075247597,0.0,0.18354667075247597,5.302173376083374,2000,PASS
+QuarticNoise_20D,20,BOBYQA,1,0.08389133063961793,0.0,0.08389133063961793,5.216801643371582,2000,PASS
+QuarticNoise_20D,20,TwoPointsDE,1,0.45968581792102686,0.0,0.45968581792102686,4.671133279800415,2000,PASS
+QuarticNoise_20D,20,NGOpt,1,0.2542456174470017,0.0,0.2542456174470017,4.58293342590332,2000,PASS
+Branin2D_2D,2,LineSearchGD,1,19.607254641657917,0.397887,19.209367641657916,0.0167083740234375,200,PASS
+Branin2D_2D,2,Adaptive,1,0.40487159056780797,0.397887,0.00698459056780798,0.03435945510864258,200,PASS
+Branin2D_2D,2,SmarterAdaptive,1,0.43948059326268485,0.397887,0.04159359326268486,0.028386354446411133,200,PASS
+Branin2D_2D,2,EvenSmarterAdaptive,1,0.4088413846649992,0.397887,0.010954384664999206,0.02696537971496582,200,PASS
+Branin2D_2D,2,GD,1,82.99642850206551,0.397887,82.59854150206552,0.004566669464111328,200,PASS
+Branin2D_2D,2,Adam,1,3.7705928597231173,0.397887,3.3727058597231174,0.0051844120025634766,200,PASS
+Branin2D_2D,2,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Branin2D_2D,2,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Branin2D_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Branin2D_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Branin2D_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Branin2D_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Branin2D_2D,2,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Branin2D_2D,2,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Branin2D_2D,2,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Branin2D_2D,2,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Branin2D_2D,2,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,200,FAIL
+Branin2D_5D,5,LineSearchGD,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,) (2,) ",0.0,500,FAIL
+Branin2D_5D,5,Adaptive,1,0.3983000887951569,0.397887,0.0004130887951568907,0.08166122436523438,500,PASS
+Branin2D_5D,5,SmarterAdaptive,1,ERROR,ERROR,"setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (5,) + inhomogeneous part.",0.0,500,FAIL
+Branin2D_5D,5,EvenSmarterAdaptive,1,ERROR,ERROR,"setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (5,) + inhomogeneous part.",0.0,500,FAIL
+Branin2D_5D,5,GD,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,) (2,) ",0.0,500,FAIL
+Branin2D_5D,5,Adam,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,) (2,) ",0.0,500,FAIL
+Branin2D_5D,5,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Branin2D_5D,5,Nevergrad,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Branin2D_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Branin2D_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Branin2D_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Branin2D_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Branin2D_5D,5,PSO,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Branin2D_5D,5,DE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Branin2D_5D,5,BOBYQA,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Branin2D_5D,5,TwoPointsDE,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Branin2D_5D,5,NGOpt,1,ERROR,ERROR,'CMAEvolutionStrategy' object has no attribute 'integer_mutations',0.0,500,FAIL
+Branin2D_10D,10,LineSearchGD,1,ERROR,ERROR,"operands could not be broadcast together with shapes (10,) (2,) ",0.0,1000,FAIL
+Branin2D_10D,10,Adaptive,1,183.47575148879545,0.397887,183.07786448879546,0.18151021003723145,1000,PASS
+Branin2D_10D,10,SmarterAdaptive,1,ERROR,ERROR,"setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (5,) + inhomogeneous part.",0.0,1000,FAIL
+Branin2D_10D,10,EvenSmarterAdaptive,1,ERROR,ERROR,"setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (5,) + inhomogeneous part.",0.0,1000,FAIL
+Branin2D_10D,10,GD,1,ERROR,ERROR,"operands could not be broadcast together with shapes (10,) (2,) ",0.0,1000,FAIL
+Branin2D_10D,10,Adam,1,ERROR,ERROR,"operands could not be broadcast together with shapes (10,) (2,) ",0.0,1000,FAIL
+Branin2D_10D,10,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Branin2D_10D,10,Nevergrad,1,0.39788735772973816,0.397887,3.5772973816516895e-07,2.3071787357330322,1000,PASS
+Branin2D_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Branin2D_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Branin2D_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Branin2D_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Branin2D_10D,10,PSO,1,0.39788735772973816,0.397887,3.5772973816516895e-07,2.5190632343292236,1000,PASS
+Branin2D_10D,10,DE,1,0.39788735772973816,0.397887,3.5772973816516895e-07,2.4783811569213867,1000,PASS
+Branin2D_10D,10,BOBYQA,1,0.39788735772973816,0.397887,3.5772973816516895e-07,2.2877495288848877,1000,PASS
+Branin2D_10D,10,TwoPointsDE,1,0.39788735772973816,0.397887,3.5772973816516895e-07,2.532869338989258,1000,PASS
+Branin2D_10D,10,NGOpt,1,0.39788735772973816,0.397887,3.5772973816516895e-07,2.537494659423828,1000,PASS
+Branin2D_20D,20,LineSearchGD,1,ERROR,ERROR,"operands could not be broadcast together with shapes (20,) (2,) ",0.0,2000,FAIL
+Branin2D_20D,20,Adaptive,1,260.55109897189993,0.397887,260.1532119718999,0.3960137367248535,2000,PASS
+Branin2D_20D,20,SmarterAdaptive,1,ERROR,ERROR,"setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (5,) + inhomogeneous part.",0.0,2000,FAIL
+Branin2D_20D,20,EvenSmarterAdaptive,1,ERROR,ERROR,"setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (5,) + inhomogeneous part.",0.0,2000,FAIL
+Branin2D_20D,20,GD,1,ERROR,ERROR,"operands could not be broadcast together with shapes (20,) (2,) ",0.0,2000,FAIL
+Branin2D_20D,20,Adam,1,ERROR,ERROR,"operands could not be broadcast together with shapes (20,) (2,) ",0.0,2000,FAIL
+Branin2D_20D,20,CMA-ES,1,ERROR,ERROR,CMAESOptimizer.__init__() missing 1 required positional argument: 'dim',0.0,200,FAIL
+Branin2D_20D,20,Nevergrad,1,0.39788735772973816,0.397887,3.5772973816516895e-07,4.360772609710693,2000,PASS
+Branin2D_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Branin2D_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Branin2D_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Branin2D_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Branin2D_20D,20,PSO,1,0.39788735772973816,0.397887,3.5772973816516895e-07,4.2893593311309814,2000,PASS
+Branin2D_20D,20,DE,1,0.39788735772973816,0.397887,3.5772973816516895e-07,4.1562864780426025,2000,PASS
+Branin2D_20D,20,BOBYQA,1,0.39788735772973816,0.397887,3.5772973816516895e-07,4.173766374588013,2000,PASS
+Branin2D_20D,20,TwoPointsDE,1,0.39788735772973816,0.397887,3.5772973816516895e-07,3.6488382816314697,2000,PASS
+Branin2D_20D,20,NGOpt,1,0.39788735772973816,0.397887,3.5772973816516895e-07,3.5901317596435547,2000,PASS

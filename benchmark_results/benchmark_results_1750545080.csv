@@ -1,0 +1,1213 @@
+function_name,dim,optimizer,trial,final_val,true_min_val,error,runtime_s,iterations,status
+Sphere_2D,2,LineSearchGD,1,2.2349924377527902e-09,0.0,2.2349924377527902e-09,0.0034542083740234375,200,PASS
+Sphere_2D,2,Adaptive,1,0.0019181175137947732,0.0,0.0019181175137947732,0.029642820358276367,200,PASS
+Sphere_2D,2,SmarterAdaptive,1,0.00021968223651817247,0.0,0.00021968223651817247,0.037766456604003906,200,PASS
+Sphere_2D,2,EvenSmarterAdaptive,1,0.01809435712712686,0.0,0.01809435712712686,0.0212705135345459,200,PASS
+Sphere_2D,2,GD,1,2.674281824225204,0.0,2.674281824225204,0.004091024398803711,200,PASS
+Sphere_2D,2,Adam,1,42.15816199532156,0.0,42.15816199532156,0.004895687103271484,200,PASS
+Sphere_2D,2,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Sphere_2D,2,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Sphere_2D,2,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Sphere_2D,2,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Sphere_2D,2,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Sphere_2D,2,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Sphere_2D,2,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Sphere_2D,2,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Sphere_2D,2,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Sphere_2D,2,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Sphere_2D,2,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Sphere_5D,5,LineSearchGD,1,1.7323233523695506e-27,0.0,1.7323233523695506e-27,0.01452779769897461,500,PASS
+Sphere_5D,5,Adaptive,1,0.019595420447427892,0.0,0.019595420447427892,0.055628299713134766,500,PASS
+Sphere_5D,5,SmarterAdaptive,1,0.0018726921751150948,0.0,0.0018726921751150948,0.050305843353271484,500,PASS
+Sphere_5D,5,EvenSmarterAdaptive,1,142.1323011456824,0.0,142.1323011456824,0.0430755615234375,500,PASS
+Sphere_5D,5,GD,1,8.79913785937108,0.0,8.79913785937108,0.00607752799987793,500,PASS
+Sphere_5D,5,Adam,1,19.557078464553264,0.0,19.557078464553264,0.006716251373291016,500,PASS
+Sphere_5D,5,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Sphere_5D,5,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Sphere_5D,5,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Sphere_5D,5,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Sphere_5D,5,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Sphere_5D,5,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Sphere_5D,5,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Sphere_5D,5,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Sphere_5D,5,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Sphere_5D,5,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Sphere_5D,5,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Sphere_10D,10,LineSearchGD,1,1.8228280414393983e-44,0.0,1.8228280414393983e-44,0.0313420295715332,1000,PASS
+Sphere_10D,10,Adaptive,1,0.04456730407296108,0.0,0.04456730407296108,0.2906613349914551,1000,PASS
+Sphere_10D,10,SmarterAdaptive,1,8.031764890424465e-05,0.0,8.031764890424465e-05,0.2607600688934326,1000,PASS
+Sphere_10D,10,EvenSmarterAdaptive,1,0.010052460520341356,0.0,0.010052460520341356,0.2598752975463867,1000,PASS
+Sphere_10D,10,GD,1,0.01579468487119503,0.0,0.01579468487119503,0.026361465454101562,1000,PASS
+Sphere_10D,10,Adam,1,58.50134573052456,0.0,58.50134573052456,0.03680992126464844,1000,PASS
+Sphere_10D,10,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Sphere_10D,10,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Sphere_10D,10,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Sphere_10D,10,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Sphere_10D,10,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Sphere_10D,10,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Sphere_10D,10,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Sphere_10D,10,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Sphere_10D,10,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Sphere_10D,10,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Sphere_10D,10,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Sphere_20D,20,LineSearchGD,1,4.5894208253507e-92,0.0,4.5894208253507e-92,0.07488656044006348,2000,PASS
+Sphere_20D,20,Adaptive,1,0.19610877661534912,0.0,0.19610877661534912,0.5222091674804688,2000,PASS
+Sphere_20D,20,SmarterAdaptive,1,0.00022441340092619626,0.0,0.00022441340092619626,0.4830799102783203,2000,PASS
+Sphere_20D,20,EvenSmarterAdaptive,1,313.15806150876506,0.0,313.15806150876506,0.2755560874938965,2000,PASS
+Sphere_20D,20,GD,1,2.8560858118999916e-25,0.0,2.8560858118999916e-25,0.05157971382141113,2000,PASS
+Sphere_20D,20,Adam,1,44.93436993244891,0.0,44.93436993244891,0.06521940231323242,2000,PASS
+Sphere_20D,20,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Sphere_20D,20,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Sphere_20D,20,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Sphere_20D,20,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Sphere_20D,20,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Sphere_20D,20,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Sphere_20D,20,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Sphere_20D,20,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Sphere_20D,20,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Sphere_20D,20,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Sphere_20D,20,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Rastrigin_2D,2,LineSearchGD,1,0.9949590691444072,0.0,0.9949590691444072,0.034219980239868164,200,PASS
+Rastrigin_2D,2,Adaptive,1,171.9123295347422,0.0,171.9123295347422,0.08169364929199219,200,PASS
+Rastrigin_2D,2,SmarterAdaptive,1,18.87294033555856,0.0,18.87294033555856,0.03530311584472656,200,PASS
+Rastrigin_2D,2,EvenSmarterAdaptive,1,18.174244383538714,0.0,18.174244383538714,0.038155555725097656,200,PASS
+Rastrigin_2D,2,GD,1,16.914291206939478,0.0,16.914291206939478,0.00705718994140625,200,PASS
+Rastrigin_2D,2,Adam,1,13.20700535171389,0.0,13.20700535171389,0.007791996002197266,200,PASS
+Rastrigin_2D,2,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rastrigin_2D,2,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rastrigin_2D,2,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rastrigin_2D,2,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rastrigin_2D,2,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rastrigin_2D,2,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rastrigin_2D,2,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rastrigin_2D,2,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rastrigin_2D,2,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rastrigin_2D,2,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rastrigin_2D,2,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rastrigin_5D,5,LineSearchGD,1,37.80827746598966,0.0,37.80827746598966,0.09184861183166504,500,PASS
+Rastrigin_5D,5,Adaptive,1,111.69851953677858,0.0,111.69851953677858,0.17989873886108398,500,PASS
+Rastrigin_5D,5,SmarterAdaptive,1,22.524796972697224,0.0,22.524796972697224,0.08448338508605957,500,PASS
+Rastrigin_5D,5,EvenSmarterAdaptive,1,69.76369012898948,0.0,69.76369012898948,0.0903465747833252,500,PASS
+Rastrigin_5D,5,GD,1,35.81842459553413,0.0,35.81842459553413,0.019941329956054688,500,PASS
+Rastrigin_5D,5,Adam,1,30.012015510807473,0.0,30.012015510807473,0.020763874053955078,500,PASS
+Rastrigin_5D,5,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rastrigin_5D,5,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Rastrigin_5D,5,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Rastrigin_5D,5,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Rastrigin_5D,5,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Rastrigin_5D,5,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Rastrigin_5D,5,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Rastrigin_5D,5,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Rastrigin_5D,5,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Rastrigin_5D,5,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Rastrigin_5D,5,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Rastrigin_10D,10,LineSearchGD,1,43.778026770730314,0.0,43.778026770730314,0.18169188499450684,1000,PASS
+Rastrigin_10D,10,Adaptive,1,563.5949355851282,0.0,563.5949355851282,0.3609137535095215,1000,PASS
+Rastrigin_10D,10,SmarterAdaptive,1,114.61703751647148,0.0,114.61703751647148,0.15999460220336914,1000,PASS
+Rastrigin_10D,10,EvenSmarterAdaptive,1,66.78506705200355,0.0,66.78506705200355,0.1650524139404297,1000,PASS
+Rastrigin_10D,10,GD,1,122.37910646564211,0.0,122.37910646564211,0.03424835205078125,1000,PASS
+Rastrigin_10D,10,Adam,1,100.49005386509438,0.0,100.49005386509438,0.04401564598083496,1000,PASS
+Rastrigin_10D,10,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rastrigin_10D,10,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Rastrigin_10D,10,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Rastrigin_10D,10,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Rastrigin_10D,10,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Rastrigin_10D,10,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Rastrigin_10D,10,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Rastrigin_10D,10,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Rastrigin_10D,10,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Rastrigin_10D,10,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Rastrigin_10D,10,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Rastrigin_20D,20,LineSearchGD,1,74.62164634395307,0.0,74.62164634395307,0.3638484477996826,2000,PASS
+Rastrigin_20D,20,Adaptive,1,818.5291564427953,0.0,818.5291564427953,0.8475327491760254,2000,PASS
+Rastrigin_20D,20,SmarterAdaptive,1,122.53124806889758,0.0,122.53124806889758,0.32349133491516113,2000,PASS
+Rastrigin_20D,20,EvenSmarterAdaptive,1,149.36954102943906,0.0,149.36954102943906,0.3450896739959717,2000,PASS
+Rastrigin_20D,20,GD,1,190.03607645077628,0.0,190.03607645077628,0.08657336235046387,2000,PASS
+Rastrigin_20D,20,Adam,1,204.96038225620663,0.0,204.96038225620663,0.07677793502807617,2000,PASS
+Rastrigin_20D,20,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rastrigin_20D,20,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Rastrigin_20D,20,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Rastrigin_20D,20,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Rastrigin_20D,20,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Rastrigin_20D,20,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Rastrigin_20D,20,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Rastrigin_20D,20,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Rastrigin_20D,20,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Rastrigin_20D,20,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Rastrigin_20D,20,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Rosenbrock_2D,2,LineSearchGD,1,18.134632789776035,0.0,18.134632789776035,0.07439351081848145,200,PASS
+Rosenbrock_2D,2,Adaptive,1,251693.82643599744,0.0,251693.82643599744,0.09198951721191406,200,PASS
+Rosenbrock_2D,2,SmarterAdaptive,1,0.04424258982996847,0.0,0.04424258982996847,0.03858637809753418,200,PASS
+Rosenbrock_2D,2,EvenSmarterAdaptive,1,31.370559756195536,0.0,31.370559756195536,0.042024850845336914,200,PASS
+Rosenbrock_2D,2,GD,1,12.339968542414384,0.0,12.339968542414384,0.009243249893188477,200,PASS
+Rosenbrock_2D,2,Adam,1,1557.6716483184227,0.0,1557.6716483184227,0.010404348373413086,200,PASS
+Rosenbrock_2D,2,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rosenbrock_2D,2,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rosenbrock_2D,2,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rosenbrock_2D,2,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rosenbrock_2D,2,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rosenbrock_2D,2,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rosenbrock_2D,2,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rosenbrock_2D,2,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rosenbrock_2D,2,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rosenbrock_2D,2,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rosenbrock_2D,2,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rosenbrock_5D,5,LineSearchGD,1,29222.95816991254,0.0,29222.95816991254,0.20399069786071777,500,PASS
+Rosenbrock_5D,5,Adaptive,1,907263.8233142322,0.0,907263.8233142322,0.2345118522644043,500,PASS
+Rosenbrock_5D,5,SmarterAdaptive,1,1.1579189237771832,0.0,1.1579189237771832,0.10910177230834961,500,PASS
+Rosenbrock_5D,5,EvenSmarterAdaptive,1,0.12772870963610095,0.0,0.12772870963610095,0.1183779239654541,500,PASS
+Rosenbrock_5D,5,GD,1,1.932341690571957,0.0,1.932341690571957,0.025960922241210938,500,PASS
+Rosenbrock_5D,5,Adam,1,1565.5814563867268,0.0,1565.5814563867268,0.041532039642333984,500,PASS
+Rosenbrock_5D,5,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rosenbrock_5D,5,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Rosenbrock_5D,5,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Rosenbrock_5D,5,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Rosenbrock_5D,5,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Rosenbrock_5D,5,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Rosenbrock_5D,5,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Rosenbrock_5D,5,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Rosenbrock_5D,5,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Rosenbrock_5D,5,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Rosenbrock_5D,5,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Rosenbrock_10D,10,LineSearchGD,1,277.783337325144,0.0,277.783337325144,0.43148255348205566,1000,PASS
+Rosenbrock_10D,10,Adaptive,1,1336546.0621930275,0.0,1336546.0621930275,0.5254974365234375,1000,PASS
+Rosenbrock_10D,10,SmarterAdaptive,1,0.6967274519455642,0.0,0.6967274519455642,0.1963489055633545,1000,PASS
+Rosenbrock_10D,10,EvenSmarterAdaptive,1,0.626007097588169,0.0,0.626007097588169,0.19240522384643555,1000,PASS
+Rosenbrock_10D,10,GD,1,0.00013924533044505367,0.0,0.00013924533044505367,0.05464982986450195,1000,PASS
+Rosenbrock_10D,10,Adam,1,136.8838463771387,0.0,136.8838463771387,0.057435035705566406,1000,PASS
+Rosenbrock_10D,10,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rosenbrock_10D,10,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Rosenbrock_10D,10,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Rosenbrock_10D,10,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Rosenbrock_10D,10,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Rosenbrock_10D,10,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Rosenbrock_10D,10,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Rosenbrock_10D,10,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Rosenbrock_10D,10,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Rosenbrock_10D,10,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Rosenbrock_10D,10,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Rosenbrock_20D,20,LineSearchGD,1,3.9908688654878226,0.0,3.9908688654878226,0.568795919418335,2000,PASS
+Rosenbrock_20D,20,Adaptive,1,7258211.5687967995,0.0,7258211.5687967995,0.9709658622741699,2000,PASS
+Rosenbrock_20D,20,SmarterAdaptive,1,0.5088137867302273,0.0,0.5088137867302273,0.39222073554992676,2000,PASS
+Rosenbrock_20D,20,EvenSmarterAdaptive,1,0.45454124263415085,0.0,0.45454124263415085,0.42896389961242676,2000,PASS
+Rosenbrock_20D,20,GD,1,0.0001927888128653552,0.0,0.0001927888128653552,0.12184810638427734,2000,PASS
+Rosenbrock_20D,20,Adam,1,273.1264260162605,0.0,273.1264260162605,0.14303183555603027,2000,PASS
+Rosenbrock_20D,20,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Rosenbrock_20D,20,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Rosenbrock_20D,20,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Rosenbrock_20D,20,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Rosenbrock_20D,20,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Rosenbrock_20D,20,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Rosenbrock_20D,20,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Rosenbrock_20D,20,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Rosenbrock_20D,20,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Rosenbrock_20D,20,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Rosenbrock_20D,20,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Ackley_2D,2,LineSearchGD,1,20.000003648825434,0.0,20.000003648825434,0.06746959686279297,200,PASS
+Ackley_2D,2,Adaptive,1,19.929971544880956,0.0,19.929971544880956,0.14511394500732422,200,PASS
+Ackley_2D,2,SmarterAdaptive,1,19.442387082827743,0.0,19.442387082827743,0.12108039855957031,200,PASS
+Ackley_2D,2,EvenSmarterAdaptive,1,20.375543983016893,0.0,20.375543983016893,0.07483458518981934,200,PASS
+Ackley_2D,2,GD,1,19.226705977045558,0.0,19.226705977045558,0.0172271728515625,200,PASS
+Ackley_2D,2,Adam,1,20.010939876151195,0.0,20.010939876151195,0.02122664451599121,200,PASS
+Ackley_2D,2,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ackley_2D,2,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ackley_2D,2,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ackley_2D,2,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ackley_2D,2,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ackley_2D,2,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ackley_2D,2,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ackley_2D,2,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ackley_2D,2,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ackley_2D,2,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ackley_2D,2,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ackley_5D,5,LineSearchGD,1,20.065923274075804,0.0,20.065923274075804,0.1227731704711914,500,PASS
+Ackley_5D,5,Adaptive,1,18.37057906191011,0.0,18.37057906191011,0.37967586517333984,500,PASS
+Ackley_5D,5,SmarterAdaptive,1,19.792687750824218,0.0,19.792687750824218,0.3284645080566406,500,PASS
+Ackley_5D,5,EvenSmarterAdaptive,1,19.47894959420056,0.0,19.47894959420056,0.3114902973175049,500,PASS
+Ackley_5D,5,GD,1,17.19172150561437,0.0,17.19172150561437,0.04766416549682617,500,PASS
+Ackley_5D,5,Adam,1,19.81846135991535,0.0,19.81846135991535,0.04240679740905762,500,PASS
+Ackley_5D,5,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ackley_5D,5,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Ackley_5D,5,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Ackley_5D,5,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Ackley_5D,5,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Ackley_5D,5,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Ackley_5D,5,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Ackley_5D,5,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Ackley_5D,5,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Ackley_5D,5,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Ackley_5D,5,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Ackley_10D,10,LineSearchGD,1,19.007386772782038,0.0,19.007386772782038,0.21251583099365234,1000,PASS
+Ackley_10D,10,Adaptive,1,20.083352859830818,0.0,20.083352859830818,0.7751021385192871,1000,PASS
+Ackley_10D,10,SmarterAdaptive,1,19.780738942907643,0.0,19.780738942907643,0.748786449432373,1000,PASS
+Ackley_10D,10,EvenSmarterAdaptive,1,19.76779003009938,0.0,19.76779003009938,0.7394154071807861,1000,PASS
+Ackley_10D,10,GD,1,19.52388618305316,0.0,19.52388618305316,0.1002662181854248,1000,PASS
+Ackley_10D,10,Adam,1,19.55466061192938,0.0,19.55466061192938,0.11435127258300781,1000,PASS
+Ackley_10D,10,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ackley_10D,10,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Ackley_10D,10,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Ackley_10D,10,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Ackley_10D,10,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Ackley_10D,10,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Ackley_10D,10,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Ackley_10D,10,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Ackley_10D,10,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Ackley_10D,10,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Ackley_10D,10,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Ackley_20D,20,LineSearchGD,1,19.594611701174365,0.0,19.594611701174365,0.3134579658508301,2000,PASS
+Ackley_20D,20,Adaptive,1,19.866071718859793,0.0,19.866071718859793,1.6281464099884033,2000,PASS
+Ackley_20D,20,SmarterAdaptive,1,19.418196608981525,0.0,19.418196608981525,1.3650448322296143,2000,PASS
+Ackley_20D,20,EvenSmarterAdaptive,1,19.785262163685648,0.0,19.785262163685648,1.3016636371612549,2000,PASS
+Ackley_20D,20,GD,1,19.498334814687226,0.0,19.498334814687226,0.17240309715270996,2000,PASS
+Ackley_20D,20,Adam,1,19.52629612639163,0.0,19.52629612639163,0.18201518058776855,2000,PASS
+Ackley_20D,20,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ackley_20D,20,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Ackley_20D,20,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Ackley_20D,20,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Ackley_20D,20,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Ackley_20D,20,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Ackley_20D,20,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Ackley_20D,20,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Ackley_20D,20,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Ackley_20D,20,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Ackley_20D,20,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Griewank_2D,2,LineSearchGD,1,95.15073770881664,0.0,95.15073770881664,0.2549300193786621,200,PASS
+Griewank_2D,2,Adaptive,1,5.156293310731389,0.0,5.156293310731389,0.15347814559936523,200,PASS
+Griewank_2D,2,SmarterAdaptive,1,45.53324200175152,0.0,45.53324200175152,0.12679696083068848,200,PASS
+Griewank_2D,2,EvenSmarterAdaptive,1,172.00941198647163,0.0,172.00941198647163,0.1128389835357666,200,PASS
+Griewank_2D,2,GD,1,123.18900385096522,0.0,123.18900385096522,0.01677417755126953,200,PASS
+Griewank_2D,2,Adam,1,31.956170279799988,0.0,31.956170279799988,0.017589807510375977,200,PASS
+Griewank_2D,2,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Griewank_2D,2,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Griewank_2D,2,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Griewank_2D,2,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Griewank_2D,2,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Griewank_2D,2,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Griewank_2D,2,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Griewank_2D,2,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Griewank_2D,2,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Griewank_2D,2,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Griewank_2D,2,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Griewank_5D,5,LineSearchGD,1,17.222590600515474,0.0,17.222590600515474,0.37508296966552734,500,PASS
+Griewank_5D,5,Adaptive,1,118.84509426707594,0.0,118.84509426707594,0.34827756881713867,500,PASS
+Griewank_5D,5,SmarterAdaptive,1,73.55868093047343,0.0,73.55868093047343,0.2989997863769531,500,PASS
+Griewank_5D,5,EvenSmarterAdaptive,1,98.70492362371944,0.0,98.70492362371944,0.38396739959716797,500,PASS
+Griewank_5D,5,GD,1,202.50522948396946,0.0,202.50522948396946,0.046441078186035156,500,PASS
+Griewank_5D,5,Adam,1,218.4093013995488,0.0,218.4093013995488,0.042879581451416016,500,PASS
+Griewank_5D,5,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Griewank_5D,5,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Griewank_5D,5,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Griewank_5D,5,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Griewank_5D,5,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Griewank_5D,5,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Griewank_5D,5,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Griewank_5D,5,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Griewank_5D,5,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Griewank_5D,5,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Griewank_5D,5,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Griewank_10D,10,LineSearchGD,1,2.571953212097067,0.0,2.571953212097067,0.5829653739929199,1000,PASS
+Griewank_10D,10,Adaptive,1,133.11756286470109,0.0,133.11756286470109,0.7459690570831299,1000,PASS
+Griewank_10D,10,SmarterAdaptive,1,101.17873914719493,0.0,101.17873914719493,0.633711576461792,1000,PASS
+Griewank_10D,10,EvenSmarterAdaptive,1,100.47075836269416,0.0,100.47075836269416,0.6281270980834961,1000,PASS
+Griewank_10D,10,GD,1,244.9788560290603,0.0,244.9788560290603,0.11373353004455566,1000,PASS
+Griewank_10D,10,Adam,1,261.7010421603234,0.0,261.7010421603234,0.09874415397644043,1000,PASS
+Griewank_10D,10,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Griewank_10D,10,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Griewank_10D,10,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Griewank_10D,10,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Griewank_10D,10,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Griewank_10D,10,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Griewank_10D,10,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Griewank_10D,10,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Griewank_10D,10,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Griewank_10D,10,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Griewank_10D,10,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Griewank_20D,20,LineSearchGD,1,1.0299834615228591,0.0,1.0299834615228591,1.407484531402588,2000,PASS
+Griewank_20D,20,Adaptive,1,295.13257328362874,0.0,295.13257328362874,1.590970754623413,2000,PASS
+Griewank_20D,20,SmarterAdaptive,1,35.18840041643261,0.0,35.18840041643261,1.329622745513916,2000,PASS
+Griewank_20D,20,EvenSmarterAdaptive,1,22.5604677386882,0.0,22.5604677386882,1.4944839477539062,2000,PASS
+Griewank_20D,20,GD,1,590.5814840289747,0.0,590.5814840289747,0.34847426414489746,2000,PASS
+Griewank_20D,20,Adam,1,653.2915813218326,0.0,653.2915813218326,0.2745029926300049,2000,PASS
+Griewank_20D,20,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Griewank_20D,20,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Griewank_20D,20,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Griewank_20D,20,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Griewank_20D,20,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Griewank_20D,20,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Griewank_20D,20,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Griewank_20D,20,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Griewank_20D,20,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Griewank_20D,20,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Griewank_20D,20,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Schwefel_2D,2,LineSearchGD,1,473.7862655400796,0.0,473.7862655400796,0.013497114181518555,200,PASS
+Schwefel_2D,2,Adaptive,1,439.2494320266169,0.0,439.2494320266169,0.08887434005737305,200,PASS
+Schwefel_2D,2,SmarterAdaptive,1,236.87671212412863,0.0,236.87671212412863,0.06175947189331055,200,PASS
+Schwefel_2D,2,EvenSmarterAdaptive,1,118.4392675002025,0.0,118.4392675002025,0.05321550369262695,200,PASS
+Schwefel_2D,2,GD,1,921.58804135086,0.0,921.58804135086,0.019919395446777344,200,PASS
+Schwefel_2D,2,Adam,1,1322.3711338746673,0.0,1322.3711338746673,0.017388105392456055,200,PASS
+Schwefel_2D,2,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Schwefel_2D,2,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Schwefel_2D,2,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Schwefel_2D,2,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Schwefel_2D,2,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Schwefel_2D,2,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Schwefel_2D,2,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Schwefel_2D,2,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Schwefel_2D,2,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Schwefel_2D,2,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Schwefel_2D,2,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Schwefel_5D,5,LineSearchGD,1,1402.0702723693885,0.0,1402.0702723693885,0.034291982650756836,500,PASS
+Schwefel_5D,5,Adaptive,1,1184.9324828972813,0.0,1184.9324828972813,0.23833775520324707,500,PASS
+Schwefel_5D,5,SmarterAdaptive,1,1017.3855260210021,0.0,1017.3855260210021,0.1777188777923584,500,PASS
+Schwefel_5D,5,EvenSmarterAdaptive,1,576.1428306666421,0.0,576.1428306666421,0.17516183853149414,500,PASS
+Schwefel_5D,5,GD,1,2029.9576629661128,0.0,2029.9576629661128,0.03140997886657715,500,PASS
+Schwefel_5D,5,Adam,1,1955.7088166670678,0.0,1955.7088166670678,0.03333306312561035,500,PASS
+Schwefel_5D,5,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Schwefel_5D,5,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Schwefel_5D,5,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Schwefel_5D,5,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Schwefel_5D,5,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Schwefel_5D,5,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Schwefel_5D,5,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Schwefel_5D,5,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Schwefel_5D,5,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Schwefel_5D,5,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Schwefel_5D,5,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Schwefel_10D,10,LineSearchGD,1,1994.248152616577,0.0,1994.248152616577,0.0741887092590332,1000,PASS
+Schwefel_10D,10,Adaptive,1,2499.03195582592,0.0,2499.03195582592,0.483583927154541,1000,PASS
+Schwefel_10D,10,SmarterAdaptive,1,819.8390700952359,0.0,819.8390700952359,0.2649269104003906,1000,PASS
+Schwefel_10D,10,EvenSmarterAdaptive,1,2263.932125832276,0.0,2263.932125832276,0.3547322750091553,1000,PASS
+Schwefel_10D,10,GD,1,5003.645223329155,0.0,5003.645223329155,0.07028460502624512,1000,PASS
+Schwefel_10D,10,Adam,1,4725.354881557721,0.0,4725.354881557721,0.1073763370513916,1000,PASS
+Schwefel_10D,10,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Schwefel_10D,10,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Schwefel_10D,10,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Schwefel_10D,10,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Schwefel_10D,10,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Schwefel_10D,10,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Schwefel_10D,10,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Schwefel_10D,10,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Schwefel_10D,10,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Schwefel_10D,10,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Schwefel_10D,10,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Schwefel_20D,20,LineSearchGD,1,4007.44888501935,0.0,4007.44888501935,0.15337204933166504,2000,PASS
+Schwefel_20D,20,Adaptive,1,5512.668025351573,0.0,5512.668025351573,1.060297966003418,2000,PASS
+Schwefel_20D,20,SmarterAdaptive,1,3234.8748815709578,0.0,3234.8748815709578,0.4566786289215088,2000,PASS
+Schwefel_20D,20,EvenSmarterAdaptive,1,3875.7089374891093,0.0,3875.7089374891093,0.5005426406860352,2000,PASS
+Schwefel_20D,20,GD,1,7798.432094007115,0.0,7798.432094007115,0.1444249153137207,2000,PASS
+Schwefel_20D,20,Adam,1,9046.565791572297,0.0,9046.565791572297,0.1237020492553711,2000,PASS
+Schwefel_20D,20,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Schwefel_20D,20,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Schwefel_20D,20,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Schwefel_20D,20,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Schwefel_20D,20,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Schwefel_20D,20,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Schwefel_20D,20,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Schwefel_20D,20,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Schwefel_20D,20,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Schwefel_20D,20,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Schwefel_20D,20,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Michalewicz_2D,2,LineSearchGD,1,-1.0609445710620865e-13,-1.801,1.8009999999998938,0.015674352645874023,200,PASS
+Michalewicz_2D,2,Adaptive,1,-1.7098517785924485,-1.801,0.09114822140755141,0.12063932418823242,200,PASS
+Michalewicz_2D,2,SmarterAdaptive,1,-1.1546788141801345,-1.801,0.6463211858198654,0.0728759765625,200,PASS
+Michalewicz_2D,2,EvenSmarterAdaptive,1,-1.601806587418522,-1.801,0.19919341258147782,0.08918309211730957,200,PASS
+Michalewicz_2D,2,GD,1,-1.801299860292427,-1.801,-0.0002998602924271232,0.009600639343261719,200,PASS
+Michalewicz_2D,2,Adam,1,-0.6074182116098903,-1.801,1.1935817883901096,0.04454827308654785,200,PASS
+Michalewicz_2D,2,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Michalewicz_2D,2,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Michalewicz_2D,2,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Michalewicz_2D,2,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Michalewicz_2D,2,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Michalewicz_2D,2,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Michalewicz_2D,2,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Michalewicz_2D,2,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Michalewicz_2D,2,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Michalewicz_2D,2,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Michalewicz_2D,2,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Michalewicz_5D,5,LineSearchGD,1,0.0575010922029502,-1.801,1.8585010922029501,0.15718960762023926,500,PASS
+Michalewicz_5D,5,Adaptive,1,-1.3615138332547472,-1.801,0.43948616674525276,0.27699804306030273,500,PASS
+Michalewicz_5D,5,SmarterAdaptive,1,-2.921194196688571,-1.801,-1.1201941966885711,0.12620830535888672,500,PASS
+Michalewicz_5D,5,EvenSmarterAdaptive,1,-4.0694062872017644,-1.801,-2.2684062872017643,0.1455550193786621,500,PASS
+Michalewicz_5D,5,GD,1,-1.042280813925137,-1.801,0.758719186074863,0.030842065811157227,500,PASS
+Michalewicz_5D,5,Adam,1,-2.5991922463649244,-1.801,-0.7981922463649245,0.05221843719482422,500,PASS
+Michalewicz_5D,5,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Michalewicz_5D,5,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Michalewicz_5D,5,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Michalewicz_5D,5,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Michalewicz_5D,5,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Michalewicz_5D,5,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Michalewicz_5D,5,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Michalewicz_5D,5,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Michalewicz_5D,5,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Michalewicz_5D,5,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Michalewicz_5D,5,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Michalewicz_10D,10,LineSearchGD,1,-3.1132103342425084,-1.801,-1.3122103342425084,0.40059351921081543,1000,PASS
+Michalewicz_10D,10,Adaptive,1,-0.48571670171450965,-1.801,1.3152832982854903,0.5502324104309082,1000,PASS
+Michalewicz_10D,10,SmarterAdaptive,1,-5.308696703588993,-1.801,-3.5076967035889925,0.25024938583374023,1000,PASS
+Michalewicz_10D,10,EvenSmarterAdaptive,1,-1.6970107643784806,-1.801,0.1039892356215193,0.22942662239074707,1000,PASS
+Michalewicz_10D,10,GD,1,-4.534906400187873,-1.801,-2.7339064001878732,0.06767749786376953,1000,PASS
+Michalewicz_10D,10,Adam,1,-5.698736574546114,-1.801,-3.897736574546114,0.10956430435180664,1000,PASS
+Michalewicz_10D,10,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Michalewicz_10D,10,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Michalewicz_10D,10,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Michalewicz_10D,10,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Michalewicz_10D,10,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Michalewicz_10D,10,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Michalewicz_10D,10,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Michalewicz_10D,10,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Michalewicz_10D,10,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Michalewicz_10D,10,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Michalewicz_10D,10,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Michalewicz_20D,20,LineSearchGD,1,-10.890689384128997,-1.801,-9.089689384128997,0.7899479866027832,2000,PASS
+Michalewicz_20D,20,Adaptive,1,-0.39706067591744465,-1.801,1.4039393240825553,0.9745869636535645,2000,PASS
+Michalewicz_20D,20,SmarterAdaptive,1,-1.63468204398425,-1.801,0.16631795601574995,0.41307950019836426,2000,PASS
+Michalewicz_20D,20,EvenSmarterAdaptive,1,-0.005338750930010901,-1.801,1.795661249069989,0.4077177047729492,2000,PASS
+Michalewicz_20D,20,GD,1,-8.358444222801076,-1.801,-6.557444222801076,0.1280965805053711,2000,PASS
+Michalewicz_20D,20,Adam,1,-10.24334522950237,-1.801,-8.44234522950237,0.14737343788146973,2000,PASS
+Michalewicz_20D,20,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Michalewicz_20D,20,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Michalewicz_20D,20,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Michalewicz_20D,20,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Michalewicz_20D,20,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Michalewicz_20D,20,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Michalewicz_20D,20,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Michalewicz_20D,20,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Michalewicz_20D,20,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Michalewicz_20D,20,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Michalewicz_20D,20,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+DropWave_2D,2,LineSearchGD,1,-0.15606196202184536,-1.0,0.8439380379781547,0.16715407371520996,200,PASS
+DropWave_2D,2,Adaptive,1,-0.2269909887110026,-1.0,0.7730090112889973,0.09553194046020508,200,PASS
+DropWave_2D,2,SmarterAdaptive,1,-0.2862817412955203,-1.0,0.7137182587044797,0.0950624942779541,200,PASS
+DropWave_2D,2,EvenSmarterAdaptive,1,-0.1839094912561246,-1.0,0.8160905087438755,0.09226608276367188,200,PASS
+DropWave_2D,2,GD,1,-2.3094219949132515e-07,-1.0,0.9999997690578005,0.01391744613647461,200,PASS
+DropWave_2D,2,Adam,1,-9.212509643960828e-12,-1.0,0.9999999999907875,0.012894153594970703,200,PASS
+DropWave_2D,2,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+DropWave_2D,2,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+DropWave_2D,2,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+DropWave_2D,2,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+DropWave_2D,2,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+DropWave_2D,2,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+DropWave_2D,2,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+DropWave_2D,2,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+DropWave_2D,2,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+DropWave_2D,2,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+DropWave_2D,2,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+DropWave_5D,5,LineSearchGD,1,-0.014603737155462709,-1.0,0.9853962628445373,0.41970324516296387,500,PASS
+DropWave_5D,5,Adaptive,1,-0.07946552175577636,-1.0,0.9205344782442236,0.23598742485046387,500,PASS
+DropWave_5D,5,SmarterAdaptive,1,-0.18584340326878512,-1.0,0.8141565967312149,0.21662592887878418,500,PASS
+DropWave_5D,5,EvenSmarterAdaptive,1,-0.053938558948301095,-1.0,0.9460614410516989,0.23990249633789062,500,PASS
+DropWave_5D,5,GD,1,-1.3962431071724482e-12,-1.0,0.9999999999986038,0.03271651268005371,500,PASS
+DropWave_5D,5,Adam,1,-0.0,-1.0,1.0,0.04251813888549805,500,PASS
+DropWave_5D,5,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+DropWave_5D,5,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+DropWave_5D,5,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+DropWave_5D,5,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+DropWave_5D,5,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+DropWave_5D,5,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+DropWave_5D,5,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+DropWave_5D,5,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+DropWave_5D,5,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+DropWave_5D,5,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+DropWave_5D,5,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+DropWave_10D,10,LineSearchGD,1,-0.02600692357612655,-1.0,0.9739930764238734,0.8979806900024414,1000,PASS
+DropWave_10D,10,Adaptive,1,-0.0480740684228762,-1.0,0.9519259315771238,0.5073904991149902,1000,PASS
+DropWave_10D,10,SmarterAdaptive,1,-0.02926878207205339,-1.0,0.9707312179279466,0.5364809036254883,1000,PASS
+DropWave_10D,10,EvenSmarterAdaptive,1,-0.03520023349758904,-1.0,0.964799766502411,0.4569120407104492,1000,PASS
+DropWave_10D,10,GD,1,-0.0,-1.0,1.0,0.0676569938659668,1000,PASS
+DropWave_10D,10,Adam,1,-0.0,-1.0,1.0,0.07195615768432617,1000,PASS
+DropWave_10D,10,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+DropWave_10D,10,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+DropWave_10D,10,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+DropWave_10D,10,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+DropWave_10D,10,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+DropWave_10D,10,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+DropWave_10D,10,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+DropWave_10D,10,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+DropWave_10D,10,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+DropWave_10D,10,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+DropWave_10D,10,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+DropWave_20D,20,LineSearchGD,1,-0.009708082035102674,-1.0,0.9902919179648974,1.5800511837005615,2000,PASS
+DropWave_20D,20,Adaptive,1,-0.018272284256623004,-1.0,0.981727715743377,1.0558083057403564,2000,PASS
+DropWave_20D,20,SmarterAdaptive,1,-0.026845399785280513,-1.0,0.9731546002147194,1.040740966796875,2000,PASS
+DropWave_20D,20,EvenSmarterAdaptive,1,-0.022815403287667756,-1.0,0.9771845967123323,1.0504944324493408,2000,PASS
+DropWave_20D,20,GD,1,-0.0,-1.0,1.0,0.19646334648132324,2000,PASS
+DropWave_20D,20,Adam,1,-0.0,-1.0,1.0,0.22452163696289062,2000,PASS
+DropWave_20D,20,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+DropWave_20D,20,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+DropWave_20D,20,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+DropWave_20D,20,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+DropWave_20D,20,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+DropWave_20D,20,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+DropWave_20D,20,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+DropWave_20D,20,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+DropWave_20D,20,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+DropWave_20D,20,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+DropWave_20D,20,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+LunacekBiRastrigin_2D,2,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+LunacekBiRastrigin_2D,2,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+LunacekBiRastrigin_2D,2,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+LunacekBiRastrigin_2D,2,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+LunacekBiRastrigin_2D,2,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+LunacekBiRastrigin_2D,2,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+LunacekBiRastrigin_2D,2,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+LunacekBiRastrigin_5D,5,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+LunacekBiRastrigin_5D,5,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+LunacekBiRastrigin_5D,5,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+LunacekBiRastrigin_5D,5,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+LunacekBiRastrigin_5D,5,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+LunacekBiRastrigin_5D,5,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+LunacekBiRastrigin_5D,5,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+LunacekBiRastrigin_10D,10,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+LunacekBiRastrigin_10D,10,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+LunacekBiRastrigin_10D,10,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+LunacekBiRastrigin_10D,10,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+LunacekBiRastrigin_10D,10,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+LunacekBiRastrigin_10D,10,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+LunacekBiRastrigin_10D,10,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+LunacekBiRastrigin_20D,20,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+LunacekBiRastrigin_20D,20,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+LunacekBiRastrigin_20D,20,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+LunacekBiRastrigin_20D,20,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+LunacekBiRastrigin_20D,20,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+LunacekBiRastrigin_20D,20,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+LunacekBiRastrigin_20D,20,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+ShiftedSphere_2D,2,LineSearchGD,1,2.0872263254316986e-09,0.0,2.0872263254316986e-09,0.018386363983154297,200,PASS
+ShiftedSphere_2D,2,Adaptive,1,0.000253310964223389,0.0,0.000253310964223389,0.0967261791229248,200,PASS
+ShiftedSphere_2D,2,SmarterAdaptive,1,1.2363907482795469e-05,0.0,1.2363907482795469e-05,0.0954124927520752,200,PASS
+ShiftedSphere_2D,2,EvenSmarterAdaptive,1,0.006299241417766666,0.0,0.006299241417766666,0.09657979011535645,200,PASS
+ShiftedSphere_2D,2,GD,1,0.19612126014301445,0.0,0.19612126014301445,0.010189533233642578,200,PASS
+ShiftedSphere_2D,2,Adam,1,1.1679292780626125,0.0,1.1679292780626125,0.010775327682495117,200,PASS
+ShiftedSphere_2D,2,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedSphere_2D,2,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedSphere_2D,2,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedSphere_2D,2,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedSphere_2D,2,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedSphere_2D,2,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedSphere_2D,2,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedSphere_2D,2,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedSphere_2D,2,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedSphere_2D,2,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedSphere_2D,2,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedSphere_5D,5,LineSearchGD,1,1.5915268762833913e-28,0.0,1.5915268762833913e-28,0.05388689041137695,500,PASS
+ShiftedSphere_5D,5,Adaptive,1,0.0010055525505047978,0.0,0.0010055525505047978,0.2524588108062744,500,PASS
+ShiftedSphere_5D,5,SmarterAdaptive,1,0.005102854701277809,0.0,0.005102854701277809,0.23389077186584473,500,PASS
+ShiftedSphere_5D,5,EvenSmarterAdaptive,1,0.010724654010475046,0.0,0.010724654010475046,0.3209059238433838,500,PASS
+ShiftedSphere_5D,5,GD,1,1.5086031903846303e-08,0.0,1.5086031903846303e-08,0.028673410415649414,500,PASS
+ShiftedSphere_5D,5,Adam,1,10.449043002600993,0.0,10.449043002600993,0.028493165969848633,500,PASS
+ShiftedSphere_5D,5,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedSphere_5D,5,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+ShiftedSphere_5D,5,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+ShiftedSphere_5D,5,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+ShiftedSphere_5D,5,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+ShiftedSphere_5D,5,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+ShiftedSphere_5D,5,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+ShiftedSphere_5D,5,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+ShiftedSphere_5D,5,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+ShiftedSphere_5D,5,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+ShiftedSphere_5D,5,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+ShiftedSphere_10D,10,LineSearchGD,1,2.3665827156630354e-30,0.0,2.3665827156630354e-30,0.13678503036499023,1000,PASS
+ShiftedSphere_10D,10,Adaptive,1,0.045477095382039166,0.0,0.045477095382039166,0.5449142456054688,1000,PASS
+ShiftedSphere_10D,10,SmarterAdaptive,1,0.0050326675042528905,0.0,0.0050326675042528905,0.4768390655517578,1000,PASS
+ShiftedSphere_10D,10,EvenSmarterAdaptive,1,0.0011300043131939818,0.0,0.0011300043131939818,0.4810471534729004,1000,PASS
+ShiftedSphere_10D,10,GD,1,9.366324401899332e-24,0.0,9.366324401899332e-24,0.06070995330810547,1000,PASS
+ShiftedSphere_10D,10,Adam,1,16.706430507276455,0.0,16.706430507276455,0.05643510818481445,1000,PASS
+ShiftedSphere_10D,10,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedSphere_10D,10,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+ShiftedSphere_10D,10,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+ShiftedSphere_10D,10,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+ShiftedSphere_10D,10,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+ShiftedSphere_10D,10,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+ShiftedSphere_10D,10,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+ShiftedSphere_10D,10,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+ShiftedSphere_10D,10,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+ShiftedSphere_10D,10,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+ShiftedSphere_10D,10,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+ShiftedSphere_20D,20,LineSearchGD,1,9.466330862652142e-30,0.0,9.466330862652142e-30,0.18776917457580566,2000,PASS
+ShiftedSphere_20D,20,Adaptive,1,0.19877050393434378,0.0,0.19877050393434378,1.1468544006347656,2000,PASS
+ShiftedSphere_20D,20,SmarterAdaptive,1,0.004314717692416276,0.0,0.004314717692416276,1.0480766296386719,2000,PASS
+ShiftedSphere_20D,20,EvenSmarterAdaptive,1,0.00020241745411246105,0.0,0.00020241745411246105,1.0163664817810059,2000,PASS
+ShiftedSphere_20D,20,GD,1,4.909576245914679e-23,0.0,4.909576245914679e-23,0.13314390182495117,2000,PASS
+ShiftedSphere_20D,20,Adam,1,7.8655651107689435,0.0,7.8655651107689435,0.09568285942077637,2000,PASS
+ShiftedSphere_20D,20,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedSphere_20D,20,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+ShiftedSphere_20D,20,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+ShiftedSphere_20D,20,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+ShiftedSphere_20D,20,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+ShiftedSphere_20D,20,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+ShiftedSphere_20D,20,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+ShiftedSphere_20D,20,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+ShiftedSphere_20D,20,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+ShiftedSphere_20D,20,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+ShiftedSphere_20D,20,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+ShiftedRastrigin_2D,2,LineSearchGD,1,4.974790251873134,0.0,4.974790251873134,0.06362485885620117,200,PASS
+ShiftedRastrigin_2D,2,Adaptive,1,23.06049416623821,0.0,23.06049416623821,0.12307357788085938,200,PASS
+ShiftedRastrigin_2D,2,SmarterAdaptive,1,14.658773404405235,0.0,14.658773404405235,0.05354666709899902,200,PASS
+ShiftedRastrigin_2D,2,EvenSmarterAdaptive,1,10.377684554080743,0.0,10.377684554080743,0.049814701080322266,200,PASS
+ShiftedRastrigin_2D,2,GD,1,12.934937687293889,0.0,12.934937687293889,0.013477325439453125,200,PASS
+ShiftedRastrigin_2D,2,Adam,1,12.006190205384243,0.0,12.006190205384243,0.013368844985961914,200,PASS
+ShiftedRastrigin_2D,2,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedRastrigin_2D,2,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedRastrigin_2D,2,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedRastrigin_2D,2,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedRastrigin_2D,2,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedRastrigin_2D,2,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedRastrigin_2D,2,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedRastrigin_2D,2,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedRastrigin_2D,2,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedRastrigin_2D,2,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedRastrigin_2D,2,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedRastrigin_5D,5,LineSearchGD,1,22.8839521542955,0.0,22.8839521542955,0.16826248168945312,500,PASS
+ShiftedRastrigin_5D,5,Adaptive,1,193.80793185301263,0.0,193.80793185301263,0.35204219818115234,500,PASS
+ShiftedRastrigin_5D,5,SmarterAdaptive,1,16.07427932972567,0.0,16.07427932972567,0.12866425514221191,500,PASS
+ShiftedRastrigin_5D,5,EvenSmarterAdaptive,1,3.1549771052962754,0.0,3.1549771052962754,0.12712740898132324,500,PASS
+ShiftedRastrigin_5D,5,GD,1,17.909837908673254,0.0,17.909837908673254,0.05327248573303223,500,PASS
+ShiftedRastrigin_5D,5,Adam,1,13.993363298731786,0.0,13.993363298731786,0.0394289493560791,500,PASS
+ShiftedRastrigin_5D,5,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedRastrigin_5D,5,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+ShiftedRastrigin_5D,5,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+ShiftedRastrigin_5D,5,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+ShiftedRastrigin_5D,5,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+ShiftedRastrigin_5D,5,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+ShiftedRastrigin_5D,5,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+ShiftedRastrigin_5D,5,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+ShiftedRastrigin_5D,5,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+ShiftedRastrigin_5D,5,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+ShiftedRastrigin_5D,5,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+ShiftedRastrigin_10D,10,LineSearchGD,1,30.843655111729575,0.0,30.843655111729575,0.3089272975921631,1000,PASS
+ShiftedRastrigin_10D,10,Adaptive,1,296.4706965458921,0.0,296.4706965458921,0.6413900852203369,1000,PASS
+ShiftedRastrigin_10D,10,SmarterAdaptive,1,27.453902112532404,0.0,27.453902112532404,0.24565362930297852,1000,PASS
+ShiftedRastrigin_10D,10,EvenSmarterAdaptive,1,28.25237245557507,0.0,28.25237245557507,0.24882864952087402,1000,PASS
+ShiftedRastrigin_10D,10,GD,1,20.894146839493544,0.0,20.894146839493544,0.06643795967102051,1000,PASS
+ShiftedRastrigin_10D,10,Adam,1,48.75285763512653,0.0,48.75285763512653,0.06659317016601562,1000,PASS
+ShiftedRastrigin_10D,10,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedRastrigin_10D,10,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+ShiftedRastrigin_10D,10,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+ShiftedRastrigin_10D,10,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+ShiftedRastrigin_10D,10,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+ShiftedRastrigin_10D,10,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+ShiftedRastrigin_10D,10,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+ShiftedRastrigin_10D,10,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+ShiftedRastrigin_10D,10,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+ShiftedRastrigin_10D,10,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+ShiftedRastrigin_10D,10,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+ShiftedRastrigin_20D,20,LineSearchGD,1,107.45442075036203,0.0,107.45442075036203,0.7362258434295654,2000,PASS
+ShiftedRastrigin_20D,20,Adaptive,1,1089.4340890913063,0.0,1089.4340890913063,1.3320317268371582,2000,PASS
+ShiftedRastrigin_20D,20,SmarterAdaptive,1,92.67865100674213,0.0,92.67865100674213,0.5076007843017578,2000,PASS
+ShiftedRastrigin_20D,20,EvenSmarterAdaptive,1,57.12370779334569,0.0,57.12370779334569,0.5216190814971924,2000,PASS
+ShiftedRastrigin_20D,20,GD,1,63.67740640232995,0.0,63.67740640232995,0.09657526016235352,2000,PASS
+ShiftedRastrigin_20D,20,Adam,1,45.768046051386165,0.0,45.768046051386165,0.14773797988891602,2000,PASS
+ShiftedRastrigin_20D,20,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+ShiftedRastrigin_20D,20,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+ShiftedRastrigin_20D,20,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+ShiftedRastrigin_20D,20,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+ShiftedRastrigin_20D,20,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+ShiftedRastrigin_20D,20,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+ShiftedRastrigin_20D,20,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+ShiftedRastrigin_20D,20,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+ShiftedRastrigin_20D,20,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+ShiftedRastrigin_20D,20,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+ShiftedRastrigin_20D,20,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+HybridSphereRastrigin_2D,2,LineSearchGD,1,20.097057693290687,0.0,20.097057693290687,0.02171802520751953,200,PASS
+HybridSphereRastrigin_2D,2,Adaptive,1,47.82494789963012,0.0,47.82494789963012,0.0923914909362793,200,PASS
+HybridSphereRastrigin_2D,2,SmarterAdaptive,1,16.406579603183573,0.0,16.406579603183573,0.042546749114990234,200,PASS
+HybridSphereRastrigin_2D,2,EvenSmarterAdaptive,1,0.4857399499755939,0.0,0.4857399499755939,0.07085299491882324,200,PASS
+HybridSphereRastrigin_2D,2,GD,1,16.27765273830776,0.0,16.27765273830776,0.01104879379272461,200,PASS
+HybridSphereRastrigin_2D,2,Adam,1,28.581810680742844,0.0,28.581810680742844,0.010091543197631836,200,PASS
+HybridSphereRastrigin_2D,2,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+HybridSphereRastrigin_2D,2,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+HybridSphereRastrigin_2D,2,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+HybridSphereRastrigin_2D,2,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+HybridSphereRastrigin_2D,2,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+HybridSphereRastrigin_2D,2,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+HybridSphereRastrigin_2D,2,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+HybridSphereRastrigin_2D,2,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+HybridSphereRastrigin_2D,2,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+HybridSphereRastrigin_2D,2,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+HybridSphereRastrigin_2D,2,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+HybridSphereRastrigin_5D,5,LineSearchGD,1,7550.677261098488,0.0,7550.677261098488,0.04812741279602051,500,PASS
+HybridSphereRastrigin_5D,5,Adaptive,1,101.6586670326945,0.0,101.6586670326945,0.23884129524230957,500,PASS
+HybridSphereRastrigin_5D,5,SmarterAdaptive,1,13.941397146204388,0.0,13.941397146204388,0.10735774040222168,500,PASS
+HybridSphereRastrigin_5D,5,EvenSmarterAdaptive,1,34.75816823064566,0.0,34.75816823064566,0.10329055786132812,500,PASS
+HybridSphereRastrigin_5D,5,GD,1,19.899086222451693,0.0,19.899086222451693,0.024469614028930664,500,PASS
+HybridSphereRastrigin_5D,5,Adam,1,32.10564778329852,0.0,32.10564778329852,0.026348352432250977,500,PASS
+HybridSphereRastrigin_5D,5,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+HybridSphereRastrigin_5D,5,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+HybridSphereRastrigin_5D,5,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+HybridSphereRastrigin_5D,5,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+HybridSphereRastrigin_5D,5,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+HybridSphereRastrigin_5D,5,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+HybridSphereRastrigin_5D,5,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+HybridSphereRastrigin_5D,5,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+HybridSphereRastrigin_5D,5,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+HybridSphereRastrigin_5D,5,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+HybridSphereRastrigin_5D,5,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+HybridSphereRastrigin_10D,10,LineSearchGD,1,45.76775697465116,0.0,45.76775697465116,0.29903459548950195,1000,PASS
+HybridSphereRastrigin_10D,10,Adaptive,1,307.74039346690796,0.0,307.74039346690796,0.5656991004943848,1000,PASS
+HybridSphereRastrigin_10D,10,SmarterAdaptive,1,63.831385211822315,0.0,63.831385211822315,0.23795533180236816,1000,PASS
+HybridSphereRastrigin_10D,10,EvenSmarterAdaptive,1,35.51627785277606,0.0,35.51627785277606,0.21572017669677734,1000,PASS
+HybridSphereRastrigin_10D,10,GD,1,61.687086003904525,0.0,61.687086003904525,0.05414271354675293,1000,PASS
+HybridSphereRastrigin_10D,10,Adam,1,77.71936606784419,0.0,77.71936606784419,0.05937314033508301,1000,PASS
+HybridSphereRastrigin_10D,10,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+HybridSphereRastrigin_10D,10,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+HybridSphereRastrigin_10D,10,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+HybridSphereRastrigin_10D,10,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+HybridSphereRastrigin_10D,10,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+HybridSphereRastrigin_10D,10,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+HybridSphereRastrigin_10D,10,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+HybridSphereRastrigin_10D,10,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+HybridSphereRastrigin_10D,10,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+HybridSphereRastrigin_10D,10,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+HybridSphereRastrigin_10D,10,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+HybridSphereRastrigin_20D,20,LineSearchGD,1,129.34364911917115,0.0,129.34364911917115,0.48782849311828613,2000,PASS
+HybridSphereRastrigin_20D,20,Adaptive,1,556.6811634644595,0.0,556.6811634644595,1.030437707901001,2000,PASS
+HybridSphereRastrigin_20D,20,SmarterAdaptive,1,117.13572650002963,0.0,117.13572650002963,0.41324353218078613,2000,PASS
+HybridSphereRastrigin_20D,20,EvenSmarterAdaptive,1,92.35801435815004,0.0,92.35801435815004,0.4127976894378662,2000,PASS
+HybridSphereRastrigin_20D,20,GD,1,40.79462325334325,0.0,40.79462325334325,0.10083508491516113,2000,PASS
+HybridSphereRastrigin_20D,20,Adam,1,117.64623015681943,0.0,117.64623015681943,0.1048579216003418,2000,PASS
+HybridSphereRastrigin_20D,20,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+HybridSphereRastrigin_20D,20,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+HybridSphereRastrigin_20D,20,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+HybridSphereRastrigin_20D,20,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+HybridSphereRastrigin_20D,20,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+HybridSphereRastrigin_20D,20,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+HybridSphereRastrigin_20D,20,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+HybridSphereRastrigin_20D,20,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+HybridSphereRastrigin_20D,20,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+HybridSphereRastrigin_20D,20,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+HybridSphereRastrigin_20D,20,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Ellipsoid_2D,2,LineSearchGD,1,10.389122966156364,0.0,10.389122966156364,0.08929920196533203,200,PASS
+Ellipsoid_2D,2,Adaptive,1,115742520.42784572,0.0,115742520.42784572,0.07537364959716797,200,PASS
+Ellipsoid_2D,2,SmarterAdaptive,1,809.4040758005125,0.0,809.4040758005125,0.030847549438476562,200,PASS
+Ellipsoid_2D,2,EvenSmarterAdaptive,1,1631.842876343226,0.0,1631.842876343226,0.03565859794616699,200,PASS
+Ellipsoid_2D,2,GD,1,793085.4581039329,0.0,793085.4581039329,0.007729768753051758,200,PASS
+Ellipsoid_2D,2,Adam,1,11732037.12968373,0.0,11732037.12968373,0.007310152053833008,200,PASS
+Ellipsoid_2D,2,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ellipsoid_2D,2,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ellipsoid_2D,2,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ellipsoid_2D,2,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ellipsoid_2D,2,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ellipsoid_2D,2,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ellipsoid_2D,2,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ellipsoid_2D,2,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ellipsoid_2D,2,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ellipsoid_2D,2,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ellipsoid_2D,2,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ellipsoid_5D,5,LineSearchGD,1,51.35272927637972,0.0,51.35272927637972,0.21700596809387207,500,PASS
+Ellipsoid_5D,5,Adaptive,1,36688952.943762675,0.0,36688952.943762675,0.19772934913635254,500,PASS
+Ellipsoid_5D,5,SmarterAdaptive,1,3584.143604811762,0.0,3584.143604811762,0.08621525764465332,500,PASS
+Ellipsoid_5D,5,EvenSmarterAdaptive,1,8399.552301342828,0.0,8399.552301342828,0.08137321472167969,500,PASS
+Ellipsoid_5D,5,GD,1,363.98992767539465,0.0,363.98992767539465,0.019098997116088867,500,PASS
+Ellipsoid_5D,5,Adam,1,2433872.8415833777,0.0,2433872.8415833777,0.02050638198852539,500,PASS
+Ellipsoid_5D,5,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ellipsoid_5D,5,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Ellipsoid_5D,5,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Ellipsoid_5D,5,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Ellipsoid_5D,5,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Ellipsoid_5D,5,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Ellipsoid_5D,5,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Ellipsoid_5D,5,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Ellipsoid_5D,5,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Ellipsoid_5D,5,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Ellipsoid_5D,5,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Ellipsoid_10D,10,LineSearchGD,1,111.11798987903474,0.0,111.11798987903474,0.44019579887390137,1000,PASS
+Ellipsoid_10D,10,Adaptive,1,78606512.82940382,0.0,78606512.82940382,0.4005765914916992,1000,PASS
+Ellipsoid_10D,10,SmarterAdaptive,1,5383.915260951208,0.0,5383.915260951208,0.16724133491516113,1000,PASS
+Ellipsoid_10D,10,EvenSmarterAdaptive,1,5656.3128172581055,0.0,5656.3128172581055,0.16396522521972656,1000,PASS
+Ellipsoid_10D,10,GD,1,18645.244982381664,0.0,18645.244982381664,0.03763628005981445,1000,PASS
+Ellipsoid_10D,10,Adam,1,260420.23914380162,0.0,260420.23914380162,0.04109311103820801,1000,PASS
+Ellipsoid_10D,10,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ellipsoid_10D,10,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Ellipsoid_10D,10,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Ellipsoid_10D,10,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Ellipsoid_10D,10,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Ellipsoid_10D,10,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Ellipsoid_10D,10,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Ellipsoid_10D,10,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Ellipsoid_10D,10,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Ellipsoid_10D,10,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Ellipsoid_10D,10,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Ellipsoid_20D,20,LineSearchGD,1,49.048476264181495,0.0,49.048476264181495,0.9163472652435303,2000,PASS
+Ellipsoid_20D,20,Adaptive,1,119205864.12807593,0.0,119205864.12807593,0.9156417846679688,2000,PASS
+Ellipsoid_20D,20,SmarterAdaptive,1,5301.9432503117805,0.0,5301.9432503117805,0.3977982997894287,2000,PASS
+Ellipsoid_20D,20,EvenSmarterAdaptive,1,2319.624685896753,0.0,2319.624685896753,0.20297646522521973,2000,PASS
+Ellipsoid_20D,20,GD,1,325.1992818017436,0.0,325.1992818017436,0.04029345512390137,2000,PASS
+Ellipsoid_20D,20,Adam,1,12779660.881580256,0.0,12779660.881580256,0.08596944808959961,2000,PASS
+Ellipsoid_20D,20,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Ellipsoid_20D,20,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Ellipsoid_20D,20,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Ellipsoid_20D,20,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Ellipsoid_20D,20,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Ellipsoid_20D,20,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Ellipsoid_20D,20,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Ellipsoid_20D,20,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Ellipsoid_20D,20,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Ellipsoid_20D,20,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Ellipsoid_20D,20,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Discus_2D,2,LineSearchGD,1,0.6890131131949134,0.0,0.6890131131949134,0.05026602745056152,200,PASS
+Discus_2D,2,Adaptive,1,1866978.0794850881,0.0,1866978.0794850881,0.0667579174041748,200,PASS
+Discus_2D,2,SmarterAdaptive,1,2979.188771373925,0.0,2979.188771373925,0.021887540817260742,200,PASS
+Discus_2D,2,EvenSmarterAdaptive,1,1168.4846601899387,0.0,1168.4846601899387,0.023937225341796875,200,PASS
+Discus_2D,2,GD,1,86149.99963201115,0.0,86149.99963201115,0.004703044891357422,200,PASS
+Discus_2D,2,Adam,1,40.59877687215106,0.0,40.59877687215106,0.00560450553894043,200,PASS
+Discus_2D,2,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Discus_2D,2,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Discus_2D,2,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Discus_2D,2,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Discus_2D,2,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Discus_2D,2,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Discus_2D,2,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Discus_2D,2,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Discus_2D,2,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Discus_2D,2,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Discus_2D,2,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Discus_5D,5,LineSearchGD,1,6.953845231151565,0.0,6.953845231151565,0.12114763259887695,500,PASS
+Discus_5D,5,Adaptive,1,5699.259546515118,0.0,5699.259546515118,0.11731576919555664,500,PASS
+Discus_5D,5,SmarterAdaptive,1,685.7903529344659,0.0,685.7903529344659,0.052773237228393555,500,PASS
+Discus_5D,5,EvenSmarterAdaptive,1,1513.8987929396662,0.0,1513.8987929396662,0.05234861373901367,500,PASS
+Discus_5D,5,GD,1,39.60545277031918,0.0,39.60545277031918,0.012158632278442383,500,PASS
+Discus_5D,5,Adam,1,10328.771978764327,0.0,10328.771978764327,0.023613691329956055,500,PASS
+Discus_5D,5,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Discus_5D,5,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Discus_5D,5,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Discus_5D,5,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Discus_5D,5,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Discus_5D,5,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Discus_5D,5,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Discus_5D,5,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Discus_5D,5,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Discus_5D,5,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Discus_5D,5,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Discus_10D,10,LineSearchGD,1,18.89727095958673,0.0,18.89727095958673,0.2668170928955078,1000,PASS
+Discus_10D,10,Adaptive,1,81215990.82874726,0.0,81215990.82874726,0.255281925201416,1000,PASS
+Discus_10D,10,SmarterAdaptive,1,590.8959219065986,0.0,590.8959219065986,0.17330551147460938,1000,PASS
+Discus_10D,10,EvenSmarterAdaptive,1,1217.6298425472446,0.0,1217.6298425472446,0.12274599075317383,1000,PASS
+Discus_10D,10,GD,1,91.50665348145678,0.0,91.50665348145678,0.026247262954711914,1000,PASS
+Discus_10D,10,Adam,1,70.34578584664534,0.0,70.34578584664534,0.029102087020874023,1000,PASS
+Discus_10D,10,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Discus_10D,10,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Discus_10D,10,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Discus_10D,10,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Discus_10D,10,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Discus_10D,10,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Discus_10D,10,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Discus_10D,10,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Discus_10D,10,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Discus_10D,10,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Discus_10D,10,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Discus_20D,20,LineSearchGD,1,0.4679024906907661,0.0,0.4679024906907661,0.5172064304351807,2000,PASS
+Discus_20D,20,Adaptive,1,7335983.207379981,0.0,7335983.207379981,0.5259535312652588,2000,PASS
+Discus_20D,20,SmarterAdaptive,1,5133.023198435442,0.0,5133.023198435442,0.23502254486083984,2000,PASS
+Discus_20D,20,EvenSmarterAdaptive,1,1974.371224102526,0.0,1974.371224102526,0.2749919891357422,2000,PASS
+Discus_20D,20,GD,1,120.37494626882415,0.0,120.37494626882415,0.05115818977355957,2000,PASS
+Discus_20D,20,Adam,1,4476315.962905718,0.0,4476315.962905718,0.08621501922607422,2000,PASS
+Discus_20D,20,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Discus_20D,20,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Discus_20D,20,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Discus_20D,20,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Discus_20D,20,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Discus_20D,20,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Discus_20D,20,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Discus_20D,20,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Discus_20D,20,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Discus_20D,20,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Discus_20D,20,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Zakharov_2D,2,LineSearchGD,1,0.4794247170781805,0.0,0.4794247170781805,0.025824546813964844,200,PASS
+Zakharov_2D,2,Adaptive,1,6595.660737763536,0.0,6595.660737763536,0.11450600624084473,200,PASS
+Zakharov_2D,2,SmarterAdaptive,1,0.01063197603911714,0.0,0.01063197603911714,0.10180163383483887,200,PASS
+Zakharov_2D,2,EvenSmarterAdaptive,1,7.920351692879501e-05,0.0,7.920351692879501e-05,0.10806870460510254,200,PASS
+Zakharov_2D,2,GD,1,79.49185253944333,0.0,79.49185253944333,0.01613593101501465,200,PASS
+Zakharov_2D,2,Adam,1,698.9296421357701,0.0,698.9296421357701,0.012266159057617188,200,PASS
+Zakharov_2D,2,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Zakharov_2D,2,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Zakharov_2D,2,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Zakharov_2D,2,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Zakharov_2D,2,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Zakharov_2D,2,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Zakharov_2D,2,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Zakharov_2D,2,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Zakharov_2D,2,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Zakharov_2D,2,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Zakharov_2D,2,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Zakharov_5D,5,LineSearchGD,1,ERROR,ERROR,Non-finite or unsafe objective value encountered.,0.0,500,FAIL
+Zakharov_5D,5,Adaptive,1,13268458.605018001,0.0,13268458.605018001,0.2822287082672119,500,PASS
+Zakharov_5D,5,SmarterAdaptive,1,0.00842484642630864,0.0,0.00842484642630864,0.23129677772521973,500,PASS
+Zakharov_5D,5,EvenSmarterAdaptive,1,0.029883700189798062,0.0,0.029883700189798062,0.25830984115600586,500,PASS
+Zakharov_5D,5,GD,1,246682.20854106784,0.0,246682.20854106784,0.026686429977416992,500,PASS
+Zakharov_5D,5,Adam,1,125343.4890180277,0.0,125343.4890180277,0.029660701751708984,500,PASS
+Zakharov_5D,5,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Zakharov_5D,5,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Zakharov_5D,5,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Zakharov_5D,5,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Zakharov_5D,5,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Zakharov_5D,5,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Zakharov_5D,5,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Zakharov_5D,5,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Zakharov_5D,5,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Zakharov_5D,5,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Zakharov_5D,5,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Zakharov_10D,10,LineSearchGD,1,ERROR,ERROR,Non-finite or unsafe objective value encountered.,0.0,1000,FAIL
+Zakharov_10D,10,Adaptive,1,674407291.8536146,0.0,674407291.8536146,0.5476069450378418,1000,PASS
+Zakharov_10D,10,SmarterAdaptive,1,0.22187572886969428,0.0,0.22187572886969428,0.34253525733947754,1000,PASS
+Zakharov_10D,10,EvenSmarterAdaptive,1,0.47922224620266796,0.0,0.47922224620266796,0.21472644805908203,1000,PASS
+Zakharov_10D,10,GD,1,108.0565935110029,0.0,108.0565935110029,0.025893688201904297,1000,PASS
+Zakharov_10D,10,Adam,1,106522.4760724461,0.0,106522.4760724461,0.03541827201843262,1000,PASS
+Zakharov_10D,10,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Zakharov_10D,10,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Zakharov_10D,10,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Zakharov_10D,10,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Zakharov_10D,10,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Zakharov_10D,10,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Zakharov_10D,10,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Zakharov_10D,10,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Zakharov_10D,10,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Zakharov_10D,10,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Zakharov_10D,10,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Zakharov_20D,20,LineSearchGD,1,0.01087984361577451,0.0,0.01087984361577451,0.7920951843261719,2000,PASS
+Zakharov_20D,20,Adaptive,1,471251588.07242715,0.0,471251588.07242715,1.0595390796661377,2000,PASS
+Zakharov_20D,20,SmarterAdaptive,1,10.66734287374412,0.0,10.66734287374412,0.22359275817871094,2000,PASS
+Zakharov_20D,20,EvenSmarterAdaptive,1,17.878589480461663,0.0,17.878589480461663,0.2022538185119629,2000,PASS
+Zakharov_20D,20,GD,1,141.35983153553423,0.0,141.35983153553423,0.046205759048461914,2000,PASS
+Zakharov_20D,20,Adam,1,181854065.6160102,0.0,181854065.6160102,0.1234586238861084,2000,PASS
+Zakharov_20D,20,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Zakharov_20D,20,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Zakharov_20D,20,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Zakharov_20D,20,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Zakharov_20D,20,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Zakharov_20D,20,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Zakharov_20D,20,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Zakharov_20D,20,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Zakharov_20D,20,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Zakharov_20D,20,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Zakharov_20D,20,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+StyblinskiTang_2D,2,LineSearchGD,1,-64.19561233848476,-78.332332,14.13671966151523,0.03191328048706055,200,PASS
+StyblinskiTang_2D,2,Adaptive,1,-64.12835027105321,-78.332332,14.203981728946786,0.0794377326965332,200,PASS
+StyblinskiTang_2D,2,SmarterAdaptive,1,-78.27532661045313,-78.332332,0.057005389546858964,0.04914665222167969,200,PASS
+StyblinskiTang_2D,2,EvenSmarterAdaptive,1,-50.051022750984174,-78.332332,28.28130924901582,0.05717897415161133,200,PASS
+StyblinskiTang_2D,2,GD,1,-64.19523572718134,-78.332332,14.137096272818653,0.008321285247802734,200,PASS
+StyblinskiTang_2D,2,Adam,1,-46.13969753842789,-78.332332,32.192634461572105,0.010861635208129883,200,PASS
+StyblinskiTang_2D,2,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+StyblinskiTang_2D,2,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+StyblinskiTang_2D,2,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+StyblinskiTang_2D,2,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+StyblinskiTang_2D,2,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+StyblinskiTang_2D,2,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+StyblinskiTang_2D,2,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+StyblinskiTang_2D,2,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+StyblinskiTang_2D,2,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+StyblinskiTang_2D,2,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+StyblinskiTang_2D,2,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+StyblinskiTang_5D,5,LineSearchGD,1,-125.14723327641954,-195.83083,70.68359672358045,0.06351089477539062,500,PASS
+StyblinskiTang_5D,5,Adaptive,1,7058.279397067089,-195.83083,7254.110227067089,0.1939682960510254,500,PASS
+StyblinskiTang_5D,5,SmarterAdaptive,1,-167.4846633304551,-195.83083,28.346166669544886,0.18719482421875,500,PASS
+StyblinskiTang_5D,5,EvenSmarterAdaptive,1,-167.54221986817168,-195.83083,28.288610131828307,0.1510295867919922,500,PASS
+StyblinskiTang_5D,5,GD,1,-167.55733130746776,-195.83083,28.27349869253223,0.019275903701782227,500,PASS
+StyblinskiTang_5D,5,Adam,1,-84.0846434785752,-195.83083,111.74618652142479,0.01992487907409668,500,PASS
+StyblinskiTang_5D,5,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+StyblinskiTang_5D,5,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+StyblinskiTang_5D,5,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+StyblinskiTang_5D,5,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+StyblinskiTang_5D,5,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+StyblinskiTang_5D,5,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+StyblinskiTang_5D,5,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+StyblinskiTang_5D,5,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+StyblinskiTang_5D,5,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+StyblinskiTang_5D,5,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+StyblinskiTang_5D,5,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+StyblinskiTang_10D,10,LineSearchGD,1,-288.13649968452796,-391.66166,103.52516031547202,0.13527965545654297,1000,PASS
+StyblinskiTang_10D,10,Adaptive,1,5297.540560392941,-391.66166,5689.202220392941,0.4399704933166504,1000,PASS
+StyblinskiTang_10D,10,SmarterAdaptive,1,-363.37338676237675,-391.66166,28.28827323762323,0.37980031967163086,1000,PASS
+StyblinskiTang_10D,10,EvenSmarterAdaptive,1,-349.23641273524544,-391.66166,42.425247264754546,0.38193655014038086,1000,PASS
+StyblinskiTang_10D,10,GD,1,-306.8413162030374,-391.66166,84.82034379696256,0.044896841049194336,1000,PASS
+StyblinskiTang_10D,10,Adam,1,-231.0003753957832,-391.66166,160.66128460421677,0.047266244888305664,1000,PASS
+StyblinskiTang_10D,10,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+StyblinskiTang_10D,10,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+StyblinskiTang_10D,10,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+StyblinskiTang_10D,10,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+StyblinskiTang_10D,10,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+StyblinskiTang_10D,10,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+StyblinskiTang_10D,10,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+StyblinskiTang_10D,10,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+StyblinskiTang_10D,10,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+StyblinskiTang_10D,10,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+StyblinskiTang_10D,10,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+StyblinskiTang_20D,20,LineSearchGD,1,-641.9561235905531,-783.32332,141.36719640944682,0.28209471702575684,2000,PASS
+StyblinskiTang_20D,20,Adaptive,1,18078.937222163142,-783.32332,18862.26054216314,0.938528299331665,2000,PASS
+StyblinskiTang_20D,20,SmarterAdaptive,1,-684.3141672619436,-783.32332,99.0091527380564,0.43379712104797363,2000,PASS
+StyblinskiTang_20D,20,EvenSmarterAdaptive,1,-656.0799861153174,-783.32332,127.24333388468256,0.3433501720428467,2000,PASS
+StyblinskiTang_20D,20,GD,1,-684.3662744592895,-783.32332,98.95704554071051,0.03471207618713379,2000,PASS
+StyblinskiTang_20D,20,Adam,1,-657.74274645212,-783.32332,125.58057354788002,0.04224205017089844,2000,PASS
+StyblinskiTang_20D,20,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+StyblinskiTang_20D,20,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+StyblinskiTang_20D,20,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+StyblinskiTang_20D,20,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+StyblinskiTang_20D,20,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+StyblinskiTang_20D,20,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+StyblinskiTang_20D,20,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+StyblinskiTang_20D,20,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+StyblinskiTang_20D,20,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+StyblinskiTang_20D,20,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+StyblinskiTang_20D,20,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Step_2D,2,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Step_2D,2,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Step_2D,2,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Step_2D,2,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Step_2D,2,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Step_2D,2,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Step_2D,2,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Step_5D,5,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Step_5D,5,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Step_5D,5,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Step_5D,5,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Step_5D,5,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Step_5D,5,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Step_5D,5,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Step_10D,10,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Step_10D,10,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Step_10D,10,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Step_10D,10,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Step_10D,10,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Step_10D,10,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Step_10D,10,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Step_20D,20,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Step_20D,20,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Step_20D,20,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Step_20D,20,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Step_20D,20,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Step_20D,20,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Step_20D,20,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+QuarticNoise_2D,2,LineSearchGD,1,1.1313849871056523,0.0,1.1313849871056523,0.025544166564941406,200,PASS
+QuarticNoise_2D,2,Adaptive,1,0.8811750279100884,0.0,0.8811750279100884,0.08221626281738281,200,PASS
+QuarticNoise_2D,2,SmarterAdaptive,1,0.527688476565047,0.0,0.527688476565047,0.06316637992858887,200,PASS
+QuarticNoise_2D,2,EvenSmarterAdaptive,1,0.9671462499694841,0.0,0.9671462499694841,0.06902861595153809,200,PASS
+QuarticNoise_2D,2,GD,1,0.030336186684971903,0.0,0.030336186684971903,0.012987852096557617,200,PASS
+QuarticNoise_2D,2,Adam,1,1.1826350350134582,0.0,1.1826350350134582,0.007694721221923828,200,PASS
+QuarticNoise_2D,2,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+QuarticNoise_2D,2,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+QuarticNoise_2D,2,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+QuarticNoise_2D,2,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+QuarticNoise_2D,2,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+QuarticNoise_2D,2,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+QuarticNoise_2D,2,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+QuarticNoise_2D,2,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+QuarticNoise_2D,2,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+QuarticNoise_2D,2,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+QuarticNoise_2D,2,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+QuarticNoise_5D,5,LineSearchGD,1,0.5330269258837909,0.0,0.5330269258837909,0.0590667724609375,500,PASS
+QuarticNoise_5D,5,Adaptive,1,2794.549300927024,0.0,2794.549300927024,0.20000863075256348,500,PASS
+QuarticNoise_5D,5,SmarterAdaptive,1,0.3327573258099636,0.0,0.3327573258099636,0.13614535331726074,500,PASS
+QuarticNoise_5D,5,EvenSmarterAdaptive,1,0.4120039260280047,0.0,0.4120039260280047,0.15173101425170898,500,PASS
+QuarticNoise_5D,5,GD,1,0.9408516293261844,0.0,0.9408516293261844,0.019492626190185547,500,PASS
+QuarticNoise_5D,5,Adam,1,1.7752591624193628,0.0,1.7752591624193628,0.01926398277282715,500,PASS
+QuarticNoise_5D,5,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+QuarticNoise_5D,5,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+QuarticNoise_5D,5,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+QuarticNoise_5D,5,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+QuarticNoise_5D,5,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+QuarticNoise_5D,5,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+QuarticNoise_5D,5,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+QuarticNoise_5D,5,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+QuarticNoise_5D,5,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+QuarticNoise_5D,5,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+QuarticNoise_5D,5,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+QuarticNoise_10D,10,LineSearchGD,1,0.26800372562724833,0.0,0.26800372562724833,0.1210322380065918,1000,PASS
+QuarticNoise_10D,10,Adaptive,1,55128.64688476684,0.0,55128.64688476684,0.5837996006011963,1000,PASS
+QuarticNoise_10D,10,SmarterAdaptive,1,0.7320578877367728,0.0,0.7320578877367728,0.310563325881958,1000,PASS
+QuarticNoise_10D,10,EvenSmarterAdaptive,1,1.1711668194608165,0.0,1.1711668194608165,0.2719578742980957,1000,PASS
+QuarticNoise_10D,10,GD,1,0.7389741789738096,0.0,0.7389741789738096,0.03861641883850098,1000,PASS
+QuarticNoise_10D,10,Adam,1,1.8689718781796758,0.0,1.8689718781796758,0.061704397201538086,1000,PASS
+QuarticNoise_10D,10,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+QuarticNoise_10D,10,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+QuarticNoise_10D,10,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+QuarticNoise_10D,10,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+QuarticNoise_10D,10,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+QuarticNoise_10D,10,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+QuarticNoise_10D,10,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+QuarticNoise_10D,10,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+QuarticNoise_10D,10,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+QuarticNoise_10D,10,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+QuarticNoise_10D,10,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+QuarticNoise_20D,20,LineSearchGD,1,0.8172645660592927,0.0,0.8172645660592927,0.24312591552734375,2000,PASS
+QuarticNoise_20D,20,Adaptive,1,292063.1644968124,0.0,292063.1644968124,0.8630077838897705,2000,PASS
+QuarticNoise_20D,20,SmarterAdaptive,1,2.252611044123338,0.0,2.252611044123338,0.5554890632629395,2000,PASS
+QuarticNoise_20D,20,EvenSmarterAdaptive,1,1.0745834183772673,0.0,1.0745834183772673,0.534151554107666,2000,PASS
+QuarticNoise_20D,20,GD,1,0.3855546474213203,0.0,0.3855546474213203,0.13358139991760254,2000,PASS
+QuarticNoise_20D,20,Adam,1,1.6440933176775183,0.0,1.6440933176775183,0.08692121505737305,2000,PASS
+QuarticNoise_20D,20,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+QuarticNoise_20D,20,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+QuarticNoise_20D,20,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+QuarticNoise_20D,20,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+QuarticNoise_20D,20,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+QuarticNoise_20D,20,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+QuarticNoise_20D,20,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+QuarticNoise_20D,20,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+QuarticNoise_20D,20,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+QuarticNoise_20D,20,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+QuarticNoise_20D,20,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Branin2D_2D,2,LineSearchGD,1,8.754115552833063,0.397887,8.356228552833063,0.058356523513793945,200,PASS
+Branin2D_2D,2,Adaptive,1,0.4001686310824635,0.397887,0.0022816310824634867,0.09456467628479004,200,PASS
+Branin2D_2D,2,SmarterAdaptive,1,0.4001346213227439,0.397887,0.00224762132274392,0.05743241310119629,200,PASS
+Branin2D_2D,2,EvenSmarterAdaptive,1,0.3983017851185586,0.397887,0.000414785118558636,0.04278445243835449,200,PASS
+Branin2D_2D,2,GD,1,19.602395829043715,0.397887,19.204508829043714,0.005074024200439453,200,PASS
+Branin2D_2D,2,Adam,1,21.084731882710706,0.397887,20.686844882710705,0.007431983947753906,200,PASS
+Branin2D_2D,2,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Branin2D_2D,2,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Branin2D_2D,2,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Branin2D_2D,2,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Branin2D_2D,2,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Branin2D_2D,2,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Branin2D_2D,2,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Branin2D_2D,2,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Branin2D_2D,2,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Branin2D_2D,2,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Branin2D_2D,2,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Branin2D_5D,5,LineSearchGD,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,) (2,) ",0.0,500,FAIL
+Branin2D_5D,5,Adaptive,1,0.40307320087381093,0.397887,0.005186200873810942,0.09489250183105469,500,PASS
+Branin2D_5D,5,SmarterAdaptive,1,ERROR,ERROR,"setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (5,) + inhomogeneous part.",0.0,500,FAIL
+Branin2D_5D,5,EvenSmarterAdaptive,1,ERROR,ERROR,"setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (5,) + inhomogeneous part.",0.0,500,FAIL
+Branin2D_5D,5,GD,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,) (2,) ",0.0,500,FAIL
+Branin2D_5D,5,Adam,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,) (2,) ",0.0,500,FAIL
+Branin2D_5D,5,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Branin2D_5D,5,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Branin2D_5D,5,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Branin2D_5D,5,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Branin2D_5D,5,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Branin2D_5D,5,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Branin2D_5D,5,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Branin2D_5D,5,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Branin2D_5D,5,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Branin2D_5D,5,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Branin2D_5D,5,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,500,FAIL
+Branin2D_10D,10,LineSearchGD,1,ERROR,ERROR,"operands could not be broadcast together with shapes (10,) (2,) ",0.0,1000,FAIL
+Branin2D_10D,10,Adaptive,1,0.3982061374179775,0.397887,0.00031913741797751083,0.18199491500854492,1000,PASS
+Branin2D_10D,10,SmarterAdaptive,1,ERROR,ERROR,"setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (10,) + inhomogeneous part.",0.0,1000,FAIL
+Branin2D_10D,10,EvenSmarterAdaptive,1,ERROR,ERROR,"setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (5,) + inhomogeneous part.",0.0,1000,FAIL
+Branin2D_10D,10,GD,1,ERROR,ERROR,"operands could not be broadcast together with shapes (10,) (2,) ",0.0,1000,FAIL
+Branin2D_10D,10,Adam,1,ERROR,ERROR,"operands could not be broadcast together with shapes (10,) (2,) ",0.0,1000,FAIL
+Branin2D_10D,10,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Branin2D_10D,10,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Branin2D_10D,10,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Branin2D_10D,10,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Branin2D_10D,10,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Branin2D_10D,10,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Branin2D_10D,10,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Branin2D_10D,10,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Branin2D_10D,10,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Branin2D_10D,10,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Branin2D_10D,10,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,1000,FAIL
+Branin2D_20D,20,LineSearchGD,1,ERROR,ERROR,"operands could not be broadcast together with shapes (20,) (2,) ",0.0,2000,FAIL
+Branin2D_20D,20,Adaptive,1,19.14105828166375,0.397887,18.74317128166375,0.2933235168457031,2000,PASS
+Branin2D_20D,20,SmarterAdaptive,1,ERROR,ERROR,"setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (5,) + inhomogeneous part.",0.0,2000,FAIL
+Branin2D_20D,20,EvenSmarterAdaptive,1,ERROR,ERROR,"setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (5,) + inhomogeneous part.",0.0,2000,FAIL
+Branin2D_20D,20,GD,1,ERROR,ERROR,"operands could not be broadcast together with shapes (20,) (2,) ",0.0,2000,FAIL
+Branin2D_20D,20,Adam,1,ERROR,ERROR,"operands could not be broadcast together with shapes (20,) (2,) ",0.0,2000,FAIL
+Branin2D_20D,20,CMA-ES,1,ERROR,ERROR,'float' object is not subscriptable,0.0,200,FAIL
+Branin2D_20D,20,Nevergrad,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Branin2D_20D,20,L-BFGS-B,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Branin2D_20D,20,Nelder-Mead,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Branin2D_20D,20,Powell,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Branin2D_20D,20,COBYLA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Branin2D_20D,20,PSO,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Branin2D_20D,20,DE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Branin2D_20D,20,BOBYQA,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Branin2D_20D,20,TwoPointsDE,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL
+Branin2D_20D,20,NGOpt,1,ERROR,ERROR,'float' object is not subscriptable,0.0,2000,FAIL

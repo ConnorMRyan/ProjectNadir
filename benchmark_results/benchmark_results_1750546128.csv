@@ -1,0 +1,1213 @@
+function_name,dim,optimizer,trial,final_val,true_min_val,error,runtime_s,iterations,status
+Sphere_2D,2,LineSearchGD,1,3.1498346337029425e-09,0.0,3.1498346337029425e-09,0.007067203521728516,200,PASS
+Sphere_2D,2,Adaptive,1,0.0040779058673697174,0.0,0.0040779058673697174,0.05399799346923828,200,PASS
+Sphere_2D,2,SmarterAdaptive,1,2.9517713716278647e-06,0.0,2.9517713716278647e-06,0.06343936920166016,200,PASS
+Sphere_2D,2,EvenSmarterAdaptive,1,0.0007051647986739389,0.0,0.0007051647986739389,0.037468671798706055,200,PASS
+Sphere_2D,2,GD,1,5.3581387049461195,0.0,5.3581387049461195,0.004435300827026367,200,PASS
+Sphere_2D,2,Adam,1,7.979497017121455,0.0,7.979497017121455,0.0066792964935302734,200,PASS
+Sphere_2D,2,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (3,2,2) (3,1) ",0.0,200,FAIL
+Sphere_2D,2,Nevergrad,1,0.0,0.0,0.0,1.9671523571014404,200,PASS
+Sphere_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Sphere_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Sphere_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Sphere_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Sphere_2D,2,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Sphere_2D,2,DE,1,0.0,0.0,0.0,1.6932809352874756,200,PASS
+Sphere_2D,2,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Sphere_2D,2,TwoPointsDE,1,0.0,0.0,0.0,2.2005748748779297,200,PASS
+Sphere_2D,2,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Sphere_5D,5,LineSearchGD,1,6.272757148621196e-28,0.0,6.272757148621196e-28,0.033637285232543945,500,PASS
+Sphere_5D,5,Adaptive,1,0.008650784481669645,0.0,0.008650784481669645,0.14980173110961914,500,PASS
+Sphere_5D,5,SmarterAdaptive,1,5.4753372560844584e-05,0.0,5.4753372560844584e-05,0.15111684799194336,500,PASS
+Sphere_5D,5,EvenSmarterAdaptive,1,0.001139898303048964,0.0,0.001139898303048964,0.15506410598754883,500,PASS
+Sphere_5D,5,GD,1,0.7826129192174229,0.0,0.7826129192174229,0.013945817947387695,500,PASS
+Sphere_5D,5,Adam,1,46.69178220264669,0.0,46.69178220264669,0.013109922409057617,500,PASS
+Sphere_5D,5,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (4,2,5) (4,1) ",0.0,200,FAIL
+Sphere_5D,5,Nevergrad,1,0.0,0.0,0.0,2.2440531253814697,500,PASS
+Sphere_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Sphere_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Sphere_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Sphere_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Sphere_5D,5,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Sphere_5D,5,DE,1,0.0,0.0,0.0,1.9909276962280273,500,PASS
+Sphere_5D,5,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Sphere_5D,5,TwoPointsDE,1,0.0,0.0,0.0,2.1638474464416504,500,PASS
+Sphere_5D,5,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Sphere_10D,10,LineSearchGD,1,1.93779652373446e-44,0.0,1.93779652373446e-44,0.03672337532043457,1000,PASS
+Sphere_10D,10,Adaptive,1,0.12409312146197604,0.0,0.12409312146197604,0.23383402824401855,1000,PASS
+Sphere_10D,10,SmarterAdaptive,1,0.0004984693294915852,0.0,0.0004984693294915852,0.2548346519470215,1000,PASS
+Sphere_10D,10,EvenSmarterAdaptive,1,0.0002447759880454097,0.0,0.0002447759880454097,0.27251219749450684,1000,PASS
+Sphere_10D,10,GD,1,4.4119881210546575e-08,0.0,4.4119881210546575e-08,0.0323636531829834,1000,PASS
+Sphere_10D,10,Adam,1,63.35262283316696,0.0,63.35262283316696,0.03333854675292969,1000,PASS
+Sphere_10D,10,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,2,10) (5,1) ",0.0,200,FAIL
+Sphere_10D,10,Nevergrad,1,0.0,0.0,0.0,2.9079041481018066,1000,PASS
+Sphere_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Sphere_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Sphere_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Sphere_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Sphere_10D,10,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Sphere_10D,10,DE,1,0.0,0.0,0.0,3.162760019302368,1000,PASS
+Sphere_10D,10,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Sphere_10D,10,TwoPointsDE,1,0.0,0.0,0.0,1.582629680633545,1000,PASS
+Sphere_10D,10,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Sphere_20D,20,LineSearchGD,1,5.263576078575198e-92,0.0,5.263576078575198e-92,0.11270809173583984,2000,PASS
+Sphere_20D,20,Adaptive,1,0.1890908606337096,0.0,0.1890908606337096,0.5469446182250977,2000,PASS
+Sphere_20D,20,SmarterAdaptive,1,3.74491272785702e-05,0.0,3.74491272785702e-05,0.5142297744750977,2000,PASS
+Sphere_20D,20,EvenSmarterAdaptive,1,0.08894101293232634,0.0,0.08894101293232634,0.5172741413116455,2000,PASS
+Sphere_20D,20,GD,1,6.344989005640504e-25,0.0,6.344989005640504e-25,0.08352828025817871,2000,PASS
+Sphere_20D,20,Adam,1,35.027934448624976,0.0,35.027934448624976,0.06303739547729492,2000,PASS
+Sphere_20D,20,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (6,2,20) (6,1) ",0.0,200,FAIL
+Sphere_20D,20,Nevergrad,1,0.0,0.0,0.0,3.035562038421631,2000,PASS
+Sphere_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Sphere_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Sphere_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Sphere_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Sphere_20D,20,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Sphere_20D,20,DE,1,0.0,0.0,0.0,3.439955949783325,2000,PASS
+Sphere_20D,20,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Sphere_20D,20,TwoPointsDE,1,0.0,0.0,0.0,2.797337293624878,2000,PASS
+Sphere_20D,20,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Rastrigin_2D,2,LineSearchGD,1,2086.452038536534,0.0,2086.452038536534,0.023067951202392578,200,PASS
+Rastrigin_2D,2,Adaptive,1,24.90351693598106,0.0,24.90351693598106,0.06748318672180176,200,PASS
+Rastrigin_2D,2,SmarterAdaptive,1,14.114985075958437,0.0,14.114985075958437,0.03180885314941406,200,PASS
+Rastrigin_2D,2,EvenSmarterAdaptive,1,18.098370682643697,0.0,18.098370682643697,0.027246952056884766,200,PASS
+Rastrigin_2D,2,GD,1,25.868823259887442,0.0,25.868823259887442,0.00658726692199707,200,PASS
+Rastrigin_2D,2,Adam,1,37.78926932578872,0.0,37.78926932578872,0.0070858001708984375,200,PASS
+Rastrigin_2D,2,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (3,2,2) (3,1) ",0.0,200,FAIL
+Rastrigin_2D,2,Nevergrad,1,0.0,0.0,0.0,0.30118441581726074,200,PASS
+Rastrigin_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Rastrigin_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Rastrigin_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Rastrigin_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Rastrigin_2D,2,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Rastrigin_2D,2,DE,1,0.0,0.0,0.0,0.2534022331237793,200,PASS
+Rastrigin_2D,2,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Rastrigin_2D,2,TwoPointsDE,1,0.0,0.0,0.0,0.3151259422302246,200,PASS
+Rastrigin_2D,2,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Rastrigin_5D,5,LineSearchGD,1,4322.905629396956,0.0,4322.905629396956,0.02881646156311035,500,PASS
+Rastrigin_5D,5,Adaptive,1,275.96941221879626,0.0,275.96941221879626,0.16320300102233887,500,PASS
+Rastrigin_5D,5,SmarterAdaptive,1,90.66198317891508,0.0,90.66198317891508,0.1111905574798584,500,PASS
+Rastrigin_5D,5,EvenSmarterAdaptive,1,45.91931101351553,0.0,45.91931101351553,0.0725562572479248,500,PASS
+Rastrigin_5D,5,GD,1,39.79899438286134,0.0,39.79899438286134,0.016185522079467773,500,PASS
+Rastrigin_5D,5,Adam,1,54.80841450661431,0.0,54.80841450661431,0.01941204071044922,500,PASS
+Rastrigin_5D,5,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (4,2,5) (4,1) ",0.0,200,FAIL
+Rastrigin_5D,5,Nevergrad,1,0.0,0.0,0.0,0.676450252532959,500,PASS
+Rastrigin_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Rastrigin_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Rastrigin_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Rastrigin_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Rastrigin_5D,5,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Rastrigin_5D,5,DE,1,0.0,0.0,0.0,0.6792802810668945,500,PASS
+Rastrigin_5D,5,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Rastrigin_5D,5,TwoPointsDE,1,0.0,0.0,0.0,0.8920238018035889,500,PASS
+Rastrigin_5D,5,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Rastrigin_10D,10,LineSearchGD,1,67.6568108448937,0.0,67.6568108448937,0.19902634620666504,1000,PASS
+Rastrigin_10D,10,Adaptive,1,445.583692527666,0.0,445.583692527666,0.3477804660797119,1000,PASS
+Rastrigin_10D,10,SmarterAdaptive,1,85.7184992681541,0.0,85.7184992681541,0.1459040641784668,1000,PASS
+Rastrigin_10D,10,EvenSmarterAdaptive,1,89.69067457200225,0.0,89.69067457200225,0.14195704460144043,1000,PASS
+Rastrigin_10D,10,GD,1,97.5053526087392,0.0,97.5053526087392,0.03432822227478027,1000,PASS
+Rastrigin_10D,10,Adam,1,86.56095219072769,0.0,86.56095219072769,0.03565025329589844,1000,PASS
+Rastrigin_10D,10,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,2,10) (5,1) ",0.0,200,FAIL
+Rastrigin_10D,10,Nevergrad,1,0.0,0.0,0.0,1.5436432361602783,1000,PASS
+Rastrigin_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Rastrigin_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Rastrigin_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Rastrigin_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Rastrigin_10D,10,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Rastrigin_10D,10,DE,1,0.0,0.0,0.0,1.2521347999572754,1000,PASS
+Rastrigin_10D,10,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Rastrigin_10D,10,TwoPointsDE,1,0.0,0.0,0.0,1.5299839973449707,1000,PASS
+Rastrigin_10D,10,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Rastrigin_20D,20,LineSearchGD,1,164.16724236196575,0.0,164.16724236196575,0.425645112991333,2000,PASS
+Rastrigin_20D,20,Adaptive,1,816.274437389138,0.0,816.274437389138,0.7544276714324951,2000,PASS
+Rastrigin_20D,20,SmarterAdaptive,1,148.61940785974122,0.0,148.61940785974122,0.3052852153778076,2000,PASS
+Rastrigin_20D,20,EvenSmarterAdaptive,1,155.32969905477785,0.0,155.32969905477785,0.29363012313842773,2000,PASS
+Rastrigin_20D,20,GD,1,221.87474858312163,0.0,221.87474858312163,0.06971335411071777,2000,PASS
+Rastrigin_20D,20,Adam,1,168.14707355251983,0.0,168.14707355251983,0.09828329086303711,2000,PASS
+Rastrigin_20D,20,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (6,2,20) (6,1) ",0.0,200,FAIL
+Rastrigin_20D,20,Nevergrad,1,0.0,0.0,0.0,3.3909597396850586,2000,PASS
+Rastrigin_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Rastrigin_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Rastrigin_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Rastrigin_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Rastrigin_20D,20,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Rastrigin_20D,20,DE,1,0.0,0.0,0.0,3.311239004135132,2000,PASS
+Rastrigin_20D,20,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Rastrigin_20D,20,TwoPointsDE,1,0.0,0.0,0.0,3.0534818172454834,2000,PASS
+Rastrigin_20D,20,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Rosenbrock_2D,2,LineSearchGD,1,0.00025734335434355747,0.0,0.00025734335434355747,0.044350624084472656,200,PASS
+Rosenbrock_2D,2,Adaptive,1,6062.0141890319255,0.0,6062.0141890319255,0.08874034881591797,200,PASS
+Rosenbrock_2D,2,SmarterAdaptive,1,6.105461353505895,0.0,6.105461353505895,0.07213163375854492,200,PASS
+Rosenbrock_2D,2,EvenSmarterAdaptive,1,18.139000754589492,0.0,18.139000754589492,0.036982059478759766,200,PASS
+Rosenbrock_2D,2,GD,1,2.8777975210549225,0.0,2.8777975210549225,0.011762857437133789,200,PASS
+Rosenbrock_2D,2,Adam,1,1.968246088326352,0.0,1.968246088326352,0.014780521392822266,200,PASS
+Rosenbrock_2D,2,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (3,2,2) (3,1) ",0.0,200,FAIL
+Rosenbrock_2D,2,Nevergrad,1,1.0,0.0,1.0,0.2727785110473633,200,PASS
+Rosenbrock_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Rosenbrock_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Rosenbrock_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Rosenbrock_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Rosenbrock_2D,2,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Rosenbrock_2D,2,DE,1,1.0,0.0,1.0,0.37560558319091797,200,PASS
+Rosenbrock_2D,2,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Rosenbrock_2D,2,TwoPointsDE,1,1.0,0.0,1.0,0.4083399772644043,200,PASS
+Rosenbrock_2D,2,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Rosenbrock_5D,5,LineSearchGD,1,0.0003082860796552949,0.0,0.0003082860796552949,0.11248040199279785,500,PASS
+Rosenbrock_5D,5,Adaptive,1,27095.318639107776,0.0,27095.318639107776,0.30722618103027344,500,PASS
+Rosenbrock_5D,5,SmarterAdaptive,1,1.6629337916721596,0.0,1.6629337916721596,0.09116816520690918,500,PASS
+Rosenbrock_5D,5,EvenSmarterAdaptive,1,0.6815470126047756,0.0,0.6815470126047756,0.0872488021850586,500,PASS
+Rosenbrock_5D,5,GD,1,0.6194572833092307,0.0,0.6194572833092307,0.03982114791870117,500,PASS
+Rosenbrock_5D,5,Adam,1,973.9818031205546,0.0,973.9818031205546,0.0249481201171875,500,PASS
+Rosenbrock_5D,5,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (4,2,5) (4,1) ",0.0,200,FAIL
+Rosenbrock_5D,5,Nevergrad,1,4.0,0.0,4.0,0.7401087284088135,500,PASS
+Rosenbrock_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Rosenbrock_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Rosenbrock_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Rosenbrock_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Rosenbrock_5D,5,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Rosenbrock_5D,5,DE,1,4.0,0.0,4.0,0.7379555702209473,500,PASS
+Rosenbrock_5D,5,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Rosenbrock_5D,5,TwoPointsDE,1,4.0,0.0,4.0,1.4471991062164307,500,PASS
+Rosenbrock_5D,5,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Rosenbrock_10D,10,LineSearchGD,1,0.0008467431696584737,0.0,0.0008467431696584737,0.7665905952453613,1000,PASS
+Rosenbrock_10D,10,Adaptive,1,2205878.8799690697,0.0,2205878.8799690697,0.9211502075195312,1000,PASS
+Rosenbrock_10D,10,SmarterAdaptive,1,0.4545612623169187,0.0,0.4545612623169187,0.2366621494293213,1000,PASS
+Rosenbrock_10D,10,EvenSmarterAdaptive,1,1.0056745404881555,0.0,1.0056745404881555,0.20791244506835938,1000,PASS
+Rosenbrock_10D,10,GD,1,8.246780844241159e-05,0.0,8.246780844241159e-05,0.07792520523071289,1000,PASS
+Rosenbrock_10D,10,Adam,1,1136.0615183971217,0.0,1136.0615183971217,0.07118868827819824,1000,PASS
+Rosenbrock_10D,10,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,2,10) (5,1) ",0.0,200,FAIL
+Rosenbrock_10D,10,Nevergrad,1,9.0,0.0,9.0,1.6070544719696045,1000,PASS
+Rosenbrock_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Rosenbrock_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Rosenbrock_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Rosenbrock_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Rosenbrock_10D,10,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Rosenbrock_10D,10,DE,1,9.0,0.0,9.0,2.212364435195923,1000,PASS
+Rosenbrock_10D,10,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Rosenbrock_10D,10,TwoPointsDE,1,9.0,0.0,9.0,1.8243958950042725,1000,PASS
+Rosenbrock_10D,10,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Rosenbrock_20D,20,LineSearchGD,1,0.08275941098605616,0.0,0.08275941098605616,0.6907355785369873,2000,PASS
+Rosenbrock_20D,20,Adaptive,1,2229816.9315265813,0.0,2229816.9315265813,1.0742640495300293,2000,PASS
+Rosenbrock_20D,20,SmarterAdaptive,1,0.8281101942994831,0.0,0.8281101942994831,0.39612364768981934,2000,PASS
+Rosenbrock_20D,20,EvenSmarterAdaptive,1,0.6241704020735491,0.0,0.6241704020735491,0.4029662609100342,2000,PASS
+Rosenbrock_20D,20,GD,1,0.0001970198894398906,0.0,0.0001970198894398906,0.10547924041748047,2000,PASS
+Rosenbrock_20D,20,Adam,1,448.17467802185945,0.0,448.17467802185945,0.1263718605041504,2000,PASS
+Rosenbrock_20D,20,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (6,2,20) (6,1) ",0.0,200,FAIL
+Rosenbrock_20D,20,Nevergrad,1,19.0,0.0,19.0,3.201122999191284,2000,PASS
+Rosenbrock_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Rosenbrock_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Rosenbrock_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Rosenbrock_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Rosenbrock_20D,20,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Rosenbrock_20D,20,DE,1,19.0,0.0,19.0,2.9965243339538574,2000,PASS
+Rosenbrock_20D,20,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Rosenbrock_20D,20,TwoPointsDE,1,19.0,0.0,19.0,3.1326470375061035,2000,PASS
+Rosenbrock_20D,20,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Ackley_2D,2,LineSearchGD,1,20.44945781753363,0.0,20.44945781753363,0.0367588996887207,200,PASS
+Ackley_2D,2,Adaptive,1,18.243373929263075,0.0,18.243373929263075,0.15459394454956055,200,PASS
+Ackley_2D,2,SmarterAdaptive,1,14.995117256794028,0.0,14.995117256794028,0.0756690502166748,200,PASS
+Ackley_2D,2,EvenSmarterAdaptive,1,20.100166320329492,0.0,20.100166320329492,0.09591913223266602,200,PASS
+Ackley_2D,2,GD,1,19.917605666144212,0.0,19.917605666144212,0.015666961669921875,200,PASS
+Ackley_2D,2,Adam,1,18.894830329206066,0.0,18.894830329206066,0.0209352970123291,200,PASS
+Ackley_2D,2,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (3,2,2) (3,1) ",0.0,200,FAIL
+Ackley_2D,2,Nevergrad,1,4.440892098500626e-16,0.0,4.440892098500626e-16,0.30881190299987793,200,PASS
+Ackley_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Ackley_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Ackley_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Ackley_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Ackley_2D,2,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Ackley_2D,2,DE,1,4.440892098500626e-16,0.0,4.440892098500626e-16,0.26465439796447754,200,PASS
+Ackley_2D,2,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Ackley_2D,2,TwoPointsDE,1,4.440892098500626e-16,0.0,4.440892098500626e-16,0.37119483947753906,200,PASS
+Ackley_2D,2,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Ackley_5D,5,LineSearchGD,1,20.065923274173294,0.0,20.065923274173294,0.1394963264465332,500,PASS
+Ackley_5D,5,Adaptive,1,20.098389694003803,0.0,20.098389694003803,0.3666210174560547,500,PASS
+Ackley_5D,5,SmarterAdaptive,1,19.89856784200709,0.0,19.89856784200709,0.34498119354248047,500,PASS
+Ackley_5D,5,EvenSmarterAdaptive,1,18.961773758641687,0.0,18.961773758641687,0.33300232887268066,500,PASS
+Ackley_5D,5,GD,1,19.663574254100695,0.0,19.663574254100695,0.06218528747558594,500,PASS
+Ackley_5D,5,Adam,1,19.478855093197094,0.0,19.478855093197094,0.046480417251586914,500,PASS
+Ackley_5D,5,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (4,2,5) (4,1) ",0.0,200,FAIL
+Ackley_5D,5,Nevergrad,1,4.440892098500626e-16,0.0,4.440892098500626e-16,0.708113431930542,500,PASS
+Ackley_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Ackley_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Ackley_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Ackley_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Ackley_5D,5,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Ackley_5D,5,DE,1,4.440892098500626e-16,0.0,4.440892098500626e-16,0.7698192596435547,500,PASS
+Ackley_5D,5,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Ackley_5D,5,TwoPointsDE,1,4.440892098500626e-16,0.0,4.440892098500626e-16,0.8702783584594727,500,PASS
+Ackley_5D,5,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Ackley_10D,10,LineSearchGD,1,18.95184701606488,0.0,18.95184701606488,0.22314882278442383,1000,PASS
+Ackley_10D,10,Adaptive,1,20.22469454715576,0.0,20.22469454715576,0.6977419853210449,1000,PASS
+Ackley_10D,10,SmarterAdaptive,1,19.426423003735334,0.0,19.426423003735334,0.6643521785736084,1000,PASS
+Ackley_10D,10,EvenSmarterAdaptive,1,18.516296173398704,0.0,18.516296173398704,0.6715779304504395,1000,PASS
+Ackley_10D,10,GD,1,19.43167476135492,0.0,19.43167476135492,0.08823442459106445,1000,PASS
+Ackley_10D,10,Adam,1,19.760596399718132,0.0,19.760596399718132,0.08495855331420898,1000,PASS
+Ackley_10D,10,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,2,10) (5,1) ",0.0,200,FAIL
+Ackley_10D,10,Nevergrad,1,4.440892098500626e-16,0.0,4.440892098500626e-16,1.3346624374389648,1000,PASS
+Ackley_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Ackley_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Ackley_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Ackley_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Ackley_10D,10,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Ackley_10D,10,DE,1,4.440892098500626e-16,0.0,4.440892098500626e-16,1.820176601409912,1000,PASS
+Ackley_10D,10,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Ackley_10D,10,TwoPointsDE,1,4.440892098500626e-16,0.0,4.440892098500626e-16,1.562302827835083,1000,PASS
+Ackley_10D,10,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Ackley_20D,20,LineSearchGD,1,19.62150941054506,0.0,19.62150941054506,0.31915879249572754,2000,PASS
+Ackley_20D,20,Adaptive,1,20.00946174073625,0.0,20.00946174073625,1.5002210140228271,2000,PASS
+Ackley_20D,20,SmarterAdaptive,1,19.71150662654892,0.0,19.71150662654892,1.4167828559875488,2000,PASS
+Ackley_20D,20,EvenSmarterAdaptive,1,19.54248735649866,0.0,19.54248735649866,1.4045863151550293,2000,PASS
+Ackley_20D,20,GD,1,19.296069340137915,0.0,19.296069340137915,0.17391538619995117,2000,PASS
+Ackley_20D,20,Adam,1,19.592525224408462,0.0,19.592525224408462,0.2791290283203125,2000,PASS
+Ackley_20D,20,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (6,2,20) (6,1) ",0.0,200,FAIL
+Ackley_20D,20,Nevergrad,1,4.440892098500626e-16,0.0,4.440892098500626e-16,3.117814779281616,2000,PASS
+Ackley_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Ackley_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Ackley_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Ackley_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Ackley_20D,20,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Ackley_20D,20,DE,1,4.440892098500626e-16,0.0,4.440892098500626e-16,3.5079259872436523,2000,PASS
+Ackley_20D,20,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Ackley_20D,20,TwoPointsDE,1,4.440892098500626e-16,0.0,4.440892098500626e-16,3.2450480461120605,2000,PASS
+Ackley_20D,20,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Griewank_2D,2,LineSearchGD,1,93.34466781693263,0.0,93.34466781693263,0.21625566482543945,200,PASS
+Griewank_2D,2,Adaptive,1,37.45832913517743,0.0,37.45832913517743,0.12089872360229492,200,PASS
+Griewank_2D,2,SmarterAdaptive,1,48.929460306151974,0.0,48.929460306151974,0.12011384963989258,200,PASS
+Griewank_2D,2,EvenSmarterAdaptive,1,8.900017216427354,0.0,8.900017216427354,0.13752317428588867,200,PASS
+Griewank_2D,2,GD,1,75.2527567519314,0.0,75.2527567519314,0.015321731567382812,200,PASS
+Griewank_2D,2,Adam,1,97.26732817698505,0.0,97.26732817698505,0.017290830612182617,200,PASS
+Griewank_2D,2,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (3,2,2) (3,1) ",0.0,200,FAIL
+Griewank_2D,2,Nevergrad,1,0.0,0.0,0.0,0.34027934074401855,200,PASS
+Griewank_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Griewank_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Griewank_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Griewank_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Griewank_2D,2,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Griewank_2D,2,DE,1,0.0,0.0,0.0,0.3314635753631592,200,PASS
+Griewank_2D,2,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Griewank_2D,2,TwoPointsDE,1,0.0,0.0,0.0,0.2567894458770752,200,PASS
+Griewank_2D,2,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Griewank_5D,5,LineSearchGD,1,35.92574186868869,0.0,35.92574186868869,0.4639918804168701,500,PASS
+Griewank_5D,5,Adaptive,1,133.12011522294145,0.0,133.12011522294145,0.35323643684387207,500,PASS
+Griewank_5D,5,SmarterAdaptive,1,75.11913731765519,0.0,75.11913731765519,0.3771185874938965,500,PASS
+Griewank_5D,5,EvenSmarterAdaptive,1,61.16652712084889,0.0,61.16652712084889,0.4842946529388428,500,PASS
+Griewank_5D,5,GD,1,175.70786442227774,0.0,175.70786442227774,0.0413057804107666,500,PASS
+Griewank_5D,5,Adam,1,194.89284634209557,0.0,194.89284634209557,0.05261540412902832,500,PASS
+Griewank_5D,5,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (4,2,5) (4,1) ",0.0,200,FAIL
+Griewank_5D,5,Nevergrad,1,0.0,0.0,0.0,0.8805427551269531,500,PASS
+Griewank_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Griewank_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Griewank_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Griewank_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Griewank_5D,5,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Griewank_5D,5,DE,1,0.0,0.0,0.0,0.9856376647949219,500,PASS
+Griewank_5D,5,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Griewank_5D,5,TwoPointsDE,1,0.0,0.0,0.0,0.765817403793335,500,PASS
+Griewank_5D,5,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Griewank_10D,10,LineSearchGD,1,3.177387014179889,0.0,3.177387014179889,0.8110003471374512,1000,PASS
+Griewank_10D,10,Adaptive,1,132.4494072351245,0.0,132.4494072351245,1.0926079750061035,1000,PASS
+Griewank_10D,10,SmarterAdaptive,1,48.833382590977784,0.0,48.833382590977784,0.8355021476745605,1000,PASS
+Griewank_10D,10,EvenSmarterAdaptive,1,195.3560464819916,0.0,195.3560464819916,0.6015784740447998,1000,PASS
+Griewank_10D,10,GD,1,382.573673215986,0.0,382.573673215986,0.10893988609313965,1000,PASS
+Griewank_10D,10,Adam,1,171.69290082800308,0.0,171.69290082800308,0.10505104064941406,1000,PASS
+Griewank_10D,10,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,2,10) (5,1) ",0.0,200,FAIL
+Griewank_10D,10,Nevergrad,1,0.0,0.0,0.0,1.3236818313598633,1000,PASS
+Griewank_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Griewank_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Griewank_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Griewank_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Griewank_10D,10,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Griewank_10D,10,DE,1,0.0,0.0,0.0,1.3991589546203613,1000,PASS
+Griewank_10D,10,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Griewank_10D,10,TwoPointsDE,1,0.0,0.0,0.0,1.8551580905914307,1000,PASS
+Griewank_10D,10,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Griewank_20D,20,LineSearchGD,1,1.0309314167240389,0.0,1.0309314167240389,1.5045890808105469,2000,PASS
+Griewank_20D,20,Adaptive,1,640.4342873899585,0.0,640.4342873899585,1.3725597858428955,2000,PASS
+Griewank_20D,20,SmarterAdaptive,1,158.89898094289848,0.0,158.89898094289848,1.5773053169250488,2000,PASS
+Griewank_20D,20,EvenSmarterAdaptive,1,111.55918302853735,0.0,111.55918302853735,1.3221116065979004,2000,PASS
+Griewank_20D,20,GD,1,553.7645544043717,0.0,553.7645544043717,0.2533600330352783,2000,PASS
+Griewank_20D,20,Adam,1,873.8738101610126,0.0,873.8738101610126,0.27750301361083984,2000,PASS
+Griewank_20D,20,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (6,2,20) (6,1) ",0.0,200,FAIL
+Griewank_20D,20,Nevergrad,1,0.0,0.0,0.0,3.7751595973968506,2000,PASS
+Griewank_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Griewank_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Griewank_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Griewank_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Griewank_20D,20,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Griewank_20D,20,DE,1,0.0,0.0,0.0,4.350821495056152,2000,PASS
+Griewank_20D,20,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Griewank_20D,20,TwoPointsDE,1,0.0,0.0,0.0,3.710252046585083,2000,PASS
+Griewank_20D,20,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Schwefel_2D,2,LineSearchGD,1,118.43836030796274,0.0,118.43836030796274,0.01699995994567871,200,PASS
+Schwefel_2D,2,Adaptive,1,710.695838898684,0.0,710.695838898684,0.11513352394104004,200,PASS
+Schwefel_2D,2,SmarterAdaptive,1,118.43836053085715,0.0,118.43836053085715,0.0994572639465332,200,PASS
+Schwefel_2D,2,EvenSmarterAdaptive,1,395.2490659075225,0.0,395.2490659075225,0.05044412612915039,200,PASS
+Schwefel_2D,2,GD,1,903.6658769862647,0.0,903.6658769862647,0.009317636489868164,200,PASS
+Schwefel_2D,2,Adam,1,641.1871148424527,0.0,641.1871148424527,0.011716604232788086,200,PASS
+Schwefel_2D,2,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (3,2,2) (3,1) ",0.0,200,FAIL
+Schwefel_2D,2,Nevergrad,1,837.9658,0.0,837.9658,0.2523062229156494,200,PASS
+Schwefel_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Schwefel_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Schwefel_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Schwefel_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Schwefel_2D,2,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Schwefel_2D,2,DE,1,837.9658,0.0,837.9658,0.4923403263092041,200,PASS
+Schwefel_2D,2,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Schwefel_2D,2,TwoPointsDE,1,837.9658,0.0,837.9658,0.28080153465270996,200,PASS
+Schwefel_2D,2,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Schwefel_5D,5,LineSearchGD,1,532.983446625225,0.0,532.983446625225,0.03736996650695801,500,PASS
+Schwefel_5D,5,Adaptive,1,773.3406459532005,0.0,773.3406459532005,0.28417110443115234,500,PASS
+Schwefel_5D,5,SmarterAdaptive,1,1232.872760726368,0.0,1232.872760726368,0.16667628288269043,500,PASS
+Schwefel_5D,5,EvenSmarterAdaptive,1,355.47109566455015,0.0,355.47109566455015,0.10690855979919434,500,PASS
+Schwefel_5D,5,GD,1,1957.1255843622912,0.0,1957.1255843622912,0.03081488609313965,500,PASS
+Schwefel_5D,5,Adam,1,2246.984792407902,0.0,2246.984792407902,0.028542518615722656,500,PASS
+Schwefel_5D,5,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (4,2,5) (4,1) ",0.0,200,FAIL
+Schwefel_5D,5,Nevergrad,1,2094.9145,0.0,2094.9145,0.9147839546203613,500,PASS
+Schwefel_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Schwefel_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Schwefel_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Schwefel_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Schwefel_5D,5,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Schwefel_5D,5,DE,1,2094.9145,0.0,2094.9145,0.8487575054168701,500,PASS
+Schwefel_5D,5,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Schwefel_5D,5,TwoPointsDE,1,2094.9145,0.0,2094.9145,1.054450511932373,500,PASS
+Schwefel_5D,5,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Schwefel_10D,10,LineSearchGD,1,1678.095658774988,0.0,1678.095658774988,0.07206106185913086,1000,PASS
+Schwefel_10D,10,Adaptive,1,1836.0457238296826,0.0,1836.0457238296826,0.7281949520111084,1000,PASS
+Schwefel_10D,10,SmarterAdaptive,1,937.4053612027315,0.0,937.4053612027315,0.2573392391204834,1000,PASS
+Schwefel_10D,10,EvenSmarterAdaptive,1,1973.4036278296335,0.0,1973.4036278296335,0.30224013328552246,1000,PASS
+Schwefel_10D,10,GD,1,3628.278666692616,0.0,3628.278666692616,0.059795379638671875,1000,PASS
+Schwefel_10D,10,Adam,1,3637.7584409704396,0.0,3637.7584409704396,0.06290030479431152,1000,PASS
+Schwefel_10D,10,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,2,10) (5,1) ",0.0,200,FAIL
+Schwefel_10D,10,Nevergrad,1,4189.829,0.0,4189.829,1.919708490371704,1000,PASS
+Schwefel_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Schwefel_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Schwefel_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Schwefel_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Schwefel_10D,10,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Schwefel_10D,10,DE,1,4189.829,0.0,4189.829,2.170799970626831,1000,PASS
+Schwefel_10D,10,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Schwefel_10D,10,TwoPointsDE,1,4189.829,0.0,4189.829,1.9468321800231934,1000,PASS
+Schwefel_10D,10,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Schwefel_20D,20,LineSearchGD,1,3790.676972910692,0.0,3790.676972910692,0.1977853775024414,2000,PASS
+Schwefel_20D,20,Adaptive,1,6455.260469434152,0.0,6455.260469434152,1.3769235610961914,2000,PASS
+Schwefel_20D,20,SmarterAdaptive,1,4486.693855136291,0.0,4486.693855136291,1.1929409503936768,2000,PASS
+Schwefel_20D,20,EvenSmarterAdaptive,1,3890.3383284845713,0.0,3890.3383284845713,0.8718690872192383,2000,PASS
+Schwefel_20D,20,GD,1,9193.839206580964,0.0,9193.839206580964,0.13521432876586914,2000,PASS
+Schwefel_20D,20,Adam,1,7461.158362047965,0.0,7461.158362047965,0.12050294876098633,2000,PASS
+Schwefel_20D,20,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (6,2,20) (6,1) ",0.0,200,FAIL
+Schwefel_20D,20,Nevergrad,1,8379.658,0.0,8379.658,4.246044397354126,2000,PASS
+Schwefel_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Schwefel_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Schwefel_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Schwefel_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Schwefel_20D,20,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Schwefel_20D,20,DE,1,8379.658,0.0,8379.658,4.741076231002808,2000,PASS
+Schwefel_20D,20,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Schwefel_20D,20,TwoPointsDE,1,8379.658,0.0,8379.658,4.111550569534302,2000,PASS
+Schwefel_20D,20,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Michalewicz_2D,2,LineSearchGD,1,-0.801303410092413,-1.801,0.9996965899075869,0.16889119148254395,200,PASS
+Michalewicz_2D,2,Adaptive,1,-0.4071255116831369,-1.801,1.393874488316863,0.5428225994110107,200,PASS
+Michalewicz_2D,2,SmarterAdaptive,1,-1.6907385690853767,-1.801,0.11026143091462326,0.09444117546081543,200,PASS
+Michalewicz_2D,2,EvenSmarterAdaptive,1,-1.7976007739803843,-1.801,0.00339922601961562,0.11874175071716309,200,PASS
+Michalewicz_2D,2,GD,1,-1.4566886491875913e-35,-1.801,1.801,0.0425412654876709,200,PASS
+Michalewicz_2D,2,Adam,1,-9.289498519110826e-13,-1.801,1.800999999999071,0.024292469024658203,200,PASS
+Michalewicz_2D,2,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (3,2,2) (3,1) ",0.0,200,FAIL
+Michalewicz_2D,2,Nevergrad,1,-1.0009765625,-1.801,0.8000234374999999,0.4919736385345459,200,PASS
+Michalewicz_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Michalewicz_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Michalewicz_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Michalewicz_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Michalewicz_2D,2,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Michalewicz_2D,2,DE,1,-1.0009765625,-1.801,0.8000234374999999,0.4501984119415283,200,PASS
+Michalewicz_2D,2,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Michalewicz_2D,2,TwoPointsDE,1,-1.0009765625,-1.801,0.8000234374999999,0.5170364379882812,200,PASS
+Michalewicz_2D,2,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Michalewicz_5D,5,LineSearchGD,1,-1.9986449073248385,-1.801,-0.19764490732483853,0.26186132431030273,500,PASS
+Michalewicz_5D,5,Adaptive,1,-1.7105444393352722,-1.801,0.09045556066472771,0.2649867534637451,500,PASS
+Michalewicz_5D,5,SmarterAdaptive,1,-2.6428962321051035,-1.801,-0.8418962321051036,0.12169861793518066,500,PASS
+Michalewicz_5D,5,EvenSmarterAdaptive,1,-3.5883838430779513,-1.801,-1.7873838430779514,0.10640835762023926,500,PASS
+Michalewicz_5D,5,GD,1,-3.2517574947761525,-1.801,-1.4507574947761526,0.03355741500854492,500,PASS
+Michalewicz_5D,5,Adam,1,-3.3725199330663824,-1.801,-1.5715199330663825,0.033429861068725586,500,PASS
+Michalewicz_5D,5,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (4,2,5) (4,1) ",0.0,200,FAIL
+Michalewicz_5D,5,Nevergrad,1,ERROR,ERROR,Non-finite or unsafe objective value encountered.,0.0,500,FAIL
+Michalewicz_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Michalewicz_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Michalewicz_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Michalewicz_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Michalewicz_5D,5,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Michalewicz_5D,5,DE,1,ERROR,ERROR,Non-finite or unsafe objective value encountered.,0.0,500,FAIL
+Michalewicz_5D,5,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Michalewicz_5D,5,TwoPointsDE,1,ERROR,ERROR,Non-finite or unsafe objective value encountered.,0.0,500,FAIL
+Michalewicz_5D,5,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Michalewicz_10D,10,LineSearchGD,1,-0.7963316571195684,-1.801,1.0046683428804315,1.0356745719909668,1000,PASS
+Michalewicz_10D,10,Adaptive,1,-1.0539571279153115,-1.801,0.7470428720846884,1.5105798244476318,1000,PASS
+Michalewicz_10D,10,SmarterAdaptive,1,-4.749372368057275,-1.801,-2.9483723680572744,0.7931356430053711,1000,PASS
+Michalewicz_10D,10,EvenSmarterAdaptive,1,-7.524699327104407,-1.801,-5.7236993271044065,0.30403590202331543,1000,PASS
+Michalewicz_10D,10,GD,1,-3.1598984789744105,-1.801,-1.3588984789744105,0.06472229957580566,1000,PASS
+Michalewicz_10D,10,Adam,1,-7.55018309919109,-1.801,-5.7491830991910895,0.07022833824157715,1000,PASS
+Michalewicz_10D,10,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,2,10) (5,1) ",0.0,200,FAIL
+Michalewicz_10D,10,Nevergrad,1,ERROR,ERROR,Non-finite or unsafe objective value encountered.,0.0,1000,FAIL
+Michalewicz_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Michalewicz_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Michalewicz_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Michalewicz_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Michalewicz_10D,10,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Michalewicz_10D,10,DE,1,ERROR,ERROR,Non-finite or unsafe objective value encountered.,0.0,1000,FAIL
+Michalewicz_10D,10,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Michalewicz_10D,10,TwoPointsDE,1,ERROR,ERROR,Non-finite or unsafe objective value encountered.,0.0,1000,FAIL
+Michalewicz_10D,10,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Michalewicz_20D,20,LineSearchGD,1,-1.850359232736177,-1.801,-0.04935923273617715,1.1937952041625977,2000,PASS
+Michalewicz_20D,20,Adaptive,1,-0.723078953171345,-1.801,1.077921046828655,1.5609221458435059,2000,PASS
+Michalewicz_20D,20,SmarterAdaptive,1,-0.6309286793754579,-1.801,1.170071320624542,0.852463960647583,2000,PASS
+Michalewicz_20D,20,EvenSmarterAdaptive,1,0.1046728491912364,-1.801,1.9056728491912363,0.7458510398864746,2000,PASS
+Michalewicz_20D,20,GD,1,-9.315033686057834,-1.801,-7.514033686057834,0.28704118728637695,2000,PASS
+Michalewicz_20D,20,Adam,1,-12.136553513925405,-1.801,-10.335553513925404,0.5684370994567871,2000,PASS
+Michalewicz_20D,20,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (6,2,20) (6,1) ",0.0,200,FAIL
+Michalewicz_20D,20,Nevergrad,1,ERROR,ERROR,Non-finite or unsafe objective value encountered.,0.0,2000,FAIL
+Michalewicz_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Michalewicz_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Michalewicz_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Michalewicz_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Michalewicz_20D,20,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Michalewicz_20D,20,DE,1,ERROR,ERROR,Non-finite or unsafe objective value encountered.,0.0,2000,FAIL
+Michalewicz_20D,20,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Michalewicz_20D,20,TwoPointsDE,1,ERROR,ERROR,Non-finite or unsafe objective value encountered.,0.0,2000,FAIL
+Michalewicz_20D,20,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+DropWave_2D,2,LineSearchGD,1,-0.039711975042217004,-1.0,0.960288024957783,0.22645330429077148,200,PASS
+DropWave_2D,2,Adaptive,1,-0.18501128033761044,-1.0,0.8149887196623895,0.09839820861816406,200,PASS
+DropWave_2D,2,SmarterAdaptive,1,-0.1520490820313491,-1.0,0.8479509179686509,0.1158902645111084,200,PASS
+DropWave_2D,2,EvenSmarterAdaptive,1,-0.28875618885067295,-1.0,0.7112438111493271,0.09647130966186523,200,PASS
+DropWave_2D,2,GD,1,-1.2751546308412416e-06,-1.0,0.9999987248453691,0.01384115219116211,200,PASS
+DropWave_2D,2,Adam,1,-8.415541571396525e-13,-1.0,0.9999999999991585,0.015065670013427734,200,PASS
+DropWave_2D,2,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (3,2,2) (3,1) ",0.0,200,FAIL
+DropWave_2D,2,Nevergrad,1,-1.0,-1.0,0.0,0.25228190422058105,200,PASS
+DropWave_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+DropWave_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+DropWave_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+DropWave_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+DropWave_2D,2,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+DropWave_2D,2,DE,1,-1.0,-1.0,0.0,0.37587451934814453,200,PASS
+DropWave_2D,2,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+DropWave_2D,2,TwoPointsDE,1,-1.0,-1.0,0.0,0.3893871307373047,200,PASS
+DropWave_2D,2,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+DropWave_5D,5,LineSearchGD,1,-0.01684778827846185,-1.0,0.9831522117215381,0.397158145904541,500,PASS
+DropWave_5D,5,Adaptive,1,-0.18581774869960152,-1.0,0.8141822513003985,0.24844717979431152,500,PASS
+DropWave_5D,5,SmarterAdaptive,1,-0.06930285534271773,-1.0,0.9306971446572823,0.25074219703674316,500,PASS
+DropWave_5D,5,EvenSmarterAdaptive,1,-0.0693130103297806,-1.0,0.9306869896702195,0.24828004837036133,500,PASS
+DropWave_5D,5,GD,1,-0.0,-1.0,1.0,0.036278724670410156,500,PASS
+DropWave_5D,5,Adam,1,-0.0,-1.0,1.0,0.042530059814453125,500,PASS
+DropWave_5D,5,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (4,2,5) (4,1) ",0.0,200,FAIL
+DropWave_5D,5,Nevergrad,1,-1.0,-1.0,0.0,0.7508041858673096,500,PASS
+DropWave_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+DropWave_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+DropWave_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+DropWave_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+DropWave_5D,5,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+DropWave_5D,5,DE,1,-1.0,-1.0,0.0,0.9096229076385498,500,PASS
+DropWave_5D,5,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+DropWave_5D,5,TwoPointsDE,1,-1.0,-1.0,0.0,0.9391615390777588,500,PASS
+DropWave_5D,5,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+DropWave_10D,10,LineSearchGD,1,-2.5243765319166938e-18,-1.0,1.0,0.2036285400390625,1000,PASS
+DropWave_10D,10,Adaptive,1,-0.04806355130086253,-1.0,0.9519364486991375,0.5150899887084961,1000,PASS
+DropWave_10D,10,SmarterAdaptive,1,-0.03520006865860445,-1.0,0.9647999313413955,0.5189464092254639,1000,PASS
+DropWave_10D,10,EvenSmarterAdaptive,1,-0.02684539978528054,-1.0,0.9731546002147194,0.6595103740692139,1000,PASS
+DropWave_10D,10,GD,1,-0.0,-1.0,1.0,0.07128167152404785,1000,PASS
+DropWave_10D,10,Adam,1,-0.0,-1.0,1.0,0.07504892349243164,1000,PASS
+DropWave_10D,10,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,2,10) (5,1) ",0.0,200,FAIL
+DropWave_10D,10,Nevergrad,1,-1.0,-1.0,0.0,1.7384774684906006,1000,PASS
+DropWave_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+DropWave_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+DropWave_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+DropWave_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+DropWave_10D,10,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+DropWave_10D,10,DE,1,-1.0,-1.0,0.0,1.452772617340088,1000,PASS
+DropWave_10D,10,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+DropWave_10D,10,TwoPointsDE,1,-1.0,-1.0,0.0,1.3948633670806885,1000,PASS
+DropWave_10D,10,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+DropWave_20D,20,LineSearchGD,1,-0.013206925843525924,-1.0,0.9867930741564741,1.6773202419281006,2000,PASS
+DropWave_20D,20,Adaptive,1,-0.019623979508301772,-1.0,0.9803760204916983,1.1456913948059082,2000,PASS
+DropWave_20D,20,SmarterAdaptive,1,-0.0247086575197679,-1.0,0.9752913424802321,1.1542689800262451,2000,PASS
+DropWave_20D,20,EvenSmarterAdaptive,1,-0.02113025232976504,-1.0,0.9788697476702349,1.2498219013214111,2000,PASS
+DropWave_20D,20,GD,1,-0.0,-1.0,1.0,0.18865180015563965,2000,PASS
+DropWave_20D,20,Adam,1,-0.0,-1.0,1.0,0.20682287216186523,2000,PASS
+DropWave_20D,20,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (6,2,20) (6,1) ",0.0,200,FAIL
+DropWave_20D,20,Nevergrad,1,-1.0,-1.0,0.0,2.8369643688201904,2000,PASS
+DropWave_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+DropWave_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+DropWave_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+DropWave_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+DropWave_20D,20,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+DropWave_20D,20,DE,1,-1.0,-1.0,0.0,3.153506278991699,2000,PASS
+DropWave_20D,20,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+DropWave_20D,20,TwoPointsDE,1,-1.0,-1.0,0.0,2.849789619445801,2000,PASS
+DropWave_20D,20,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+LunacekBiRastrigin_2D,2,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (3,2,2) (3,1) ",0.0,200,FAIL
+LunacekBiRastrigin_2D,2,Nevergrad,1,12.5,0.0,12.5,0.39642906188964844,200,PASS
+LunacekBiRastrigin_2D,2,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+LunacekBiRastrigin_2D,2,DE,1,12.5,0.0,12.5,0.38747692108154297,200,PASS
+LunacekBiRastrigin_2D,2,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+LunacekBiRastrigin_2D,2,TwoPointsDE,1,12.5,0.0,12.5,0.27083754539489746,200,PASS
+LunacekBiRastrigin_2D,2,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+LunacekBiRastrigin_5D,5,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (4,2,5) (4,1) ",0.0,200,FAIL
+LunacekBiRastrigin_5D,5,Nevergrad,1,31.25,0.0,31.25,0.8329095840454102,500,PASS
+LunacekBiRastrigin_5D,5,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+LunacekBiRastrigin_5D,5,DE,1,31.25,0.0,31.25,0.6965858936309814,500,PASS
+LunacekBiRastrigin_5D,5,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+LunacekBiRastrigin_5D,5,TwoPointsDE,1,31.25,0.0,31.25,0.9168717861175537,500,PASS
+LunacekBiRastrigin_5D,5,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+LunacekBiRastrigin_10D,10,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,2,10) (5,1) ",0.0,200,FAIL
+LunacekBiRastrigin_10D,10,Nevergrad,1,62.5,0.0,62.5,1.4906651973724365,1000,PASS
+LunacekBiRastrigin_10D,10,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+LunacekBiRastrigin_10D,10,DE,1,62.5,0.0,62.5,1.688241720199585,1000,PASS
+LunacekBiRastrigin_10D,10,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+LunacekBiRastrigin_10D,10,TwoPointsDE,1,62.5,0.0,62.5,1.4301047325134277,1000,PASS
+LunacekBiRastrigin_10D,10,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+LunacekBiRastrigin_20D,20,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (6,2,20) (6,1) ",0.0,200,FAIL
+LunacekBiRastrigin_20D,20,Nevergrad,1,125.0,0.0,125.0,3.3816089630126953,2000,PASS
+LunacekBiRastrigin_20D,20,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+LunacekBiRastrigin_20D,20,DE,1,125.0,0.0,125.0,3.2654809951782227,2000,PASS
+LunacekBiRastrigin_20D,20,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+LunacekBiRastrigin_20D,20,TwoPointsDE,1,125.0,0.0,125.0,2.912175416946411,2000,PASS
+LunacekBiRastrigin_20D,20,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+ShiftedSphere_2D,2,LineSearchGD,1,2.3137698529946423e-09,0.0,2.3137698529946423e-09,0.029813289642333984,200,PASS
+ShiftedSphere_2D,2,Adaptive,1,0.0032501842616885364,0.0,0.0032501842616885364,0.11022472381591797,200,PASS
+ShiftedSphere_2D,2,SmarterAdaptive,1,0.007861173433979853,0.0,0.007861173433979853,0.10615110397338867,200,PASS
+ShiftedSphere_2D,2,EvenSmarterAdaptive,1,0.015220336039577804,0.0,0.015220336039577804,0.09482073783874512,200,PASS
+ShiftedSphere_2D,2,GD,1,3.279798555446975e-07,0.0,3.279798555446975e-07,0.011591672897338867,200,PASS
+ShiftedSphere_2D,2,Adam,1,1.8315344486061758,0.0,1.8315344486061758,0.011113882064819336,200,PASS
+ShiftedSphere_2D,2,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (3,2,2) (3,1) ",0.0,200,FAIL
+ShiftedSphere_2D,2,Nevergrad,1,0.0,0.0,0.0,0.26495933532714844,200,PASS
+ShiftedSphere_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+ShiftedSphere_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+ShiftedSphere_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+ShiftedSphere_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+ShiftedSphere_2D,2,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+ShiftedSphere_2D,2,DE,1,0.0,0.0,0.0,0.3690834045410156,200,PASS
+ShiftedSphere_2D,2,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+ShiftedSphere_2D,2,TwoPointsDE,1,0.0,0.0,0.0,0.290600061416626,200,PASS
+ShiftedSphere_2D,2,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+ShiftedSphere_5D,5,LineSearchGD,1,1.9465142836328466e-28,0.0,1.9465142836328466e-28,0.06742548942565918,500,PASS
+ShiftedSphere_5D,5,Adaptive,1,0.005915555597927673,0.0,0.005915555597927673,0.32755589485168457,500,PASS
+ShiftedSphere_5D,5,SmarterAdaptive,1,0.0013834244016602375,0.0,0.0013834244016602375,0.31278538703918457,500,PASS
+ShiftedSphere_5D,5,EvenSmarterAdaptive,1,49.015455917123504,0.0,49.015455917123504,0.2193131446838379,500,PASS
+ShiftedSphere_5D,5,GD,1,1.4825893684694109e-08,0.0,1.4825893684694109e-08,0.0285947322845459,500,PASS
+ShiftedSphere_5D,5,Adam,1,5.309920554152854,0.0,5.309920554152854,0.028383255004882812,500,PASS
+ShiftedSphere_5D,5,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (4,2,5) (4,1) ",0.0,200,FAIL
+ShiftedSphere_5D,5,Nevergrad,1,0.0,0.0,0.0,0.6903762817382812,500,PASS
+ShiftedSphere_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+ShiftedSphere_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+ShiftedSphere_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+ShiftedSphere_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+ShiftedSphere_5D,5,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+ShiftedSphere_5D,5,DE,1,0.0,0.0,0.0,0.6634511947631836,500,PASS
+ShiftedSphere_5D,5,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+ShiftedSphere_5D,5,TwoPointsDE,1,0.0,0.0,0.0,0.6931841373443604,500,PASS
+ShiftedSphere_5D,5,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+ShiftedSphere_10D,10,LineSearchGD,1,3.944304526105059e-30,0.0,3.944304526105059e-30,0.09106612205505371,1000,PASS
+ShiftedSphere_10D,10,Adaptive,1,0.10193291804827795,0.0,0.10193291804827795,0.5244686603546143,1000,PASS
+ShiftedSphere_10D,10,SmarterAdaptive,1,0.00011416588860372698,0.0,0.00011416588860372698,0.4860076904296875,1000,PASS
+ShiftedSphere_10D,10,EvenSmarterAdaptive,1,0.010840781319332183,0.0,0.010840781319332183,0.5489785671234131,1000,PASS
+ShiftedSphere_10D,10,GD,1,2.6784383641586267e-24,0.0,2.6784383641586267e-24,0.05498695373535156,1000,PASS
+ShiftedSphere_10D,10,Adam,1,9.848827842737444,0.0,9.848827842737444,0.06303095817565918,1000,PASS
+ShiftedSphere_10D,10,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,2,10) (5,1) ",0.0,200,FAIL
+ShiftedSphere_10D,10,Nevergrad,1,0.0,0.0,0.0,1.341365098953247,1000,PASS
+ShiftedSphere_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+ShiftedSphere_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+ShiftedSphere_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+ShiftedSphere_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+ShiftedSphere_10D,10,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+ShiftedSphere_10D,10,DE,1,0.0,0.0,0.0,1.5498542785644531,1000,PASS
+ShiftedSphere_10D,10,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+ShiftedSphere_10D,10,TwoPointsDE,1,0.0,0.0,0.0,1.380455493927002,1000,PASS
+ShiftedSphere_10D,10,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+ShiftedSphere_20D,20,LineSearchGD,1,1.9918737856830548e-29,0.0,1.9918737856830548e-29,0.19690942764282227,2000,PASS
+ShiftedSphere_20D,20,Adaptive,1,0.1679505226715998,0.0,0.1679505226715998,1.1645350456237793,2000,PASS
+ShiftedSphere_20D,20,SmarterAdaptive,1,0.00015128251474298124,0.0,0.00015128251474298124,1.0081427097320557,2000,PASS
+ShiftedSphere_20D,20,EvenSmarterAdaptive,1,0.0001657584949325449,0.0,0.0001657584949325449,1.0242805480957031,2000,PASS
+ShiftedSphere_20D,20,GD,1,1.0097228682489888e-23,0.0,1.0097228682489888e-23,0.14684391021728516,2000,PASS
+ShiftedSphere_20D,20,Adam,1,8.705995355578366,0.0,8.705995355578366,0.1274275779724121,2000,PASS
+ShiftedSphere_20D,20,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (6,2,20) (6,1) ",0.0,200,FAIL
+ShiftedSphere_20D,20,Nevergrad,1,0.0,0.0,0.0,2.881606340408325,2000,PASS
+ShiftedSphere_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+ShiftedSphere_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+ShiftedSphere_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+ShiftedSphere_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+ShiftedSphere_20D,20,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+ShiftedSphere_20D,20,DE,1,0.0,0.0,0.0,3.1178879737854004,2000,PASS
+ShiftedSphere_20D,20,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+ShiftedSphere_20D,20,TwoPointsDE,1,0.0,0.0,0.0,2.7063283920288086,2000,PASS
+ShiftedSphere_20D,20,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+ShiftedRastrigin_2D,2,LineSearchGD,1,12822.27745384445,0.0,12822.27745384445,0.034406185150146484,200,PASS
+ShiftedRastrigin_2D,2,Adaptive,1,53.86874453438355,0.0,53.86874453438355,0.18913912773132324,200,PASS
+ShiftedRastrigin_2D,2,SmarterAdaptive,1,2.9324264505708904,0.0,2.9324264505708904,0.08784079551696777,200,PASS
+ShiftedRastrigin_2D,2,EvenSmarterAdaptive,1,2.2260146101333333,0.0,2.2260146101333333,0.054908037185668945,200,PASS
+ShiftedRastrigin_2D,2,GD,1,4.975000906179522,0.0,4.975000906179522,0.0168154239654541,200,PASS
+ShiftedRastrigin_2D,2,Adam,1,16.20441480173676,0.0,16.20441480173676,0.028385162353515625,200,PASS
+ShiftedRastrigin_2D,2,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (3,2,2) (3,1) ",0.0,200,FAIL
+ShiftedRastrigin_2D,2,Nevergrad,1,0.0,0.0,0.0,0.27277088165283203,200,PASS
+ShiftedRastrigin_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+ShiftedRastrigin_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+ShiftedRastrigin_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+ShiftedRastrigin_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+ShiftedRastrigin_2D,2,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+ShiftedRastrigin_2D,2,DE,1,0.0,0.0,0.0,0.31378650665283203,200,PASS
+ShiftedRastrigin_2D,2,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+ShiftedRastrigin_2D,2,TwoPointsDE,1,0.0,0.0,0.0,0.30361008644104004,200,PASS
+ShiftedRastrigin_2D,2,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+ShiftedRastrigin_5D,5,LineSearchGD,1,30212.753218837774,0.0,30212.753218837774,0.07133316993713379,500,PASS
+ShiftedRastrigin_5D,5,Adaptive,1,141.2698493503784,0.0,141.2698493503784,0.32591938972473145,500,PASS
+ShiftedRastrigin_5D,5,SmarterAdaptive,1,21.05863044163959,0.0,21.05863044163959,0.12097835540771484,500,PASS
+ShiftedRastrigin_5D,5,EvenSmarterAdaptive,1,21.728320394800363,0.0,21.728320394800363,0.14086508750915527,500,PASS
+ShiftedRastrigin_5D,5,GD,1,5.971606178411847,0.0,5.971606178411847,0.031194210052490234,500,PASS
+ShiftedRastrigin_5D,5,Adam,1,12.100727536160932,0.0,12.100727536160932,0.03336215019226074,500,PASS
+ShiftedRastrigin_5D,5,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (4,2,5) (4,1) ",0.0,200,FAIL
+ShiftedRastrigin_5D,5,Nevergrad,1,0.0,0.0,0.0,0.6875016689300537,500,PASS
+ShiftedRastrigin_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+ShiftedRastrigin_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+ShiftedRastrigin_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+ShiftedRastrigin_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+ShiftedRastrigin_5D,5,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+ShiftedRastrigin_5D,5,DE,1,0.0,0.0,0.0,0.7330639362335205,500,PASS
+ShiftedRastrigin_5D,5,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+ShiftedRastrigin_5D,5,TwoPointsDE,1,0.0,0.0,0.0,0.8468453884124756,500,PASS
+ShiftedRastrigin_5D,5,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+ShiftedRastrigin_10D,10,LineSearchGD,1,40.79321541030988,0.0,40.79321541030988,0.392514705657959,1000,PASS
+ShiftedRastrigin_10D,10,Adaptive,1,376.31648469384714,0.0,376.31648469384714,0.7183361053466797,1000,PASS
+ShiftedRastrigin_10D,10,SmarterAdaptive,1,22.012644319341007,0.0,22.012644319341007,0.2711215019226074,1000,PASS
+ShiftedRastrigin_10D,10,EvenSmarterAdaptive,1,31.95950275904042,0.0,31.95950275904042,0.296983003616333,1000,PASS
+ShiftedRastrigin_10D,10,GD,1,29.849421512815724,0.0,29.849421512815724,0.06639647483825684,1000,PASS
+ShiftedRastrigin_10D,10,Adam,1,36.81340442678049,0.0,36.81340442678049,0.0710606575012207,1000,PASS
+ShiftedRastrigin_10D,10,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,2,10) (5,1) ",0.0,200,FAIL
+ShiftedRastrigin_10D,10,Nevergrad,1,0.0,0.0,0.0,1.3749909400939941,1000,PASS
+ShiftedRastrigin_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+ShiftedRastrigin_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+ShiftedRastrigin_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+ShiftedRastrigin_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+ShiftedRastrigin_10D,10,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+ShiftedRastrigin_10D,10,DE,1,0.0,0.0,0.0,1.5439043045043945,1000,PASS
+ShiftedRastrigin_10D,10,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+ShiftedRastrigin_10D,10,TwoPointsDE,1,0.0,0.0,0.0,1.3779878616333008,1000,PASS
+ShiftedRastrigin_10D,10,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+ShiftedRastrigin_20D,20,LineSearchGD,1,92.53052198424668,0.0,92.53052198424668,0.8120276927947998,2000,PASS
+ShiftedRastrigin_20D,20,Adaptive,1,862.033795722054,0.0,862.033795722054,1.4562482833862305,2000,PASS
+ShiftedRastrigin_20D,20,SmarterAdaptive,1,51.85784016678275,0.0,51.85784016678275,0.5904698371887207,2000,PASS
+ShiftedRastrigin_20D,20,EvenSmarterAdaptive,1,76.76008999805742,0.0,76.76008999805742,0.5527825355529785,2000,PASS
+ShiftedRastrigin_20D,20,GD,1,91.53614228422691,0.0,91.53614228422691,0.1515955924987793,2000,PASS
+ShiftedRastrigin_20D,20,Adam,1,57.70750930525767,0.0,57.70750930525767,0.13918519020080566,2000,PASS
+ShiftedRastrigin_20D,20,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (6,2,20) (6,1) ",0.0,200,FAIL
+ShiftedRastrigin_20D,20,Nevergrad,1,0.0,0.0,0.0,2.8555235862731934,2000,PASS
+ShiftedRastrigin_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+ShiftedRastrigin_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+ShiftedRastrigin_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+ShiftedRastrigin_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+ShiftedRastrigin_20D,20,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+ShiftedRastrigin_20D,20,DE,1,0.0,0.0,0.0,3.3192145824432373,2000,PASS
+ShiftedRastrigin_20D,20,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+ShiftedRastrigin_20D,20,TwoPointsDE,1,0.0,0.0,0.0,3.280763864517212,2000,PASS
+ShiftedRastrigin_20D,20,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+HybridSphereRastrigin_2D,2,LineSearchGD,1,2109.0148106533097,0.0,2109.0148106533097,0.0313720703125,200,PASS
+HybridSphereRastrigin_2D,2,Adaptive,1,26.08425010559729,0.0,26.08425010559729,0.1017141342163086,200,PASS
+HybridSphereRastrigin_2D,2,SmarterAdaptive,1,10.025377387135883,0.0,10.025377387135883,0.05382704734802246,200,PASS
+HybridSphereRastrigin_2D,2,EvenSmarterAdaptive,1,16.00074402746209,0.0,16.00074402746209,0.04849576950073242,200,PASS
+HybridSphereRastrigin_2D,2,GD,1,18.041968885478354,0.0,18.041968885478354,0.010002374649047852,200,PASS
+HybridSphereRastrigin_2D,2,Adam,1,36.56881299667656,0.0,36.56881299667656,0.010043621063232422,200,PASS
+HybridSphereRastrigin_2D,2,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (3,2,2) (3,1) ",0.0,200,FAIL
+HybridSphereRastrigin_2D,2,Nevergrad,1,0.0,0.0,0.0,0.2686951160430908,200,PASS
+HybridSphereRastrigin_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+HybridSphereRastrigin_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+HybridSphereRastrigin_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+HybridSphereRastrigin_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+HybridSphereRastrigin_2D,2,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+HybridSphereRastrigin_2D,2,DE,1,0.0,0.0,0.0,0.36266374588012695,200,PASS
+HybridSphereRastrigin_2D,2,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+HybridSphereRastrigin_2D,2,TwoPointsDE,1,0.0,0.0,0.0,0.34836339950561523,200,PASS
+HybridSphereRastrigin_2D,2,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+HybridSphereRastrigin_5D,5,LineSearchGD,1,457.2071611875474,0.0,457.2071611875474,0.09317207336425781,500,PASS
+HybridSphereRastrigin_5D,5,Adaptive,1,103.05526427023256,0.0,103.05526427023256,0.24584698677062988,500,PASS
+HybridSphereRastrigin_5D,5,SmarterAdaptive,1,50.01120522623224,0.0,50.01120522623224,0.1337425708770752,500,PASS
+HybridSphereRastrigin_5D,5,EvenSmarterAdaptive,1,57.58367892660662,0.0,57.58367892660662,0.09819245338439941,500,PASS
+HybridSphereRastrigin_5D,5,GD,1,35.818333207830605,0.0,35.818333207830605,0.024936676025390625,500,PASS
+HybridSphereRastrigin_5D,5,Adam,1,52.30237476843144,0.0,52.30237476843144,0.0253751277923584,500,PASS
+HybridSphereRastrigin_5D,5,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (4,2,5) (4,1) ",0.0,200,FAIL
+HybridSphereRastrigin_5D,5,Nevergrad,1,0.0,0.0,0.0,0.646608829498291,500,PASS
+HybridSphereRastrigin_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+HybridSphereRastrigin_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+HybridSphereRastrigin_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+HybridSphereRastrigin_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+HybridSphereRastrigin_5D,5,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+HybridSphereRastrigin_5D,5,DE,1,0.0,0.0,0.0,0.767751932144165,500,PASS
+HybridSphereRastrigin_5D,5,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+HybridSphereRastrigin_5D,5,TwoPointsDE,1,0.0,0.0,0.0,0.7111034393310547,500,PASS
+HybridSphereRastrigin_5D,5,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+HybridSphereRastrigin_10D,10,LineSearchGD,1,75.61624996012628,0.0,75.61624996012628,0.24277067184448242,1000,PASS
+HybridSphereRastrigin_10D,10,Adaptive,1,324.525756193195,0.0,324.525756193195,0.49345993995666504,1000,PASS
+HybridSphereRastrigin_10D,10,SmarterAdaptive,1,34.63937981810805,0.0,34.63937981810805,0.24091315269470215,1000,PASS
+HybridSphereRastrigin_10D,10,EvenSmarterAdaptive,1,59.42827493531042,0.0,59.42827493531042,0.22488617897033691,1000,PASS
+HybridSphereRastrigin_10D,10,GD,1,14.924703539536615,0.0,14.924703539536615,0.04673933982849121,1000,PASS
+HybridSphereRastrigin_10D,10,Adam,1,73.32920569998281,0.0,73.32920569998281,0.04998636245727539,1000,PASS
+HybridSphereRastrigin_10D,10,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,2,10) (5,1) ",0.0,200,FAIL
+HybridSphereRastrigin_10D,10,Nevergrad,1,0.0,0.0,0.0,1.5419700145721436,1000,PASS
+HybridSphereRastrigin_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+HybridSphereRastrigin_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+HybridSphereRastrigin_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+HybridSphereRastrigin_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+HybridSphereRastrigin_10D,10,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+HybridSphereRastrigin_10D,10,DE,1,0.0,0.0,0.0,2.111647605895996,1000,PASS
+HybridSphereRastrigin_10D,10,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+HybridSphereRastrigin_10D,10,TwoPointsDE,1,0.0,0.0,0.0,1.7789671421051025,1000,PASS
+HybridSphereRastrigin_10D,10,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+HybridSphereRastrigin_20D,20,LineSearchGD,1,101.48505405116812,0.0,101.48505405116812,0.6874279975891113,2000,PASS
+HybridSphereRastrigin_20D,20,Adaptive,1,1216.2252420293153,0.0,1216.2252420293153,1.114300012588501,2000,PASS
+HybridSphereRastrigin_20D,20,SmarterAdaptive,1,55.89032131460044,0.0,55.89032131460044,0.4843907356262207,2000,PASS
+HybridSphereRastrigin_20D,20,EvenSmarterAdaptive,1,79.02418830271812,0.0,79.02418830271812,0.47728896141052246,2000,PASS
+HybridSphereRastrigin_20D,20,GD,1,49.74806396017474,0.0,49.74806396017474,0.09575843811035156,2000,PASS
+HybridSphereRastrigin_20D,20,Adam,1,77.57055241270822,0.0,77.57055241270822,0.11813926696777344,2000,PASS
+HybridSphereRastrigin_20D,20,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (6,2,20) (6,1) ",0.0,200,FAIL
+HybridSphereRastrigin_20D,20,Nevergrad,1,0.0,0.0,0.0,3.1134097576141357,2000,PASS
+HybridSphereRastrigin_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+HybridSphereRastrigin_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+HybridSphereRastrigin_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+HybridSphereRastrigin_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+HybridSphereRastrigin_20D,20,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+HybridSphereRastrigin_20D,20,DE,1,0.0,0.0,0.0,3.520528793334961,2000,PASS
+HybridSphereRastrigin_20D,20,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+HybridSphereRastrigin_20D,20,TwoPointsDE,1,0.0,0.0,0.0,3.003058910369873,2000,PASS
+HybridSphereRastrigin_20D,20,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Ellipsoid_2D,2,LineSearchGD,1,1.6365094624556442,0.0,1.6365094624556442,0.11382365226745605,200,PASS
+Ellipsoid_2D,2,Adaptive,1,15996677.714648468,0.0,15996677.714648468,0.12166976928710938,200,PASS
+Ellipsoid_2D,2,SmarterAdaptive,1,238.21803773329708,0.0,238.21803773329708,0.0599970817565918,200,PASS
+Ellipsoid_2D,2,EvenSmarterAdaptive,1,1248.685699483012,0.0,1248.685699483012,0.031223535537719727,200,PASS
+Ellipsoid_2D,2,GD,1,20.591593283536515,0.0,20.591593283536515,0.007841110229492188,200,PASS
+Ellipsoid_2D,2,Adam,1,4662958.588319704,0.0,4662958.588319704,0.00794219970703125,200,PASS
+Ellipsoid_2D,2,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (3,2,2) (3,1) ",0.0,200,FAIL
+Ellipsoid_2D,2,Nevergrad,1,0.0,0.0,0.0,0.3783719539642334,200,PASS
+Ellipsoid_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Ellipsoid_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Ellipsoid_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Ellipsoid_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Ellipsoid_2D,2,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Ellipsoid_2D,2,DE,1,0.0,0.0,0.0,0.36372852325439453,200,PASS
+Ellipsoid_2D,2,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Ellipsoid_2D,2,TwoPointsDE,1,0.0,0.0,0.0,0.2389676570892334,200,PASS
+Ellipsoid_2D,2,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Ellipsoid_5D,5,LineSearchGD,1,30.584973524992233,0.0,30.584973524992233,0.2053065299987793,500,PASS
+Ellipsoid_5D,5,Adaptive,1,5109162.7800052315,0.0,5109162.7800052315,0.1952972412109375,500,PASS
+Ellipsoid_5D,5,SmarterAdaptive,1,6079.488374395405,0.0,6079.488374395405,0.0988466739654541,500,PASS
+Ellipsoid_5D,5,EvenSmarterAdaptive,1,2612.5719927809505,0.0,2612.5719927809505,0.0899505615234375,500,PASS
+Ellipsoid_5D,5,GD,1,216232.9516530548,0.0,216232.9516530548,0.01786637306213379,500,PASS
+Ellipsoid_5D,5,Adam,1,4100499.788666929,0.0,4100499.788666929,0.030338287353515625,500,PASS
+Ellipsoid_5D,5,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (4,2,5) (4,1) ",0.0,200,FAIL
+Ellipsoid_5D,5,Nevergrad,1,0.0,0.0,0.0,0.8751463890075684,500,PASS
+Ellipsoid_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Ellipsoid_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Ellipsoid_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Ellipsoid_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Ellipsoid_5D,5,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Ellipsoid_5D,5,DE,1,0.0,0.0,0.0,0.8998937606811523,500,PASS
+Ellipsoid_5D,5,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Ellipsoid_5D,5,TwoPointsDE,1,0.0,0.0,0.0,0.8445379734039307,500,PASS
+Ellipsoid_5D,5,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Ellipsoid_10D,10,LineSearchGD,1,226.72589850856517,0.0,226.72589850856517,0.6717109680175781,1000,PASS
+Ellipsoid_10D,10,Adaptive,1,7233469.4949499,0.0,7233469.4949499,0.4354836940765381,1000,PASS
+Ellipsoid_10D,10,SmarterAdaptive,1,2576.9584359157743,0.0,2576.9584359157743,0.18219828605651855,1000,PASS
+Ellipsoid_10D,10,EvenSmarterAdaptive,1,1123.4209459419396,0.0,1123.4209459419396,0.17469096183776855,1000,PASS
+Ellipsoid_10D,10,GD,1,12652.12720174064,0.0,12652.12720174064,0.04446005821228027,1000,PASS
+Ellipsoid_10D,10,Adam,1,3995742.9888640177,0.0,3995742.9888640177,0.04653453826904297,1000,PASS
+Ellipsoid_10D,10,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,2,10) (5,1) ",0.0,200,FAIL
+Ellipsoid_10D,10,Nevergrad,1,0.0,0.0,0.0,1.4044849872589111,1000,PASS
+Ellipsoid_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Ellipsoid_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Ellipsoid_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Ellipsoid_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Ellipsoid_10D,10,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Ellipsoid_10D,10,DE,1,0.0,0.0,0.0,1.61372709274292,1000,PASS
+Ellipsoid_10D,10,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Ellipsoid_10D,10,TwoPointsDE,1,0.0,0.0,0.0,1.563462495803833,1000,PASS
+Ellipsoid_10D,10,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Ellipsoid_20D,20,LineSearchGD,1,45.39309919441009,0.0,45.39309919441009,1.1765434741973877,2000,PASS
+Ellipsoid_20D,20,Adaptive,1,75409358.68174367,0.0,75409358.68174367,1.0468971729278564,2000,PASS
+Ellipsoid_20D,20,SmarterAdaptive,1,2874.8189650915338,0.0,2874.8189650915338,0.4320368766784668,2000,PASS
+Ellipsoid_20D,20,EvenSmarterAdaptive,1,2780.8006118391722,0.0,2780.8006118391722,0.39292311668395996,2000,PASS
+Ellipsoid_20D,20,GD,1,302.2432740722853,0.0,302.2432740722853,0.1033937931060791,2000,PASS
+Ellipsoid_20D,20,Adam,1,4246976.421715628,0.0,4246976.421715628,0.09721183776855469,2000,PASS
+Ellipsoid_20D,20,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (6,2,20) (6,1) ",0.0,200,FAIL
+Ellipsoid_20D,20,Nevergrad,1,0.0,0.0,0.0,2.9182515144348145,2000,PASS
+Ellipsoid_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Ellipsoid_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Ellipsoid_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Ellipsoid_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Ellipsoid_20D,20,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Ellipsoid_20D,20,DE,1,0.0,0.0,0.0,3.6518523693084717,2000,PASS
+Ellipsoid_20D,20,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Ellipsoid_20D,20,TwoPointsDE,1,0.0,0.0,0.0,3.48087477684021,2000,PASS
+Ellipsoid_20D,20,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Discus_2D,2,LineSearchGD,1,1.2810923536857919,0.0,1.2810923536857919,0.05920767784118652,200,PASS
+Discus_2D,2,Adaptive,1,12271897.167557364,0.0,12271897.167557364,0.060430288314819336,200,PASS
+Discus_2D,2,SmarterAdaptive,1,1139.4918743125181,0.0,1139.4918743125181,0.02448129653930664,200,PASS
+Discus_2D,2,EvenSmarterAdaptive,1,614.8188120520065,0.0,614.8188120520065,0.025626659393310547,200,PASS
+Discus_2D,2,GD,1,620.9437420019648,0.0,620.9437420019648,0.005593299865722656,200,PASS
+Discus_2D,2,Adam,1,7790719.677958292,0.0,7790719.677958292,0.005779743194580078,200,PASS
+Discus_2D,2,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (3,2,2) (3,1) ",0.0,200,FAIL
+Discus_2D,2,Nevergrad,1,0.0,0.0,0.0,0.2476208209991455,200,PASS
+Discus_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Discus_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Discus_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Discus_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Discus_2D,2,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Discus_2D,2,DE,1,0.0,0.0,0.0,0.26454639434814453,200,PASS
+Discus_2D,2,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Discus_2D,2,TwoPointsDE,1,0.0,0.0,0.0,0.2777893543243408,200,PASS
+Discus_2D,2,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Discus_5D,5,LineSearchGD,1,23.176943649569274,0.0,23.176943649569274,0.12893128395080566,500,PASS
+Discus_5D,5,Adaptive,1,9753354.277344195,0.0,9753354.277344195,0.1501915454864502,500,PASS
+Discus_5D,5,SmarterAdaptive,1,2627.5694964850363,0.0,2627.5694964850363,0.05964016914367676,500,PASS
+Discus_5D,5,EvenSmarterAdaptive,1,3060.541302156372,0.0,3060.541302156372,0.05871081352233887,500,PASS
+Discus_5D,5,GD,1,59.13148115171448,0.0,59.13148115171448,0.013881683349609375,500,PASS
+Discus_5D,5,Adam,1,666463.0914373455,0.0,666463.0914373455,0.014575958251953125,500,PASS
+Discus_5D,5,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (4,2,5) (4,1) ",0.0,200,FAIL
+Discus_5D,5,Nevergrad,1,0.0,0.0,0.0,0.7433164119720459,500,PASS
+Discus_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Discus_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Discus_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Discus_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Discus_5D,5,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Discus_5D,5,DE,1,0.0,0.0,0.0,0.7805800437927246,500,PASS
+Discus_5D,5,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Discus_5D,5,TwoPointsDE,1,0.0,0.0,0.0,0.8499972820281982,500,PASS
+Discus_5D,5,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Discus_10D,10,LineSearchGD,1,19.720152886351958,0.0,19.720152886351958,0.2773585319519043,1000,PASS
+Discus_10D,10,Adaptive,1,5394543.290833779,0.0,5394543.290833779,0.2565126419067383,1000,PASS
+Discus_10D,10,SmarterAdaptive,1,1541.46317566862,0.0,1541.46317566862,0.15702342987060547,1000,PASS
+Discus_10D,10,EvenSmarterAdaptive,1,4170.74739721691,0.0,4170.74739721691,0.12352943420410156,1000,PASS
+Discus_10D,10,GD,1,47.5907686821001,0.0,47.5907686821001,0.040433406829833984,1000,PASS
+Discus_10D,10,Adam,1,1398078.3149130715,0.0,1398078.3149130715,0.051792144775390625,1000,PASS
+Discus_10D,10,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,2,10) (5,1) ",0.0,200,FAIL
+Discus_10D,10,Nevergrad,1,0.0,0.0,0.0,1.6710734367370605,1000,PASS
+Discus_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Discus_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Discus_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Discus_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Discus_10D,10,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Discus_10D,10,DE,1,0.0,0.0,0.0,1.6113529205322266,1000,PASS
+Discus_10D,10,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Discus_10D,10,TwoPointsDE,1,0.0,0.0,0.0,1.6500263214111328,1000,PASS
+Discus_10D,10,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Discus_20D,20,LineSearchGD,1,4.909164865024888,0.0,4.909164865024888,0.6676735877990723,2000,PASS
+Discus_20D,20,Adaptive,1,3851340.718471079,0.0,3851340.718471079,0.7796576023101807,2000,PASS
+Discus_20D,20,SmarterAdaptive,1,1853.7636221126052,0.0,1853.7636221126052,0.34458327293395996,2000,PASS
+Discus_20D,20,EvenSmarterAdaptive,1,842.319855326086,0.0,842.319855326086,0.3319106101989746,2000,PASS
+Discus_20D,20,GD,1,165.44327847931552,0.0,165.44327847931552,0.05017256736755371,2000,PASS
+Discus_20D,20,Adam,1,45.154864363962105,0.0,45.154864363962105,0.0782463550567627,2000,PASS
+Discus_20D,20,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (6,2,20) (6,1) ",0.0,200,FAIL
+Discus_20D,20,Nevergrad,1,0.0,0.0,0.0,3.062974214553833,2000,PASS
+Discus_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Discus_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Discus_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Discus_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Discus_20D,20,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Discus_20D,20,DE,1,0.0,0.0,0.0,3.5749778747558594,2000,PASS
+Discus_20D,20,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Discus_20D,20,TwoPointsDE,1,0.0,0.0,0.0,3.041797161102295,2000,PASS
+Discus_20D,20,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Zakharov_2D,2,LineSearchGD,1,1.187495487098285e-07,0.0,1.187495487098285e-07,0.035620927810668945,200,PASS
+Zakharov_2D,2,Adaptive,1,65821.73856249718,0.0,65821.73856249718,0.2161540985107422,200,PASS
+Zakharov_2D,2,SmarterAdaptive,1,0.00011621023837774726,0.0,0.00011621023837774726,0.1654200553894043,200,PASS
+Zakharov_2D,2,EvenSmarterAdaptive,1,0.003355883481256809,0.0,0.003355883481256809,0.21012449264526367,200,PASS
+Zakharov_2D,2,GD,1,110.06879904659002,0.0,110.06879904659002,0.01018381118774414,200,PASS
+Zakharov_2D,2,Adam,1,182.45316246358468,0.0,182.45316246358468,0.011665582656860352,200,PASS
+Zakharov_2D,2,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (3,2,2) (3,1) ",0.0,200,FAIL
+Zakharov_2D,2,Nevergrad,1,224.31640625,0.0,224.31640625,0.3415799140930176,200,PASS
+Zakharov_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Zakharov_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Zakharov_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Zakharov_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Zakharov_2D,2,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Zakharov_2D,2,DE,1,224.31640625,0.0,224.31640625,0.3820977210998535,200,PASS
+Zakharov_2D,2,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Zakharov_2D,2,TwoPointsDE,1,224.31640625,0.0,224.31640625,0.3439037799835205,200,PASS
+Zakharov_2D,2,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Zakharov_5D,5,LineSearchGD,1,7.896182452849873e-18,0.0,7.896182452849873e-18,0.10003995895385742,500,PASS
+Zakharov_5D,5,Adaptive,1,0.010854190866627953,0.0,0.010854190866627953,0.37207841873168945,500,PASS
+Zakharov_5D,5,SmarterAdaptive,1,0.0659211289824667,0.0,0.0659211289824667,0.23657798767089844,500,PASS
+Zakharov_5D,5,EvenSmarterAdaptive,1,0.03513041735968146,0.0,0.03513041735968146,0.235884428024292,500,PASS
+Zakharov_5D,5,GD,1,0.4393875155787294,0.0,0.4393875155787294,0.026338577270507812,500,PASS
+Zakharov_5D,5,Adam,1,398.7330854052597,0.0,398.7330854052597,0.03206157684326172,500,PASS
+Zakharov_5D,5,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (4,2,5) (4,1) ",0.0,200,FAIL
+Zakharov_5D,5,Nevergrad,1,123979.00390625,0.0,123979.00390625,0.7467043399810791,500,PASS
+Zakharov_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Zakharov_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Zakharov_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Zakharov_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Zakharov_5D,5,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Zakharov_5D,5,DE,1,123979.00390625,0.0,123979.00390625,0.7589256763458252,500,PASS
+Zakharov_5D,5,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Zakharov_5D,5,TwoPointsDE,1,123979.00390625,0.0,123979.00390625,0.7163136005401611,500,PASS
+Zakharov_5D,5,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Zakharov_10D,10,LineSearchGD,1,1564.7205066429915,0.0,1564.7205066429915,0.3341195583343506,1000,PASS
+Zakharov_10D,10,Adaptive,1,567.7703434425865,0.0,567.7703434425865,0.6861820220947266,1000,PASS
+Zakharov_10D,10,SmarterAdaptive,1,0.3388940659601213,0.0,0.3388940659601213,0.33658337593078613,1000,PASS
+Zakharov_10D,10,EvenSmarterAdaptive,1,0.55746858672218,0.0,0.55746858672218,0.3406233787536621,1000,PASS
+Zakharov_10D,10,GD,1,8.211265248788697,0.0,8.211265248788697,0.06588339805603027,1000,PASS
+Zakharov_10D,10,Adam,1,12585192.903959043,0.0,12585192.903959043,0.07194161415100098,1000,PASS
+Zakharov_10D,10,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,2,10) (5,1) ",0.0,200,FAIL
+Zakharov_10D,10,Nevergrad,1,22345182.12890625,0.0,22345182.12890625,1.7039721012115479,1000,PASS
+Zakharov_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Zakharov_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Zakharov_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Zakharov_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Zakharov_10D,10,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Zakharov_10D,10,DE,1,22345182.12890625,0.0,22345182.12890625,1.850414752960205,1000,PASS
+Zakharov_10D,10,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Zakharov_10D,10,TwoPointsDE,1,22345182.12890625,0.0,22345182.12890625,1.9318008422851562,1000,PASS
+Zakharov_10D,10,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Zakharov_20D,20,LineSearchGD,1,5.005491064542358e-43,0.0,5.005491064542358e-43,0.7924404144287109,2000,PASS
+Zakharov_20D,20,Adaptive,1,3828571140.2809386,0.0,3828571140.2809386,1.435605764389038,2000,PASS
+Zakharov_20D,20,SmarterAdaptive,1,6.100279542068713,0.0,6.100279542068713,0.695908784866333,2000,PASS
+Zakharov_20D,20,EvenSmarterAdaptive,1,5.154804466406247,0.0,5.154804466406247,0.5540974140167236,2000,PASS
+Zakharov_20D,20,GD,1,31.592881696084916,0.0,31.592881696084916,0.12469244003295898,2000,PASS
+Zakharov_20D,20,Adam,1,468.7508003254452,0.0,468.7508003254452,0.13382697105407715,2000,PASS
+Zakharov_20D,20,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (6,2,20) (6,1) ",0.0,200,FAIL
+Zakharov_20D,20,Nevergrad,1,ERROR,ERROR,invalid value encountered in subtract,0.0,2000,FAIL
+Zakharov_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Zakharov_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Zakharov_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Zakharov_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Zakharov_20D,20,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Zakharov_20D,20,DE,1,ERROR,ERROR,invalid value encountered in subtract,0.0,2000,FAIL
+Zakharov_20D,20,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Zakharov_20D,20,TwoPointsDE,1,ERROR,ERROR,invalid value encountered in subtract,0.0,2000,FAIL
+Zakharov_20D,20,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+StyblinskiTang_2D,2,LineSearchGD,1,-78.32626898977382,-78.332332,0.006063010226171173,0.028348684310913086,200,PASS
+StyblinskiTang_2D,2,Adaptive,1,-50.027016035989675,-78.332332,28.30531596401032,0.11218786239624023,200,PASS
+StyblinskiTang_2D,2,SmarterAdaptive,1,-50.05364592839548,-78.332332,28.27868607160451,0.06621026992797852,200,PASS
+StyblinskiTang_2D,2,EvenSmarterAdaptive,1,-64.10136120642952,-78.332332,14.230970793570478,0.06150174140930176,200,PASS
+StyblinskiTang_2D,2,GD,1,-47.98624298212758,-78.332332,30.346089017872416,0.007759809494018555,200,PASS
+StyblinskiTang_2D,2,Adam,1,-38.96354621487093,-78.332332,39.36878578512906,0.008214473724365234,200,PASS
+StyblinskiTang_2D,2,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (3,2,2) (3,1) ",0.0,200,FAIL
+StyblinskiTang_2D,2,Nevergrad,1,0.0,-78.332332,78.332332,0.3699228763580322,200,PASS
+StyblinskiTang_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+StyblinskiTang_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+StyblinskiTang_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+StyblinskiTang_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+StyblinskiTang_2D,2,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+StyblinskiTang_2D,2,DE,1,0.0,-78.332332,78.332332,0.4739670753479004,200,PASS
+StyblinskiTang_2D,2,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+StyblinskiTang_2D,2,TwoPointsDE,1,0.0,-78.332332,78.332332,0.4243314266204834,200,PASS
+StyblinskiTang_2D,2,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+StyblinskiTang_5D,5,LineSearchGD,1,-167.55739042188185,-195.83083,28.273439578118143,0.13272404670715332,500,PASS
+StyblinskiTang_5D,5,Adaptive,1,662.0600282108593,-195.83083,857.8908582108593,0.34285926818847656,500,PASS
+StyblinskiTang_5D,5,SmarterAdaptive,1,-153.40965498083386,-195.83083,42.42117501916613,0.1624293327331543,500,PASS
+StyblinskiTang_5D,5,EvenSmarterAdaptive,1,-125.13433149151331,-195.83083,70.69649850848668,0.25161027908325195,500,PASS
+StyblinskiTang_5D,5,GD,1,-181.694071355555,-195.83083,14.136758644444996,0.020694255828857422,500,PASS
+StyblinskiTang_5D,5,Adam,1,-128.09688783648983,-195.83083,67.73394216351016,0.022917509078979492,500,PASS
+StyblinskiTang_5D,5,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (4,2,5) (4,1) ",0.0,200,FAIL
+StyblinskiTang_5D,5,Nevergrad,1,0.0,-195.83083,195.83083,0.7322037220001221,500,PASS
+StyblinskiTang_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+StyblinskiTang_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+StyblinskiTang_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+StyblinskiTang_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+StyblinskiTang_5D,5,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+StyblinskiTang_5D,5,DE,1,0.0,-195.83083,195.83083,0.7646665573120117,500,PASS
+StyblinskiTang_5D,5,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+StyblinskiTang_5D,5,TwoPointsDE,1,0.0,-195.83083,195.83083,0.7611470222473145,500,PASS
+StyblinskiTang_5D,5,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+StyblinskiTang_10D,10,LineSearchGD,1,-320.9780617952758,-391.66166,70.6835982047242,0.17309093475341797,1000,PASS
+StyblinskiTang_10D,10,Adaptive,1,16127.690781009098,-391.66166,16519.352441009098,0.490523099899292,1000,PASS
+StyblinskiTang_10D,10,SmarterAdaptive,1,-335.0916568394818,-391.66166,56.57000316051818,0.35438108444213867,1000,PASS
+StyblinskiTang_10D,10,EvenSmarterAdaptive,1,-335.1012995832077,-391.66166,56.560360416792264,0.3995661735534668,1000,PASS
+StyblinskiTang_10D,10,GD,1,-306.8413330585022,-391.66166,84.8203269414978,0.07776951789855957,1000,PASS
+StyblinskiTang_10D,10,Adam,1,-258.5073678851854,-391.66166,133.1542921148146,0.0434567928314209,1000,PASS
+StyblinskiTang_10D,10,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,2,10) (5,1) ",0.0,200,FAIL
+StyblinskiTang_10D,10,Nevergrad,1,0.0,-391.66166,391.66166,1.7275009155273438,1000,PASS
+StyblinskiTang_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+StyblinskiTang_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+StyblinskiTang_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+StyblinskiTang_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+StyblinskiTang_10D,10,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+StyblinskiTang_10D,10,DE,1,0.0,-391.66166,391.66166,1.5659606456756592,1000,PASS
+StyblinskiTang_10D,10,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+StyblinskiTang_10D,10,TwoPointsDE,1,0.0,-391.66166,391.66166,1.9598770141601562,1000,PASS
+StyblinskiTang_10D,10,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+StyblinskiTang_20D,20,LineSearchGD,1,-627.8194045420655,-783.32332,155.50391545793445,0.4398674964904785,2000,PASS
+StyblinskiTang_20D,20,Adaptive,1,11549.8651099159,-783.32332,12333.1884299159,0.9724845886230469,2000,PASS
+StyblinskiTang_20D,20,SmarterAdaptive,1,-656.0787889373726,-783.32332,127.2445310626274,0.7866854667663574,2000,PASS
+StyblinskiTang_20D,20,EvenSmarterAdaptive,1,-670.2171469083936,-783.32332,113.10617309160637,0.770531177520752,2000,PASS
+StyblinskiTang_20D,20,GD,1,-656.0927713010743,-783.32332,127.23054869892565,0.09300827980041504,2000,PASS
+StyblinskiTang_20D,20,Adam,1,-635.7152983615067,-783.32332,147.60802163849326,0.08782029151916504,2000,PASS
+StyblinskiTang_20D,20,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (6,2,20) (6,1) ",0.0,200,FAIL
+StyblinskiTang_20D,20,Nevergrad,1,0.0,-783.32332,783.32332,2.8694987297058105,2000,PASS
+StyblinskiTang_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+StyblinskiTang_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+StyblinskiTang_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+StyblinskiTang_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+StyblinskiTang_20D,20,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+StyblinskiTang_20D,20,DE,1,0.0,-783.32332,783.32332,3.6336512565612793,2000,PASS
+StyblinskiTang_20D,20,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+StyblinskiTang_20D,20,TwoPointsDE,1,0.0,-783.32332,783.32332,3.338879346847534,2000,PASS
+StyblinskiTang_20D,20,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Step_2D,2,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (3,2,2) (3,1) ",0.0,200,FAIL
+Step_2D,2,Nevergrad,1,0.0,0.0,0.0,0.32397031784057617,200,PASS
+Step_2D,2,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Step_2D,2,DE,1,0.0,0.0,0.0,0.2964787483215332,200,PASS
+Step_2D,2,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Step_2D,2,TwoPointsDE,1,0.0,0.0,0.0,0.4171767234802246,200,PASS
+Step_2D,2,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Step_5D,5,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (4,2,5) (4,1) ",0.0,200,FAIL
+Step_5D,5,Nevergrad,1,0.0,0.0,0.0,0.7104768753051758,500,PASS
+Step_5D,5,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Step_5D,5,DE,1,0.0,0.0,0.0,0.7068445682525635,500,PASS
+Step_5D,5,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Step_5D,5,TwoPointsDE,1,0.0,0.0,0.0,0.7034671306610107,500,PASS
+Step_5D,5,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Step_10D,10,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,2,10) (5,1) ",0.0,200,FAIL
+Step_10D,10,Nevergrad,1,0.0,0.0,0.0,1.7314860820770264,1000,PASS
+Step_10D,10,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Step_10D,10,DE,1,0.0,0.0,0.0,1.529813289642334,1000,PASS
+Step_10D,10,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Step_10D,10,TwoPointsDE,1,0.0,0.0,0.0,1.4737308025360107,1000,PASS
+Step_10D,10,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Step_20D,20,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (6,2,20) (6,1) ",0.0,200,FAIL
+Step_20D,20,Nevergrad,1,0.0,0.0,0.0,2.756887435913086,2000,PASS
+Step_20D,20,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Step_20D,20,DE,1,0.0,0.0,0.0,3.042086362838745,2000,PASS
+Step_20D,20,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Step_20D,20,TwoPointsDE,1,0.0,0.0,0.0,2.887012243270874,2000,PASS
+Step_20D,20,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+QuarticNoise_2D,2,LineSearchGD,1,0.8405872947476013,0.0,0.8405872947476013,0.02203536033630371,200,PASS
+QuarticNoise_2D,2,Adaptive,1,1.0196538086463645,0.0,1.0196538086463645,0.07654309272766113,200,PASS
+QuarticNoise_2D,2,SmarterAdaptive,1,0.4519298012661941,0.0,0.4519298012661941,0.07632803916931152,200,PASS
+QuarticNoise_2D,2,EvenSmarterAdaptive,1,1.0607270812343499,0.0,1.0607270812343499,0.08624577522277832,200,PASS
+QuarticNoise_2D,2,GD,1,0.6551561633083547,0.0,0.6551561633083547,0.008361101150512695,200,PASS
+QuarticNoise_2D,2,Adam,1,0.3518743069770426,0.0,0.3518743069770426,0.00888681411743164,200,PASS
+QuarticNoise_2D,2,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (3,2,2) (3,1) ",0.0,200,FAIL
+QuarticNoise_2D,2,Nevergrad,1,0.742213463918393,0.0,0.742213463918393,0.2777554988861084,200,PASS
+QuarticNoise_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+QuarticNoise_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+QuarticNoise_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+QuarticNoise_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+QuarticNoise_2D,2,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+QuarticNoise_2D,2,DE,1,0.6952440541270003,0.0,0.6952440541270003,0.2868919372558594,200,PASS
+QuarticNoise_2D,2,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+QuarticNoise_2D,2,TwoPointsDE,1,0.4106544273824104,0.0,0.4106544273824104,0.3897528648376465,200,PASS
+QuarticNoise_2D,2,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+QuarticNoise_5D,5,LineSearchGD,1,0.19089492602537658,0.0,0.19089492602537658,0.05992746353149414,500,PASS
+QuarticNoise_5D,5,Adaptive,1,1.821380617463146,0.0,1.821380617463146,0.28708767890930176,500,PASS
+QuarticNoise_5D,5,SmarterAdaptive,1,0.5726231977624197,0.0,0.5726231977624197,0.14310979843139648,500,PASS
+QuarticNoise_5D,5,EvenSmarterAdaptive,1,0.789400366664962,0.0,0.789400366664962,0.14464879035949707,500,PASS
+QuarticNoise_5D,5,GD,1,0.23338464086477756,0.0,0.23338464086477756,0.020058393478393555,500,PASS
+QuarticNoise_5D,5,Adam,1,1.1970862116227519,0.0,1.1970862116227519,0.019751548767089844,500,PASS
+QuarticNoise_5D,5,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (4,2,5) (4,1) ",0.0,200,FAIL
+QuarticNoise_5D,5,Nevergrad,1,0.9516339218483194,0.0,0.9516339218483194,0.7625000476837158,500,PASS
+QuarticNoise_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+QuarticNoise_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+QuarticNoise_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+QuarticNoise_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+QuarticNoise_5D,5,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+QuarticNoise_5D,5,DE,1,0.5621360022916978,0.0,0.5621360022916978,0.9462184906005859,500,PASS
+QuarticNoise_5D,5,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+QuarticNoise_5D,5,TwoPointsDE,1,0.0037132604711545003,0.0,0.0037132604711545003,1.0283920764923096,500,PASS
+QuarticNoise_5D,5,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+QuarticNoise_10D,10,LineSearchGD,1,0.7394983075921286,0.0,0.7394983075921286,0.16302919387817383,1000,PASS
+QuarticNoise_10D,10,Adaptive,1,53970.552384585666,0.0,53970.552384585666,0.5287103652954102,1000,PASS
+QuarticNoise_10D,10,SmarterAdaptive,1,0.971502690725856,0.0,0.971502690725856,0.3806304931640625,1000,PASS
+QuarticNoise_10D,10,EvenSmarterAdaptive,1,1.0853826681743688,0.0,1.0853826681743688,0.40127062797546387,1000,PASS
+QuarticNoise_10D,10,GD,1,0.9748776179158508,0.0,0.9748776179158508,0.04755258560180664,1000,PASS
+QuarticNoise_10D,10,Adam,1,2.202345157417448,0.0,2.202345157417448,0.054955482482910156,1000,PASS
+QuarticNoise_10D,10,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,2,10) (5,1) ",0.0,200,FAIL
+QuarticNoise_10D,10,Nevergrad,1,0.8185155805752223,0.0,0.8185155805752223,1.3774452209472656,1000,PASS
+QuarticNoise_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+QuarticNoise_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+QuarticNoise_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+QuarticNoise_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+QuarticNoise_10D,10,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+QuarticNoise_10D,10,DE,1,0.3344918334102821,0.0,0.3344918334102821,1.5494635105133057,1000,PASS
+QuarticNoise_10D,10,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+QuarticNoise_10D,10,TwoPointsDE,1,0.4867596292395744,0.0,0.4867596292395744,1.6044676303863525,1000,PASS
+QuarticNoise_10D,10,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+QuarticNoise_20D,20,LineSearchGD,1,0.9313912650696455,0.0,0.9313912650696455,0.37566304206848145,2000,PASS
+QuarticNoise_20D,20,Adaptive,1,2233858.7279061787,0.0,2233858.7279061787,0.9218075275421143,2000,PASS
+QuarticNoise_20D,20,SmarterAdaptive,1,0.9994730712746924,0.0,0.9994730712746924,0.5296883583068848,2000,PASS
+QuarticNoise_20D,20,EvenSmarterAdaptive,1,0.7677032076245491,0.0,0.7677032076245491,0.520916223526001,2000,PASS
+QuarticNoise_20D,20,GD,1,0.4664273106910622,0.0,0.4664273106910622,0.08727812767028809,2000,PASS
+QuarticNoise_20D,20,Adam,1,0.9342275663449289,0.0,0.9342275663449289,0.08604693412780762,2000,PASS
+QuarticNoise_20D,20,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (6,2,20) (6,1) ",0.0,200,FAIL
+QuarticNoise_20D,20,Nevergrad,1,0.062250660102593725,0.0,0.062250660102593725,2.516162872314453,2000,PASS
+QuarticNoise_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+QuarticNoise_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+QuarticNoise_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+QuarticNoise_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+QuarticNoise_20D,20,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+QuarticNoise_20D,20,DE,1,0.25526830414452384,0.0,0.25526830414452384,2.834613084793091,2000,PASS
+QuarticNoise_20D,20,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+QuarticNoise_20D,20,TwoPointsDE,1,0.8279912279202207,0.0,0.8279912279202207,2.6314010620117188,2000,PASS
+QuarticNoise_20D,20,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Branin2D_2D,2,LineSearchGD,1,19.607167912121938,0.397887,19.209280912121937,0.022766590118408203,200,PASS
+Branin2D_2D,2,Adaptive,1,0.39879240172263053,0.397887,0.0009054017226305389,0.04024338722229004,200,PASS
+Branin2D_2D,2,SmarterAdaptive,1,0.3980761272636766,0.397887,0.00018912726367659172,0.05696678161621094,200,PASS
+Branin2D_2D,2,EvenSmarterAdaptive,1,0.4017628863833256,0.397887,0.0038758863833255885,0.04311776161193848,200,PASS
+Branin2D_2D,2,GD,1,53.57495351128701,0.397887,53.177066511287016,0.00493621826171875,200,PASS
+Branin2D_2D,2,Adam,1,8.25736744834807,0.397887,7.85948044834807,0.017888307571411133,200,PASS
+Branin2D_2D,2,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (3,2,2) (3,1) ",0.0,200,FAIL
+Branin2D_2D,2,Nevergrad,1,2.4152604621472173,0.397887,2.0173734621472175,0.303882360458374,200,PASS
+Branin2D_2D,2,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Branin2D_2D,2,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Branin2D_2D,2,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Branin2D_2D,2,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,200,FAIL
+Branin2D_2D,2,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Branin2D_2D,2,DE,1,2.4152604621472173,0.397887,2.0173734621472175,0.4398784637451172,200,PASS
+Branin2D_2D,2,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Branin2D_2D,2,TwoPointsDE,1,2.4152604621472173,0.397887,2.0173734621472175,0.3097114562988281,200,PASS
+Branin2D_2D,2,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,200,FAIL
+Branin2D_5D,5,LineSearchGD,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,) (2,) ",0.0,500,FAIL
+Branin2D_5D,5,Adaptive,1,0.39871422096419984,0.397887,0.0008272209641998485,0.10697221755981445,500,PASS
+Branin2D_5D,5,SmarterAdaptive,1,ERROR,ERROR,"setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (5,) + inhomogeneous part.",0.0,500,FAIL
+Branin2D_5D,5,EvenSmarterAdaptive,1,ERROR,ERROR,"setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (5,) + inhomogeneous part.",0.0,500,FAIL
+Branin2D_5D,5,GD,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,) (2,) ",0.0,500,FAIL
+Branin2D_5D,5,Adam,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,) (2,) ",0.0,500,FAIL
+Branin2D_5D,5,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (4,2,5) (4,1) ",0.0,200,FAIL
+Branin2D_5D,5,Nevergrad,1,2.4152604621472173,0.397887,2.0173734621472175,0.7451832294464111,500,PASS
+Branin2D_5D,5,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Branin2D_5D,5,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Branin2D_5D,5,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Branin2D_5D,5,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,500,FAIL
+Branin2D_5D,5,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Branin2D_5D,5,DE,1,2.4152604621472173,0.397887,2.0173734621472175,0.7323641777038574,500,PASS
+Branin2D_5D,5,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Branin2D_5D,5,TwoPointsDE,1,2.4152604621472173,0.397887,2.0173734621472175,0.8411056995391846,500,PASS
+Branin2D_5D,5,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,500,FAIL
+Branin2D_10D,10,LineSearchGD,1,ERROR,ERROR,"operands could not be broadcast together with shapes (10,) (2,) ",0.0,1000,FAIL
+Branin2D_10D,10,Adaptive,1,12.256758037520132,0.397887,11.858871037520132,0.29450249671936035,1000,PASS
+Branin2D_10D,10,SmarterAdaptive,1,ERROR,ERROR,"setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (5,) + inhomogeneous part.",0.0,1000,FAIL
+Branin2D_10D,10,EvenSmarterAdaptive,1,ERROR,ERROR,"setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (5,) + inhomogeneous part.",0.0,1000,FAIL
+Branin2D_10D,10,GD,1,ERROR,ERROR,"operands could not be broadcast together with shapes (10,) (2,) ",0.0,1000,FAIL
+Branin2D_10D,10,Adam,1,ERROR,ERROR,"operands could not be broadcast together with shapes (10,) (2,) ",0.0,1000,FAIL
+Branin2D_10D,10,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (5,2,10) (5,1) ",0.0,200,FAIL
+Branin2D_10D,10,Nevergrad,1,2.4152604621472173,0.397887,2.0173734621472175,1.2295112609863281,1000,PASS
+Branin2D_10D,10,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Branin2D_10D,10,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Branin2D_10D,10,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Branin2D_10D,10,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,1000,FAIL
+Branin2D_10D,10,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Branin2D_10D,10,DE,1,2.4152604621472173,0.397887,2.0173734621472175,1.1867632865905762,1000,PASS
+Branin2D_10D,10,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Branin2D_10D,10,TwoPointsDE,1,2.4152604621472173,0.397887,2.0173734621472175,1.1733436584472656,1000,PASS
+Branin2D_10D,10,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,1000,FAIL
+Branin2D_20D,20,LineSearchGD,1,ERROR,ERROR,"operands could not be broadcast together with shapes (20,) (2,) ",0.0,2000,FAIL
+Branin2D_20D,20,Adaptive,1,351.3977568062636,0.397887,350.9998698062636,0.43007731437683105,2000,PASS
+Branin2D_20D,20,SmarterAdaptive,1,ERROR,ERROR,"setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (5,) + inhomogeneous part.",0.0,2000,FAIL
+Branin2D_20D,20,EvenSmarterAdaptive,1,ERROR,ERROR,"setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (5,) + inhomogeneous part.",0.0,2000,FAIL
+Branin2D_20D,20,GD,1,ERROR,ERROR,"operands could not be broadcast together with shapes (20,) (2,) ",0.0,2000,FAIL
+Branin2D_20D,20,Adam,1,ERROR,ERROR,"operands could not be broadcast together with shapes (20,) (2,) ",0.0,2000,FAIL
+Branin2D_20D,20,CMA-ES,1,ERROR,ERROR,"operands could not be broadcast together with shapes (6,2,20) (6,1) ",0.0,200,FAIL
+Branin2D_20D,20,Nevergrad,1,2.4152604621472173,0.397887,2.0173734621472175,2.1271748542785645,2000,PASS
+Branin2D_20D,20,L-BFGS-B,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Branin2D_20D,20,Nelder-Mead,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Branin2D_20D,20,Powell,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Branin2D_20D,20,COBYLA,1,ERROR,ERROR,The user-provided objective function must return a scalar value.,0.0,2000,FAIL
+Branin2D_20D,20,PSO,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Branin2D_20D,20,DE,1,2.4152604621472173,0.397887,2.0173734621472175,2.253382921218872,2000,PASS
+Branin2D_20D,20,BOBYQA,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
+Branin2D_20D,20,TwoPointsDE,1,2.4152604621472173,0.397887,2.0173734621472175,2.124603748321533,2000,PASS
+Branin2D_20D,20,NGOpt,1,ERROR,ERROR,No best candidate in MOO. Use optimizer.pareto_front() instead to get the set of all non-dominated candidates.,0.0,2000,FAIL
